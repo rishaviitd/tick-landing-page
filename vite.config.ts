@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
     port: 8080,
     proxy: {
       "/api": {
-        target: "https://usetick-backend.onrender.com",
+        target: "https://tick-backend-wg5c.onrender.com",
         changeOrigin: true,
       },
     },

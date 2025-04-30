@@ -90,7 +90,7 @@ const Login: React.FC = () => {
 
       // Use proper encoding for token to prevent any issues
       window.location.href =
-        "https://app.usetick.com/auth/callback?token=" +
+        `${import.meta.env.VITE_APP_URL}/auth/callback?token=` +
         encodeURIComponent(result.token || response.credential);
     } catch (error) {
       console.error("Google sign-in error:", error);

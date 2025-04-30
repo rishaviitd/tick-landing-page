@@ -36,10 +36,10 @@ const AuthCallback: React.FC = () => {
             );
           }
 
-          // Redirect to app - use exact token format without modification
-          window.location.href = `https://app.usetick.com/auth/callback?token=${encodeURIComponent(
-            token
-          )}`;
+          // Redirect to app - use VITE_APP_URL from environment variables
+          window.location.href = `${
+            import.meta.env.VITE_APP_URL
+          }/auth/callback?token=${encodeURIComponent(token)}`;
         } catch (error) {
           console.error("Error handling token:", error);
           setError("Authentication failed: Invalid token format");

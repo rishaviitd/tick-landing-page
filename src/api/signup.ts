@@ -1,8 +1,8 @@
 // api.ts
 import { SignupFormData } from "../types/index";
 
-// API base URL - get from environment variable or fallback to relative path
-const API_BASE_URL = import.meta.env.VITE_API_URL || "/api/v1";
+// API base URL - use VITE_BACKEND_URL from environment and append /api/v1
+const API_BASE_URL = import.meta.env.VITE_BACKEND_URL;
 
 // Interface for API response
 interface ApiResponse<T> {
@@ -128,7 +128,7 @@ export const AuthService = {
     try {
       console.log(
         "Sending Google credential to:",
-        `${API_BASE_URL}/auth/google/callback`
+        `${API_BASE_URL}/api/v1/auth/google/callback`
       );
 
       const response = await fetch(
