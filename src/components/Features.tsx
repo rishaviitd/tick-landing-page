@@ -53,16 +53,16 @@ const Features = () => {
   ];
 
   return (
-    <section className="py-20" id="features">
+    <section className="py-20 bg-gradient-to-b from-white to-secondary/20" id="features">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-block bg-primary/10 text-primary px-4 py-1.5 rounded-full text-sm font-medium mb-4">
             Why Teachers Trust Us
           </div>
-          <h2 className="text-3xl font-bold mb-4">
+          <h2 className="section-title">
             Features Designed for Modern Educators
           </h2>
-          <p className="text-muted-foreground text-lg">
+          <p className="section-subtitle">
             Our AI learns your unique grading style and applies it consistently
             across all student papers.
           </p>
@@ -72,7 +72,7 @@ const Features = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="transition-all duration-300"
+              className="transition-all duration-300 transform hover:-translate-y-1"
               onMouseEnter={() => setActiveFeature(index)}
             >
               <FeatureCard
@@ -86,17 +86,20 @@ const Features = () => {
         </div>
 
         <div className="mt-16 text-center">
-          <div className="max-w-2xl mx-auto mb-8 bg-muted p-6 rounded-lg">
-            <h3 className="text-xl font-bold mb-3">
+          <div className="max-w-2xl mx-auto mb-8 bg-white modern-shadow p-8 rounded-2xl">
+            <h3 className="text-2xl font-bold mb-4">
               Why Teachers Trust Our AI
             </h3>
-            <p className="text-muted-foreground mb-4">
-              Unlike basic AI tools, GradeAI truly understands your assessment
+            <p className="text-muted-foreground mb-6 text-lg">
+              Unlike basic AI tools, tick AI truly understands your assessment
               philosophy. It learns from your feedback patterns and adapts to
               your unique grading style, providing remarkably accurate
               assessments that feel like they came directly from you.
             </p>
-            <Button asChild>
+            <Button 
+              asChild
+              className="bg-primary hover:bg-primary/90 text-white font-medium px-8"
+            >
               <a href="#workflow">See How It Works</a>
             </Button>
           </div>

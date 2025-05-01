@@ -1,0 +1,62 @@
+# Query: GradeAI
+# Flags: CaseSensitive
+# ContextLines: 1
+
+13 results - 9 files
+
+README.md:
+  1: # GradeAI Landing Page
+  2  
+  3: A modern, responsive landing page for tick AI built with React, TypeScript, and Tailwind CSS. This simplified codebase contains only the landing page with placeholder buttons for authentication and user actions.
+  4  
+
+  6  
+  7: This is a simplified version of the tick AI application that includes only the landing page components. All authentication, dashboard, and other functionality has been removed to provide a clean starting point for integrating your own authentication system and backend.
+  8  
+
+src/index.css:
+  7  /* 
+  8:   tick AI Design System
+  9    ---------------------
+
+src/components/CTA.tsx:
+  37                <p className="text-lg mb-8 opacity-90">
+  38:                 Join thousands of educators who are saving time and providing better feedback with GradeAI that learns and adapts to your unique teaching philosophy.
+  39                </p>
+
+src/components/Footer.tsx:
+  13                <div className="w-8 h-8 rounded-full bg-gradient-to-r from-primary to-secondary flex items-center justify-center text-white font-bold">G</div>
+  14:               <span className="text-xl font-bold gradient-text">tick AI</span>
+  15              </div>
+
+  50            <p className="text-center text-muted-foreground">
+  51:             &copy; {currentYear} tick AI. All rights reserved.
+  52            </p>
+
+src/components/Testimonials.tsx:
+  6    {
+  7:     quote: "GradeAI has revolutionized how I grade papers. It accurately captures my grading style and provides feedback that feels like it came from me. What used to take me hours now takes minutes.",
+  8      author: "Dr. Sarah Johnson",
+
+src/components/WorkflowSteps.tsx:
+   54            </div>
+   55:           <h2 className="text-3xl font-bold mb-4">How tick AI Works</h2>
+   56            <p className="text-muted-foreground text-lg">
+
+  101              Our advanced machine learning algorithms analyze your previous grading patterns and feedback style, 
+  102:             allowing our AI to mimic your approach. The more you use tick AI, the better it gets at replicating 
+  103              your unique assessment style.
+
+src/pages/Index.tsx:
+  16        <div className="text-center">
+  17:         <h1 className="text-2xl font-bold mb-4">Loading tick AI...</h1>
+  18          <div className="w-16 h-16 border-4 border-primary border-t-transparent rounded-full animate-spin mx-auto"></div>
+
+src/pages/Login.tsx:
+  130            <p className="text-[#4B5563] text-lg">
+  131:             Sign in to continue to tick AI
+  132            </p>
+
+src/types/index.d.ts:
+  1: // Type definitions for the tick AI Landing Page
+  2  
