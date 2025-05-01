@@ -108,27 +108,18 @@ const Login: React.FC = () => {
     <div className="flex min-h-screen bg-white">
       <div className="m-auto max-w-md w-full p-8">
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-[#4355E7] rounded-2xl shadow-lg mb-6">
-            <svg
-              className="w-10 h-10 text-white"
-              viewBox="0 0 24 24"
-              fill="none"
-            >
-              <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="white" />
-              <path
-                d="M2 17L12 22L22 17M2 12L12 17L22 12"
-                stroke="white"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
+          <div className="w-16 h-16 mx-auto mb-6">
+            <img
+              src="/tick-ai-logo.svg"
+              alt="tick AI"
+              className="w-full h-full object-contain"
+            />
           </div>
           <h1 className="text-[2.5rem] font-bold text-[#1D2433] mb-4">
             Welcome back
           </h1>
           <p className="text-[#4B5563] text-lg">
-            Sign in to continue to GradeAI
+            Sign in to continue to tick AI
           </p>
         </div>
 
