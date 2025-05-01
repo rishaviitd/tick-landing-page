@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* 
-  GradeAI Design System
+  tick AI Design System
   ---------------------
-  Color scheme: Primary purple (#4f46e5), Secondary purple (#a855f7), Accent teal (#14b8a6)
+  Color scheme: Primary green (#58CC02)
   Fonts: Inter for body text, Poppins for headings
   Radius: 0.5rem (8px) for standard elements, 9999px for pills/badges
   Shadows: subtle for cards, stronger for active/hover states
@@ -15,35 +16,33 @@
 
 @layer base {
   :root {
-    --background: 240 45% 98%;
-    --foreground: 222 47% 11%;
-
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    
+    /* Exact #58CC02 green */
+    --primary: 101 98% 40%;  /* This is #58CC02 in HSL */
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 101 98% 95%;  /* Light green */
+    --secondary-foreground: 101 98% 40%;
+    
+    --accent: 101 98% 45%;  /* Slightly darker green */
+    --accent-foreground: 0 0% 100%;
+    
+    --muted: 101 10% 96%;
+    --muted-foreground: 240 3.8% 46.1%;
+    
     --card: 0 0% 100%;
-    --card-foreground: 222 47% 11%;
-
+    --card-foreground: 240 10% 3.9%;
+    
     --popover: 0 0% 100%;
-    --popover-foreground: 222 47% 11%;
-
-    --primary: 246 80% 60%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 262 80% 56%;
-    --secondary-foreground: 210 40% 98%;
-
-    --accent: 187 87% 43%;
-    --accent-foreground: 210 40% 98%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-
-    --radius: 0.5rem;
+    --popover-foreground: 240 10% 3.9%;
+    
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 101 98% 40%;
+    
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -65,13 +64,13 @@
     --popover: 222 47% 11%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 246 80% 60%;
+    --primary: 101 98% 40%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 262 80% 56%;
+    --secondary: 101 98% 30%;
     --secondary-foreground: 210 40% 98%;
 
-    --accent: 187 87% 43%;
+    --accent: 101 98% 50%;
     --accent-foreground: 210 40% 98%;
 
     --muted: 217.2 32.6% 17.5%;
@@ -82,7 +81,7 @@
 
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --ring: 101 98% 40%;
   }
 }
 
@@ -93,16 +92,17 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
   }
 }
 
 @layer components {
   .gradient-text {
-    @apply bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[#58CC02] via-[#58CC02] to-[#58CC02] animate-gradient;
   }
   
   .gradient-bg {
-    @apply bg-gradient-to-br from-primary/80 via-secondary/80 to-accent/80;
+    @apply bg-gradient-to-br from-[#58CC02]/80 via-secondary/80 to-[#58CC02]/80;
   }
   
   .glass-card {
@@ -131,4 +131,32 @@
 
 .animate-float {
   animation: float 6s ease-in-out infinite;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient {
+  background-size: 200% auto;
+  animation: gradient 4s linear infinite;
+}
+
+/* YouLearn-inspired modern styling */
+.modern-shadow {
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card {
+  @apply p-6 rounded-2xl bg-white modern-shadow transition-all duration-300 hover:translate-y-[-4px];
+}
+
+.section-title {
+  @apply text-4xl md:text-5xl font-bold mb-4;
+}
+
+.section-subtitle {
+  @apply text-xl text-muted-foreground mb-12;
 }

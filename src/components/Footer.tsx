@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -10,8 +9,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 rounded-full bg-gradient-to-r from-primary to-secondary flex items-center justify-center text-white font-bold">G</div>
-              <span className="text-xl font-bold gradient-text">GradeAI</span>
+              <div className="w-8 h-8 relative flex-shrink-0">
+                <img 
+                  src="/tick-ai-logo.svg" 
+                  alt="tick AI" 
+                  className="w-full h-full object-contain"
+                />
+              </div>
+              <span className="text-xl font-bold" style={{ color: "#58CC02" }}>tick AI</span>
             </div>
             <p className="text-muted-foreground">
               Revolutionizing the way teachers grade papers with AI-powered assessment tools.
@@ -48,7 +53,7 @@ const Footer = () => {
         
         <div className="mt-12 pt-8 border-t">
           <p className="text-center text-muted-foreground">
-            &copy; {currentYear} GradeAI. All rights reserved.
+            &copy; {currentYear} tick AI. All rights reserved.
           </p>
         </div>
       </div>
