@@ -1,12 +1,41 @@
-// Auth API Service
-import { API_BASE_URL, DEFAULT_HEADERS } from "./config";
-import {
-  ApiError,
-  ApiResponse,
-  LoginData,
-  SignupFormData,
-  UserData,
-} from "./types";
+// api.ts
+import { SignupFormData } from "../types/index";
+
+// API base URL - use VITE_BACKEND_URL from environment and append /api/v1
+const API_BASE_URL = import.meta.env.VITE_BACKEND_URL;
+
+// Interface for API response
+interface ApiResponse<T> {
+  success: boolean;
+  data?: T;
+  error?: string;
+}
+
+// Interface for user data returned after signup/login
+interface UserData {
+  id: string;
+  email: string;
+  name: string;
+  token?: string;
+  createdAt?: string;
+}
+
+// Interface for login data
+interface LoginData {
+  email: string;
+  password: string;
+}
+
+// Error class for API errors
+export class ApiError extends Error {
+  statusCode: number;
+
+  constructor(message: string, statusCode: number) {
+    super(message);
+    this.statusCode = statusCode;
+    this.name = "ApiError";
+  }
+}
 
 /**
  * Service for user authentication
@@ -21,7 +50,9 @@ export const AuthService = {
     try {
       const response = await fetch(`${API_BASE_URL}/auth/signup`, {
         method: "POST",
-        headers: DEFAULT_HEADERS,
+        headers: {
+          "Content-Type": "application/json",
+        },
         body: JSON.stringify({
           name: userData.name,
           email: userData.email,
@@ -57,7 +88,9 @@ export const AuthService = {
     try {
       const response = await fetch(`${API_BASE_URL}/auth/login`, {
         method: "POST",
-        headers: DEFAULT_HEADERS,
+        headers: {
+          "Content-Type": "application/json",
+        },
         body: JSON.stringify(loginData),
       });
 
@@ -93,16 +126,24 @@ export const AuthService = {
    */
   googleSignup: async (credential: string): Promise<UserData> => {
     try {
+      console.log(
+        "Sending Google credential to:",
+        `${API_BASE_URL}/api/v1/auth/google/callback`
+      );
+
       const response = await fetch(
         `${API_BASE_URL}/api/v1/auth/google/callback`,
         {
           method: "POST",
-          headers: DEFAULT_HEADERS,
+          headers: {
+            "Content-Type": "application/json",
+          },
           body: JSON.stringify({ credential }),
         }
       );
 
       const data: ApiResponse<UserData> = await response.json();
+      console.log("Google auth response:", data);
 
       if (!response.ok) {
         throw new ApiError(
@@ -117,6 +158,7 @@ export const AuthService = {
 
       return data.data;
     } catch (error) {
+      console.error("Google auth error details:", error);
       if (error instanceof ApiError) {
         throw error;
       }
@@ -129,27 +171,6 @@ export const AuthService = {
    */
   googleRedirect: (): void => {
     window.location.href = `${API_BASE_URL}/api/v1/auth/google`;
-  },
-
-  /**
-   * Logout current user
-   */
-  logout: (): void => {
-    localStorage.removeItem("auth_token");
-  },
-
-  /**
-   * Check if user is authenticated
-   */
-  isAuthenticated: (): boolean => {
-    return !!localStorage.getItem("auth_token");
-  },
-
-  /**
-   * Get current authentication token
-   */
-  getToken: (): string | null => {
-    return localStorage.getItem("auth_token");
   },
 };
 

@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { AlertCircle } from "lucide-react";
-import { useAuth } from "../context/AuthContext";
+import AuthService from "../api/signup";
 
 const Login: React.FC = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
   const navigate = useNavigate();
-  const { googleSignup, googleRedirect } = useAuth();
 
   useEffect(() => {
     const loadGoogleScript = () => {
@@ -74,7 +73,7 @@ const Login: React.FC = () => {
         document.body.removeChild(script);
       }
     };
-  }, [googleSignup, googleRedirect, navigate]);
+  }, []);
 
   const handleGoogleResponse = async (response: any) => {
     console.log("Google response received:", response);
@@ -82,11 +81,17 @@ const Login: React.FC = () => {
     setError(null);
 
     try {
-      await googleSignup(response.credential);
+      const result = await AuthService.googleSignup(response.credential);
+      console.log("Google sign-in successful:", result);
 
+      if (result.token) {
+        localStorage.setItem("auth_token", result.token);
+      }
+
+      // Use proper encoding for token to prevent any issues
       window.location.href =
         `${import.meta.env.VITE_APP_URL}/auth/callback?token=` +
-        encodeURIComponent(response.credential);
+        encodeURIComponent(result.token || response.credential);
     } catch (error) {
       console.error("Google sign-in error:", error);
       setError("Failed to sign in with Google. Please try again.");
@@ -96,7 +101,7 @@ const Login: React.FC = () => {
 
   const handleGoogleSignIn = () => {
     console.log("Falling back to traditional Google OAuth");
-    googleRedirect();
+    AuthService.googleRedirect();
   };
 
   return (

@@ -1,20 +1,12 @@
-import React, {
-  createContext,
-  useContext,
-  ReactNode,
-  useState,
-  useEffect,
-} from "react";
-import { AuthService, UserData, LoginData, SignupFormData } from "../api";
+import React, { createContext, useContext, ReactNode, useState } from "react";
 
 interface AuthContextType {
   isAuthenticated: boolean;
-  user: UserData | null;
-  login: (loginData: LoginData) => Promise<void>;
-  signup: (userData: SignupFormData) => Promise<void>;
-  logout: () => void;
-  googleSignup: (credential: string) => Promise<void>;
-  googleRedirect: () => void;
+  user: any | null;
+  login: (email: string, password: string) => Promise<void>;
+  signup: (email: string, password: string, name: string) => Promise<void>;
+  logout: () => Promise<void>;
+  startTrial: () => Promise<void>;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -22,69 +14,43 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 export const AuthProvider: React.FC<{ children: ReactNode }> = ({
   children,
 }) => {
-  const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false);
-  const [user, setUser] = useState<UserData | null>(null);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [user, setUser] = useState<any | null>(null);
 
-  // Check for token on mount
-  useEffect(() => {
-    const token = AuthService.getToken();
-    setIsAuthenticated(!!token);
-  }, []);
-
-  const login = async (loginData: LoginData) => {
-    try {
-      const userData = await AuthService.login(loginData);
-      setUser(userData);
-      setIsAuthenticated(true);
-    } catch (error) {
-      console.error("Login error:", error);
-      throw error;
-    }
+  // Example authentication functions that developers can implement
+  const login = async (email: string, password: string) => {
+    console.log("Login function called with:", email);
+    // Implement your authentication logic here
+    // Example: const response = await api.login(email, password);
+    // setUser(response.user);
+    // setIsAuthenticated(true);
   };
 
-  const signup = async (userData: SignupFormData) => {
-    try {
-      const newUser = await AuthService.signup(userData);
-      setUser(newUser);
-      setIsAuthenticated(true);
-    } catch (error) {
-      console.error("Signup error:", error);
-      throw error;
-    }
+  const signup = async (email: string, password: string, name: string) => {
+    console.log("Signup function called with:", email, name);
+    // Implement your signup logic here
+    // Example: const response = await api.signup(email, password, name);
+    // setUser(response.user);
+    // setIsAuthenticated(true);
   };
 
-  const googleSignup = async (credential: string) => {
-    try {
-      const userData = await AuthService.googleSignup(credential);
-      setUser(userData);
-      setIsAuthenticated(true);
-    } catch (error) {
-      console.error("Google signup error:", error);
-      throw error;
-    }
+  const logout = async () => {
+    console.log("Logout function called");
+    // Implement your logout logic here
+    // Example: await api.logout();
+    // setUser(null);
+    // setIsAuthenticated(false);
   };
 
-  const googleRedirect = () => {
-    AuthService.googleRedirect();
-  };
-
-  const logout = () => {
-    AuthService.logout();
-    setUser(null);
-    setIsAuthenticated(false);
+  const startTrial = async () => {
+    console.log("Start trial function called");
+    // Implement your trial signup logic here
+    // Example: await api.startTrial();
   };
 
   return (
     <AuthContext.Provider
-      value={{
-        isAuthenticated,
-        user,
-        login,
-        signup,
-        logout,
-        googleSignup,
-        googleRedirect,
-      }}
+      value={{ isAuthenticated, user, login, signup, logout, startTrial }}
     >
       {children}
     </AuthContext.Provider>
