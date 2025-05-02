@@ -1,14 +1,29 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
 const Dashboard: React.FC = () => {
   const navigate = useNavigate();
+  const location = useLocation();
   const [userData, setUserData] = useState<{
     name?: string;
     email?: string;
   } | null>(null);
 
   useEffect(() => {
+    // Check for token in URL parameters (from cross-domain redirect)
+    const params = new URLSearchParams(location.search);
+    const tokenFromUrl = params.get("token");
+
+    if (tokenFromUrl) {
+      // Store the token from URL parameters
+      localStorage.setItem("auth_token", tokenFromUrl);
+
+      // Clean up the URL by removing the token parameter
+      navigate("/dashboard", { replace: true });
+
+      console.log("Token received from URL and stored");
+    }
+
     // Check if user is authenticated
     const token = localStorage.getItem("auth_token");
     if (!token) {
@@ -37,7 +52,7 @@ const Dashboard: React.FC = () => {
       console.error("Error parsing token:", error);
       navigate("/signup");
     }
-  }, [navigate]);
+  }, [navigate, location]);
 
   // Add debugging for the userData state
   useEffect(() => {

@@ -36,10 +36,16 @@ const AuthCallback: React.FC = () => {
             );
           }
 
-          // Redirect to app - use VITE_APP_URL from environment variables
-          window.location.href = `${
-            import.meta.env.VITE_APP_URL
-          }/auth/callback?token=${encodeURIComponent(token)}`;
+          // Redirect to the app domain with the token
+          // Use APP_URL environment variable for the dashboard domain
+          const appUrl =
+            import.meta.env.VITE_APP_URL || "https://app.usetick.com";
+
+          // This ensures we're not redirecting to the same callback path, but to the dashboard
+          // on the app subdomain
+          window.location.href = `${appUrl}/dashboard?token=${encodeURIComponent(
+            token
+          )}`;
         } catch (error) {
           console.error("Error handling token:", error);
           setError("Authentication failed: Invalid token format");
