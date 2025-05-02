@@ -35,44 +35,44 @@ const Hero = () => {
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-8">
             <span className="block">Grade papers with </span>
             <span className="text-[#58CC02]">AI-powered precision</span>
-          </h1>
+            </h1>
           
           <p className="mt-6 text-xl text-muted-foreground mx-auto max-w-2xl">
-            Save countless hours by automating paper grading with AI that adapts to <span className="font-semibold text-foreground">your unique grading style</span>.
-          </p>
-          
+              Save countless hours by automating paper grading with AI that adapts to <span className="font-semibold text-foreground">your unique grading style</span>.
+            </p>
+            
           <div className="mt-12 flex flex-col items-center space-y-5">
             <div className="flex items-center space-x-2 transition-all duration-300 hover:translate-x-1">
               <CheckCircle2 className="h-6 w-6 text-[#58CC02] flex-shrink-0" />
               <p className="text-lg text-foreground"><span className="font-semibold">95% accuracy</span> compared to manual grading</p>
-            </div>
+              </div>
             <div className="flex items-center space-x-2 transition-all duration-300 hover:translate-x-1">
               <CheckCircle2 className="h-6 w-6 text-[#58CC02] flex-shrink-0" />
               <p className="text-lg text-foreground"><span className="font-semibold">Adaptive learning</span> that mirrors your feedback style</p>
-            </div>
+              </div>
             <div className="flex items-center space-x-2 transition-all duration-300 hover:translate-x-1">
               <CheckCircle2 className="h-6 w-6 text-[#58CC02] flex-shrink-0" />
               <p className="text-lg text-foreground"><span className="font-semibold">Trusted by 5,000+</span> educators worldwide</p>
+              </div>
             </div>
-          </div>
-          
+            
           <div className="mt-12 flex flex-col sm:flex-row gap-6 justify-center">
-            <Button 
-              size="lg" 
+              <Button 
+                size="lg" 
               className="text-base group bg-[#58CC02] hover:bg-[#58CC02]/90 text-white px-8 py-6 text-lg"
-              onClick={handleTryForFree}
-            >
-              Try for Free
+                onClick={handleTryForFree}
+              >
+                Try for Free
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-            </Button>
-            <Button 
-              variant="outline" 
-              size="lg" 
+              </Button>
+              <Button 
+                variant="outline" 
+                size="lg" 
               className="text-base border-[#58CC02] text-[#58CC02] hover:bg-[#58CC02]/10 px-8 py-6 text-lg"
-              onClick={handleWatchDemo}
-            >
-              Watch Demo
-            </Button>
+                onClick={handleWatchDemo}
+              >
+                Watch Demo
+              </Button>
           </div>
         </div>
       </div>
