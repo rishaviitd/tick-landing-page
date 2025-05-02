@@ -108,11 +108,11 @@ const Login: React.FC = () => {
     <div className="flex min-h-screen bg-white">
       <div className="m-auto max-w-md w-full p-8">
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-[#58CC02] rounded-2xl shadow-lg mb-6">
+          <div className="flex justify-center mb-6">
             <img 
               src="/tick-ai-logo.svg" 
               alt="tick AI" 
-              className="w-10 h-10 object-contain"
+              className="w-20 h-20 object-contain"
             />
           </div>
           <h1 className="text-[2.5rem] font-bold text-[#1D2433] mb-4">
