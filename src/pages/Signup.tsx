@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { AlertCircle } from "lucide-react";
-import AuthService from "../api/signup";
+import { useAuth } from "../context/AuthContext";
 
 // Add type declaration for Google One Tap
 declare global {
@@ -22,6 +22,7 @@ declare global {
 const SignupPage: React.FC = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
+  const { googleSignup, googleRedirect } = useAuth();
 
   useEffect(() => {
     const loadGoogleScript = () => {
@@ -85,7 +86,7 @@ const SignupPage: React.FC = () => {
         document.body.removeChild(script);
       }
     };
-  }, []);
+  }, [googleSignup, googleRedirect]);
 
   const handleGoogleResponse = async (response: any) => {
     console.log("Google response received:", response);
@@ -93,16 +94,11 @@ const SignupPage: React.FC = () => {
     setError(null);
 
     try {
-      const result = await AuthService.googleSignup(response.credential);
-      console.log("Google sign-in successful:", result);
-
-      if (result.token) {
-        localStorage.setItem("auth_token", result.token);
-      }
+      await googleSignup(response.credential);
 
       window.location.href =
         `${import.meta.env.VITE_APP_URL}/auth/callback?token=` +
-        encodeURIComponent(result.token || response.credential);
+        encodeURIComponent(response.credential);
     } catch (error) {
       console.error("Google sign-in error:", error);
       setError("Failed to sign in with Google. Please try again.");
@@ -112,7 +108,7 @@ const SignupPage: React.FC = () => {
 
   const handleGoogleSignIn = () => {
     console.log("Falling back to traditional Google OAuth");
-    AuthService.googleRedirect();
+    googleRedirect();
   };
 
   return (
