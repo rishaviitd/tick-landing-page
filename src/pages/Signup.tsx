@@ -119,27 +119,18 @@ const SignupPage: React.FC = () => {
     <div className="flex min-h-screen bg-white">
       <div className="m-auto max-w-md w-full p-8">
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-[#4355E7] rounded-2xl shadow-lg mb-6">
-            <svg
-              className="w-10 h-10 text-white"
-              viewBox="0 0 24 24"
-              fill="none"
-            >
-              <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="white" />
-              <path
-                d="M2 17L12 22L22 17M2 12L12 17L22 12"
-                stroke="white"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
+          <div className="inline-flex items-center justify-center w-16 h-16 bg-[#58CC02] rounded-2xl shadow-lg mb-6">
+            <img 
+              src="/tick-ai-logo.svg" 
+              alt="tick AI" 
+              className="w-10 h-10 object-contain"
+            />
           </div>
           <h1 className="text-[2.5rem] font-bold text-[#1D2433] mb-4">
             Create your account
           </h1>
           <p className="text-[#4B5563] text-lg">
-            Join thousands of AI innovators
+            Join thousands of educators using tick AI
           </p>
         </div>
 
@@ -161,7 +152,7 @@ const SignupPage: React.FC = () => {
               Already have an account?{" "}
               <Link
                 to="/login"
-                className="font-medium text-[#4355E7] hover:text-blue-700 transition duration-150"
+                className="font-medium text-[#58CC02] hover:text-[#4AA300] transition duration-150"
               >
                 Sign in
               </Link>

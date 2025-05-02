@@ -108,11 +108,11 @@ const Login: React.FC = () => {
     <div className="flex min-h-screen bg-white">
       <div className="m-auto max-w-md w-full p-8">
         <div className="text-center mb-8">
-          <div className="w-16 h-16 mx-auto mb-6">
-            <img
-              src="/tick-ai-logo.svg"
-              alt="tick AI"
-              className="w-full h-full object-contain"
+          <div className="inline-flex items-center justify-center w-16 h-16 bg-[#58CC02] rounded-2xl shadow-lg mb-6">
+            <img 
+              src="/tick-ai-logo.svg" 
+              alt="tick AI" 
+              className="w-10 h-10 object-contain"
             />
           </div>
           <h1 className="text-[2.5rem] font-bold text-[#1D2433] mb-4">
@@ -141,7 +141,7 @@ const Login: React.FC = () => {
               Don't have an account?{" "}
               <Link
                 to="/signup"
-                className="font-medium text-[#4355E7] hover:text-blue-700 transition duration-150"
+                className="font-medium text-[#58CC02] hover:text-[#4AA300] transition duration-150"
               >
                 Sign up
               </Link>
