@@ -33,26 +33,28 @@ const Hero = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
         <div className="text-center">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-8">
-            <span className="block">Grade papers with </span>
+          <span className="block">Grade papers with </span>
             <span className="text-[#58CC02]">AI-powered precision</span>
+
             </h1>
           
           <p className="mt-6 text-xl text-muted-foreground mx-auto max-w-2xl">
-              Save countless hours by automating paper grading with AI that adapts to <span className="font-semibold text-foreground">your unique grading style</span>.
+              Your AI-powered Grading assistant that digitizes, grades, and delivers detailed feedback<span className="font-semibold text-foreground"> — saving you countless hours</span>.
             </p>
             
           <div className="mt-12 flex flex-col items-center space-y-5">
             <div className="flex items-center space-x-2 transition-all duration-300 hover:translate-x-1">
               <CheckCircle2 className="h-6 w-6 text-[#58CC02] flex-shrink-0" />
+              <p className="text-lg text-foreground"><span className="font-semibold">Save 90% of grading time</span> without sacrificing quality</p>
+              </div>
+            <div className="flex items-center space-x-2 transition-all duration-300 hover:translate-x-1">
+              <CheckCircle2 className="h-6 w-6 text-[#58CC02] flex-shrink-0" />
               <p className="text-lg text-foreground"><span className="font-semibold">95% accuracy</span> compared to manual grading</p>
+
               </div>
             <div className="flex items-center space-x-2 transition-all duration-300 hover:translate-x-1">
               <CheckCircle2 className="h-6 w-6 text-[#58CC02] flex-shrink-0" />
-              <p className="text-lg text-foreground"><span className="font-semibold">Adaptive learning</span> that mirrors your feedback style</p>
-              </div>
-            <div className="flex items-center space-x-2 transition-all duration-300 hover:translate-x-1">
-              <CheckCircle2 className="h-6 w-6 text-[#58CC02] flex-shrink-0" />
-              <p className="text-lg text-foreground"><span className="font-semibold">Trusted by 5,000+</span> educators worldwide</p>
+              <p className="text-lg text-foreground"><span className="font-semibold">Standardized grading</span> with adaptive, AI-powered rubrics</p>
               </div>
             </div>
             

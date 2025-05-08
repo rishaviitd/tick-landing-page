@@ -120,11 +120,11 @@ const Testimonials = () => {
             
             <div className="bg-white p-5 rounded-lg shadow-md border border-primary/10">
               <div className="flex items-center space-x-2 mb-2">
-                <div className="text-primary font-bold text-xl">70%</div>
+                <div className="text-primary font-bold text-xl">90%</div>
                 <div className="text-sm">Time Saved</div>
               </div>
               <p className="text-sm text-muted-foreground">
-                Teachers report saving up to 70% of their grading time with our AI assistant.
+                Teachers report saving up to 90% of their grading time with our AI assistant.
               </p>
             </div>
           </div>

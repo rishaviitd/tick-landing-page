@@ -29,31 +29,31 @@ const CTA = () => {
           <div className="px-6 py-12 md:p-12 text-white">
             <div className="max-w-3xl mx-auto text-center">
               <div className="inline-block bg-white/20 backdrop-blur-sm text-white px-4 py-1.5 rounded-full text-sm font-medium mb-4">
-                AI That Understands Your Teaching Style
+                Focus on Teaching, Not Grading
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Ready to transform your grading process?
+                Grade smarter, teach better
               </h2>
               <p className="text-lg mb-8 opacity-90">
-                Join thousands of educators who are saving time and providing better feedback with tick AI that learns and adapts to your unique teaching philosophy.
+                Turn handwritten work into actionable insights. tick AI automates the mundane aspects of grading while adapting to your teaching style, leaving you more time to do what you do best — teach.
               </p>
               
               <div className="mb-8 grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
                 <div className="flex items-center space-x-3">
                   <CheckCircle className="h-6 w-6 flex-shrink-0" />
-                  <p className="text-left text-base md:text-lg">AI that continuously learns from your feedback style</p>
+                  <p className="text-left text-base md:text-lg">Automatically digitize and score handwritten work</p>
                 </div>
                 <div className="flex items-center space-x-3">
                   <CheckCircle className="h-6 w-6 flex-shrink-0" />
-                  <p className="text-left text-base md:text-lg">95% accuracy compared to manual grading</p>
+                  <p className="text-left text-base md:text-lg">Create standardized rubrics that evolve with your teaching</p>
                 </div>
                 <div className="flex items-center space-x-3">
                   <CheckCircle className="h-6 w-6 flex-shrink-0" />
-                  <p className="text-left text-base md:text-lg">Save up to 70% of your grading time</p>
+                  <p className="text-left text-base md:text-lg">Provide personalized, step-by-step feedback at scale</p>
                 </div>
                 <div className="flex items-center space-x-3">
                   <CheckCircle className="h-6 w-6 flex-shrink-0" />
-                  <p className="text-left text-base md:text-lg">Personalized feedback that sounds like you</p>
+                  <p className="text-left text-base md:text-lg">Identify common misconceptions for targeted instruction</p>
                 </div>
               </div>
               
@@ -81,16 +81,16 @@ const CTA = () => {
               
               <div className="mt-12 pt-10 border-t border-white/20 grid grid-cols-1 md:grid-cols-3 gap-10">
                 <div className="text-center">
-                  <h3 className="text-xl font-bold mb-3">Style Adaptation</h3>
-                  <p className="text-sm opacity-90">AI that learns and matches your personal grading style</p>
+                  <h3 className="text-xl font-bold mb-3">Reduce Workload</h3>
+                  <p className="text-sm opacity-90">Save 70% of your grading time without compromising quality</p>
                 </div>
                 <div className="text-center">
-                  <h3 className="text-xl font-bold mb-3">Continuous Learning</h3>
-                  <p className="text-sm opacity-90">Improves with each paper you review and edit</p>
+                  <h3 className="text-xl font-bold mb-3">Understand Patterns</h3>
+                  <p className="text-sm opacity-90">Reveal common mistake patterns for targeted remediation</p>
                 </div>
                 <div className="text-center">
-                  <h3 className="text-xl font-bold mb-3">Teacher Control</h3>
-                  <p className="text-sm opacity-90">You always have final say on all assessments</p>
+                  <h3 className="text-xl font-bold mb-3">Human-AI Partnership</h3>
+                  <p className="text-sm opacity-90">You maintain control; the AI handles the mechanical work</p>
                 </div>
               </div>
             </div>
