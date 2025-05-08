@@ -1,24 +1,31 @@
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, ArrowRight } from "lucide-react";
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import DemoDialog from "./DemoDialog";
 
 /**
  * Hero component with call-to-action buttons
- * Contains buttons for "Try for Free" and "Watch Demo"
+ * Contains placeholder buttons for "Try for Free" and "Watch Demo"
+ * that can be connected to your trial and demo systems
  */
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
-  const [showDemoDialog, setShowDemoDialog] = useState(false);
 
   useEffect(() => {
     // Trigger animation after component mount
     setIsVisible(true);
   }, []);
 
+  // Functions that can be implemented to connect to your systems
+  const handleTryForFree = () => {
+    console.log("Try for Free button clicked");
+  };
+
   const handleWatchDemo = () => {
-    setShowDemoDialog(true);
+    console.log("Watch Demo button clicked");
+    const demoSection = document.getElementById('demo');
+    if (demoSection) {
+      demoSection.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
@@ -28,6 +35,7 @@ const Hero = () => {
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-8">
           <span className="block">Grade papers with </span>
             <span className="text-[#58CC02]">AI-powered precision</span>
+
             </h1>
           
           <p className="mt-6 text-xl text-muted-foreground mx-auto max-w-2xl">
@@ -42,6 +50,7 @@ const Hero = () => {
             <div className="flex items-center space-x-2 transition-all duration-300 hover:translate-x-1">
               <CheckCircle2 className="h-6 w-6 text-[#58CC02] flex-shrink-0" />
               <p className="text-lg text-foreground"><span className="font-semibold">95% accuracy</span> compared to manual grading</p>
+
               </div>
             <div className="flex items-center space-x-2 transition-all duration-300 hover:translate-x-1">
               <CheckCircle2 className="h-6 w-6 text-[#58CC02] flex-shrink-0" />
@@ -51,19 +60,17 @@ const Hero = () => {
             
           <div className="mt-12 flex flex-col sm:flex-row gap-6 justify-center">
               <Button 
-                size="lg"
-                className="text-base group bg-[#58CC02] hover:bg-[#58CC02]/90 text-white px-8 py-6 text-lg"
-                asChild
+                size="lg" 
+              className="text-base group bg-[#58CC02] hover:bg-[#58CC02]/90 text-white px-8 py-6 text-lg"
+                onClick={handleTryForFree}
               >
-                <Link to="/login">
-                  Try for Free
-                  <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-                </Link>
+                Try for Free
+              <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
               </Button>
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="text-base border-[#58CC02] text-[#58CC02] hover:bg-[#58CC02]/10 px-8 py-6 text-lg"
+              className="text-base border-[#58CC02] text-[#58CC02] hover:bg-[#58CC02]/10 px-8 py-6 text-lg"
                 onClick={handleWatchDemo}
               >
                 Watch Demo
@@ -71,8 +78,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      
-      <DemoDialog open={showDemoDialog} onOpenChange={setShowDemoDialog} />
     </section>
   );
 };

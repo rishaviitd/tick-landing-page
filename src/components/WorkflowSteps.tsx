@@ -103,7 +103,7 @@ const WorkflowSteps = () => {
             <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Rich Free-Response</span>
             <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Multiple Solution Paths</span>
             <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Comprehensive Analytics</span>
-            <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">70% Time Saved</span>
+            <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">90% Time Saved</span>
           </div>
         </div>
       </div>

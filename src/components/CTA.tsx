@@ -1,16 +1,24 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { ArrowRight, CheckCircle, Mail } from "lucide-react";
+import { ArrowRight, CheckCircle } from "lucide-react";
 
 /**
  * Call to Action component
- * Contains buttons for "Start Free Trial" and "Contact Sales"
+ * Contains placeholders for "Start Free Trial" and "Contact Sales" buttons
+ * that can be connected to your authentication or contact system
  */
 const CTA = () => {
+  // Functions that can be implemented to connect to your systems
+  const handleStartTrial = (e) => {
+    e.preventDefault();
+    console.log("Start Trial button clicked - implement your trial signup logic here");
+    // Add your trial signup logic here
+  };
+
   const handleContactSales = (e) => {
     e.preventDefault();
-    // Open email client with pre-filled subject
-    window.location.href = "mailto:contact@tickai.com?subject=Interested%20in%20tick%20AI%20for%20my%20institution";
+    console.log("Contact Sales button clicked - implement your contact logic here");
+    // Add your contact form or redirect logic here
   };
 
   return (
@@ -53,20 +61,17 @@ const CTA = () => {
                 <Button 
                   size="lg" 
                   className="bg-white text-[#58CC02] hover:bg-white/90 group px-8 py-6 text-lg"
-                  asChild
+                  onClick={handleStartTrial}
                 >
-                  <Link to="/login">
-                    Start Your Free Trial
-                    <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-                  </Link>
+                  Start Your Free Trial
+                  <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
                 </Button>
                 <Button 
                   variant="outline" 
                   size="lg" 
-                  className="text-white border-white hover:bg-white/10 px-8 py-6 text-lg transition-all duration-300 hover:bg-white/20 hover:scale-105"
+                  className="text-white border-white hover:bg-white/10 px-8 py-6 text-lg"
                   onClick={handleContactSales}
                 >
-                  <Mail className="mr-2 h-5 w-5" />
                   Contact Sales
                 </Button>
               </div>
