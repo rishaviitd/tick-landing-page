@@ -1,0 +1,16 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d2c",
+  "run_id": "92f9ad846b73",
+  "question_identifier": "17",
+  "has_internal_choice": false,
+  "primary_question": "17. Which of the following statements is incorrect?\n(A) Two congruent figures are always similar.\n(B) A square and a rhombus of the same area are always similar.\n(C) Two equilateral triangles are always similar.\n(D) Two similar triangles need not be congruent.",
+  "secondary_question": null,
+  "primary_diagram_url": null,
+  "secondary_diagram_url": null,
+  "table_url": null,
+  "primary_marks": "1 mark",
+  "secondary_marks": null,
+  "question_type": "MCQ",
+  "created_at": "2025-07-31 20:17:34.341062",
+  "updated_at": "2025-07-31 20:17:34.341062"
+}

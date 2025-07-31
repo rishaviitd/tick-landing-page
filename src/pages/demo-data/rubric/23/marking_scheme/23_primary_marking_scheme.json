@@ -1,0 +1,38 @@
+{
+  "ques_identifier": "23_primary",
+  "methods": [
+    {
+      "methodName": "Method 1: Direct Calculation of Perimeter",
+      "markingPoints": [
+        {
+          "stepId": "1",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "Identifies that the perimeter of the sector consists of the arc length AB and the two radii OA and OB.",
+          "Pass if": "Correctly states or implies that Perimeter = Arc Length (AB) + OA + OB.",
+          "Fail if": "Omits any component or includes incorrect components.",
+          "guidance": "Award B0.5 for identifying all components of the perimeter (arc + 2 radii). soi."
+        },
+        {
+          "stepId": "2",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the length of the arc AB using the formula for arc length of a sector: Arc Length = $(\\theta/360^\\circ) \\times 2\\pi r$.",
+          "Pass if": "Correctly substitutes the values ($\\theta = 90^\\circ$, $r = 42$ cm) and performs the calculation, yielding the arc length.",
+          "Fail if": "Uses an incorrect formula, substitutes incorrect values, or makes a calculation error.",
+          "guidance": "Award M0.5 for correct arc length calculation. Use $\\theta = 90^\\circ$, $r = 42$ cm. Formula: $(\\theta/360^\\circ) \\times 2\\pi r$. Calculation: $(90/360) \\times 2 \\times (22/7) \\times 42 = 132$ cm. Allow $\\pi \\approx 3.14$ or $22/7$."
+        },
+        {
+          "stepId": "3",
+          "MarkType": "A",
+          "marks": "1",
+          "Teacher Expectation": "Calculates the total perimeter by adding the arc length (from Step 2) and the lengths of the two radii (OA + OB = 42 cm + 42 cm).",
+          "Pass if": "Correctly adds the calculated arc length and the sum of the two radii to arrive at the final perimeter.",
+          "Fail if": "Makes an addition error or uses an incorrect value from previous steps.",
+          "guidance": "Award A1 for the final perimeter calculation. Perimeter = Arc Length + OA + OB = 132 cm + 42 cm + 42 cm = 216 cm. cao. Allow ecf for arc length calculation."
+        }
+      ]
+    }
+  ],
+  "Question_specific_notes": "This question assesses the perimeter of a sector. Students must correctly identify all components of the perimeter (arc length and two radii) and apply the arc length formula. Common errors may include calculating the area instead of perimeter, or only calculating the arc length without adding the radii. Ensure follow-through (ecf) is applied if an intermediate calculation error occurs."
+}

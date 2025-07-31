@@ -1,0 +1,136 @@
+{
+  "ques_identifier": "36",
+  "parts": [
+    {
+      "part_label": "(i)",
+      "methods": [
+        {
+          "methodName": "Direct Calculation of Probability for Even Numbers",
+          "markingPoints": [
+            {
+              "stepId": "i_1",
+              "MarkType": "B",
+              "marks": "0.5",
+              "Teacher Expectation": "Determine the total number of possible outcomes (cards in the jar).",
+              "Pass if": "Correctly states the total number of cards as 65 (from 10 to 74 inclusive).",
+              "Fail if": "Incorrectly calculates the total number of cards or omits this step.",
+              "guidance": "Award 0.5 marks for correctly identifying the total number of cards (65). ft is not applicable here as it's a foundational calculation."
+            },
+            {
+              "stepId": "i_2",
+              "MarkType": "A",
+              "marks": "0.5",
+              "Teacher Expectation": "Identify the count of favorable outcomes (even numbers in the range) and compute the probability.",
+              "Pass if": "Correctly identifies 33 even numbers (10, 12, ..., 74) and states the probability as 33/65.",
+              "Fail if": "Incorrectly counts even numbers or states the probability incorrectly.",
+              "guidance": "Award 0.5 marks for correctly identifying the number of even outcomes (33) and stating the probability as 33/65. ft can be applied if an incorrect total from step i_1 is used consistently."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_label": "(ii)",
+      "methods": [
+        {
+          "methodName": "Direct Calculation of Probability for Odd Numbers Less Than 30",
+          "markingPoints": [
+            {
+              "stepId": "ii_1",
+              "MarkType": "B",
+              "marks": "0.5",
+              "Teacher Expectation": "Identify the total number of possible outcomes from the jar.",
+              "Pass if": "Correctly states or refers to the total number of cards as 65.",
+              "Fail if": "States an incorrect total number of cards or omits this step.",
+              "guidance": "Award 0.5 marks for correctly identifying the total number of cards (65). ft is not applicable here as it's a foundational calculation."
+            },
+            {
+              "stepId": "ii_2",
+              "MarkType": "A",
+              "marks": "0.5",
+              "Teacher Expectation": "Identify the count of favorable outcomes (odd numbers less than 30 within the given range) and compute the probability.",
+              "Pass if": "Correctly identifies the odd numbers less than 30 as {11, 13, 15, 17, 19, 21, 23, 25, 27, 29} (10 numbers) and states the probability as 10/65 (or simplified 2/13).",
+              "Fail if": "Incorrectly lists or counts the odd numbers less than 30, or states the probability incorrectly.",
+              "guidance": "Award 0.5 marks for correctly identifying the number of favorable outcomes (10) and stating the probability as 10/65 or its simplification. ft can be applied if an incorrect total from step ii_1 is used consistently."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_label": "(iii)(a)",
+      "methods": [
+        {
+          "methodName": "Calculation for Prime Numbers Between 50 and 74",
+          "markingPoints": [
+            {
+              "stepId": "iii-a_1",
+              "MarkType": "B",
+              "marks": "0.5",
+              "Teacher Expectation": "Identify the total number of possible outcomes from the jar.",
+              "Pass if": "Correctly states or refers to the total number of cards as 65.",
+              "Fail if": "States an incorrect total number of cards or omits this step.",
+              "guidance": "Award 0.5 marks for correctly identifying the total number of cards (65). ft is not applicable here as it's a foundational calculation."
+            },
+            {
+              "stepId": "iii-a_2",
+              "MarkType": "M",
+              "marks": "0.5",
+              "Teacher Expectation": "List all prime numbers within the specified range (50 to 74).",
+              "Pass if": "Correctly lists the prime numbers as {53, 59, 61, 67, 71, 73}.",
+              "Fail if": "Misses any prime number or includes any non-prime number in the list.",
+              "guidance": "Award 0.5 marks for correctly listing the prime numbers in the specified range. ft is not applicable."
+            },
+            {
+              "stepId": "iii-a_3",
+              "MarkType": "A",
+              "marks": "1",
+              "Teacher Expectation": "Count the favorable outcomes (prime numbers) and compute the probability.",
+              "Pass if": "Correctly counts 6 prime numbers and states the probability as 6/65.",
+              "Fail if": "Incorrectly counts the prime numbers or states the probability incorrectly.",
+              "guidance": "Award 1 mark for correctly calculating the probability as 6/65. ft can be applied if an incorrect total from step iii-a_1 or an incorrect count from step iii-a_2 is used consistently."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_label": "(iii)(b)",
+      "methods": [
+        {
+          "methodName": "Calculation for Even Numbers Divisible by 5",
+          "markingPoints": [
+            {
+              "stepId": "iii-b_1",
+              "MarkType": "B",
+              "marks": "0.5",
+              "Teacher Expectation": "Identify the total number of possible outcomes from the jar.",
+              "Pass if": "Correctly states or refers to the total number of cards as 65.",
+              "Fail if": "States an incorrect total number of cards or omits this step.",
+              "guidance": "Award 0.5 marks for correctly identifying the total number of cards (65). ft is not applicable here as it's a foundational calculation."
+            },
+            {
+              "stepId": "iii-b_2",
+              "MarkType": "M",
+              "marks": "0.5",
+              "Teacher Expectation": "Identify the favorable outcomes (even numbers divisible by 5) within the given range.",
+              "Pass if": "Correctly identifies that numbers divisible by both 2 and 5 are multiples of 10, and lists them as {10, 20, 30, 40, 50, 60, 70}.",
+              "Fail if": "Incorrectly identifies or lists the numbers.",
+              "guidance": "Award 0.5 marks for correctly identifying the favorable outcomes as multiples of 10 within the range. ft is not applicable."
+            },
+            {
+              "stepId": "iii-b_3",
+              "MarkType": "A",
+              "marks": "1",
+              "Teacher Expectation": "Count the favorable outcomes and compute the probability.",
+              "Pass if": "Correctly counts 7 such numbers and states the probability as 7/65.",
+              "Fail if": "Incorrectly counts the numbers or states the probability incorrectly.",
+              "guidance": "Award 1 mark for correctly calculating the probability as 7/65. ft can be applied if an incorrect total from step iii-b_1 or an incorrect count from step iii-b_2 is used consistently."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Question_specific_notes": "For part (iii), students must answer either (a) or (b). Both alternatives should be marked, and the candidate should be awarded the marks for the alternative in which they have scored higher. The marks for the other alternative should be disregarded."
+}

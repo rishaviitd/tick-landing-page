@@ -1,0 +1,12 @@
+{
+  "ques_identifier": "15",
+  "total_marks": 1.0,
+  "correct_option": "B",
+  "acceptable_answers": [
+    "B",
+    "b",
+    "Option B (b)",
+    "60°"
+  ],
+  "solution": "Since MN is a diameter, the angle subtended by the diameter at L is 90° (∠MLN = 90°). In triangle MLN, ∠LNM = 180° - 90° - 30° = 60°. By the tangent-chord theorem, the angle between tangent RS and chord LM (∠RLM) is equal to the angle in the alternate segment (∠LNM). Therefore, ∠RLM = 60°."
+}

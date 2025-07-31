@@ -1,0 +1,16 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d40",
+  "run_id": "92f9ad846b73",
+  "question_identifier": "37",
+  "has_internal_choice": false,
+  "primary_question": "37. A skilled carpenter decided to craft a special rolling pin for the local baker. He carefully joined three cylindrical pieces of wood two small ones on the ends and one larger in the centre to create a perfect tool. The baker loved the rolling pin, as it rolled out the smoothest dough for breads and pastries.\nThe length of the bigger cylindrical part is 12 cm and diameter is 7 cm and the length of each smaller cylindrical part is 5 cm and diameter is 2.1 cm.\nBased on the above information, answer the following questions :\n(i) Find the volume of the bigger cylindrical part.\n(ii) Find the curved surface area of the bigger cylindrical part.\n(iii) (a) Find the ratio of the volume of the bigger cylindrical part to the total volume of the two smaller (identical) cylindrical parts.\n[%OR%]\n(b) Find the sum of the curved surface areas of the two identical smaller cylindrical parts.",
+  "secondary_question": null,
+  "primary_diagram_url": "https://res.cloudinary.com/de19ckse5/image/upload/v1753993035/diagram_mapping/92f9ad846b73/figure-10.png",
+  "secondary_diagram_url": null,
+  "table_url": null,
+  "primary_marks": "Part (i): 1 mark, Part (ii): 1 mark, Part (iii) (a): 2 marks OR Part (iii) (b): 2 marks",
+  "secondary_marks": null,
+  "question_type": "Case Study",
+  "created_at": "2025-07-31 20:17:34.345420",
+  "updated_at": "2025-07-31 20:17:34.345420"
+}

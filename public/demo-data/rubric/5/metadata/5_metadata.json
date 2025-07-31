@@ -1,0 +1,17 @@
+{
+  "ques_identifier": "5",
+  "assessment_intent": "This question assesses the student's ability to apply the definition of a zero of a polynomial. It requires substituting the given zero into the polynomial equation and solving the resulting linear equation to find the unknown coefficient 'k'.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Polynomials",
+        "concepts": [
+          {
+            "name": "Zeros of a polynomial"
+          }
+        ]
+      }
+    ]
+  }
+}

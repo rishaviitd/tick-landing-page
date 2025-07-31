@@ -1,0 +1,17 @@
+{
+  "ques_identifier": "23_primary",
+  "assessment_intent": "This question assesses the student's ability to calculate the perimeter of a sector of a circle. It requires applying the formula for the arc length of a sector and summing it with the lengths of the two radii that form the sector.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Areas Related to Circles",
+        "concepts": [
+          {
+            "name": "Arc length of a sector"
+          }
+        ]
+      }
+    ]
+  }
+}

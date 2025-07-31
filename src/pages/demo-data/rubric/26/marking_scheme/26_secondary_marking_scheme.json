@@ -1,0 +1,65 @@
+{
+  "ques_identifier": "26_secondary",
+  "methods": [
+    {
+      "methodName": "Method 1: Manipulate LHS to RHS using tan/cot identities",
+      "markingPoints": [
+        {
+          "stepId": "1",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "Writes down the Left Hand Side (LHS) of the identity.",
+          "Pass if": "Correctly writes $(cot A - 1) / (2 - sec^2 A)$.",
+          "Fail if": "Writes anything else or makes an error in copying the expression.",
+          "guidance": "Award 0.5 marks for correctly writing the LHS. soi."
+        },
+        {
+          "stepId": "2",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Applies the Pythagorean identity $sec^2 A = 1 + tan^2 A$ to the denominator of the LHS.",
+          "Pass if": "Correctly substitutes $sec^2 A$ with $(1 + tan^2 A)$ in the denominator, resulting in $(cot A - 1) / (2 - (1 + tan^2 A))$.",
+          "Fail if": "Makes an error in substitution or uses an incorrect identity.",
+          "guidance": "Award 0.5 marks for correct application of the Pythagorean identity $sec^2 A = 1 + tan^2 A$. M1 soi."
+        },
+        {
+          "stepId": "3",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Simplifies the denominator of the LHS.",
+          "Pass if": "Correctly simplifies $2 - (1 + tan^2 A)$ to $1 - tan^2 A$, resulting in $(cot A - 1) / (1 - tan^2 A)$.",
+          "Fail if": "Makes an arithmetic error in simplifying the denominator.",
+          "guidance": "Award 0.5 marks for correctly simplifying the denominator. M1 soi."
+        },
+        {
+          "stepId": "4",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Expresses $cot A$ in terms of $tan A$ in the numerator and factorizes the denominator.",
+          "Pass if": "Correctly expresses $cot A$ as $(1/tan A)$ and factors the denominator $1 - tan^2 A$ as $(1 - tan A)(1 + tan A)$, leading to $((1/tan A) - 1) / ((1 - tan A)(1 + tan A))$.",
+          "Fail if": "Incorrect substitution of $cot A$ or incorrect factorization of the denominator.",
+          "guidance": "Award 0.5 marks for correct conversion of cot to tan and factorization of the denominator. M1 soi."
+        },
+        {
+          "stepId": "5",
+          "MarkType": "A",
+          "marks": "0.5",
+          "Teacher Expectation": "Simplifies the numerator and cancels common factors.",
+          "Pass if": "Correctly simplifies the numerator to $(1 - tan A)/tan A$ and cancels the term $(1 - tan A)$ from the numerator and denominator, resulting in $(1/tan A) / (1 + tan A)$.",
+          "Fail if": "Errors in simplifying the numerator or in the cancellation process.",
+          "guidance": "Award 0.5 marks for correct simplification of the numerator and cancellation of common factors. A1 soi."
+        },
+        {
+          "stepId": "6",
+          "MarkType": "A",
+          "marks": "0.5",
+          "Teacher Expectation": "Rewrites the simplified expression to match the Right Hand Side (RHS).",
+          "Pass if": "Correctly rewrites $(1/tan A) / (1 + tan A)$ as $cot A / (1 + tan A)$, thus proving LHS = RHS.",
+          "Fail if": "Makes an error in the final representation or fails to show the equality with RHS.",
+          "guidance": "Award 0.5 marks for correctly rewriting the expression to match the RHS. A1 cao."
+        }
+      ]
+    }
+  ],
+  "Question_specific_notes": "This question assesses the ability to manipulate trigonometric identities. Ensure students correctly apply Pythagorean and reciprocal identities. Common errors may include algebraic mistakes in simplification or incorrect factorization. Award marks for each distinct correct step as per the marking scheme, applying 'error carried forward' (ecf) where appropriate for subsequent steps if an initial error is made."
+}

@@ -1,0 +1,17 @@
+{
+  "ques_identifier": "33",
+  "assessment_intent": "This question assesses the student's ability to prove the Basic Proportionality Theorem (BPT) and then apply it to a specific geometric configuration, requiring logical deduction and analytical skills to identify relevant triangles and parallel lines within the figure to establish the required ratio.",
+  "bloom_taxonomy_level": "Analyzing",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Triangles",
+        "concepts": [
+          {
+            "name": "Basic Proportionality Theorem (Thales Theorem)"
+          }
+        ]
+      }
+    ]
+  }
+}

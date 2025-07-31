@@ -1,0 +1,17 @@
+{
+  "ques_identifier": "38",
+  "assessment_intent": "This case study question assesses the student's ability to translate a real-world scenario into a system of linear equations, solve these equations using algebraic methods to find unknown quantities, and apply these skills to analyze variations of the problem under different constraints.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Pair of Linear Equations in Two Variables",
+        "concepts": [
+          {
+            "name": "Algebraic Method of Solution"
+          }
+        ]
+      }
+    ]
+  }
+}

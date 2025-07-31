@@ -1,0 +1,12 @@
+{
+  "ques_identifier": "3",
+  "total_marks": 1.0,
+  "correct_option": "D",
+  "acceptable_answers": [
+    "D",
+    "d",
+    "Option D (d)",
+    "(4+2*sqrt(2)) units"
+  ],
+  "solution": "The lengths of the sides of the triangle formed by vertices (0,0), (2,0), and (0,2) are calculated using the distance formula. The sides are 2 units, 2 units, and $2\\[0.5ex\\]sqrt{2}$ units. The perimeter is the sum of these lengths: $2 + 2 + 2\\[0.5ex\\]sqrt{2} = (4+2\\[0.5ex\\]sqrt{2})$ units."
+}

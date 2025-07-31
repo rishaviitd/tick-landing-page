@@ -1,0 +1,12 @@
+{
+  "ques_identifier": "20",
+  "total_marks": 1.0,
+  "correct_option": "D",
+  "acceptable_answers": [
+    "D",
+    "d",
+    "Option D (d)",
+    "Assertion (A) is false, but Reason (R) is true."
+  ],
+  "solution": "Assertion (A) is false because the common difference of the AP 5, 1, -3, -7 is calculated as 1-5 = -4, not 4. Reason (R) is true as the formula $d = a_n - a_{n-1}$ correctly represents the common difference of an AP."
+}

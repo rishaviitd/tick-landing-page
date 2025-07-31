@@ -1,0 +1,23 @@
+{
+  "ques_identifier": "28",
+  "assessment_intent": "The question assesses the student's ability to calculate simple interest for multiple periods, recognize that simple interest earned annually forms an arithmetic progression, and apply the formula for the nth term of an AP to find the interest for a future year.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Arithmetic Progressions",
+        "concepts": [
+          {
+            "name": "Simple Interest Calculation"
+          },
+          {
+            "name": "Introduction to Arithmetic Progression"
+          },
+          {
+            "name": "nth Term of an AP"
+          }
+        ]
+      }
+    ]
+  }
+}

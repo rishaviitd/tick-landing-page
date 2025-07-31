@@ -1,0 +1,16 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d24",
+  "run_id": "92f9ad846b73",
+  "question_identifier": "9",
+  "has_internal_choice": false,
+  "primary_question": "9. In the given figure, PQ||BC. If $AP/PB = 4/13$ and AC = 20.4 cm, then the length of AQ is :\n(A) 2.8 cm\n(B) 5.8 cm\n(C) 3.8 cm\n(D) 4.8 cm",
+  "secondary_question": null,
+  "primary_diagram_url": "https://res.cloudinary.com/de19ckse5/image/upload/v1753993026/diagram_mapping/92f9ad846b73/figure-1.png",
+  "secondary_diagram_url": null,
+  "table_url": null,
+  "primary_marks": "1 mark",
+  "secondary_marks": null,
+  "question_type": "MCQ",
+  "created_at": "2025-07-31 20:17:34.338614",
+  "updated_at": "2025-07-31 20:17:34.338615"
+}

@@ -1,0 +1,124 @@
+{
+  "ques_identifier": "26_primary",
+  "methods": [
+    {
+      "methodName": "Method 1: Direct Algebraic Manipulation",
+      "markingPoints": [
+        {
+          "stepId": "1",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "Identifies the structure of $m^2 - n^2$ as a difference of squares, $a^2 - b^2$.",
+          "Pass if": "Correctly states or implies $m^2 - n^2 = (m+n)(m-n)$ or recognizes the form $(a+b)^2 - (a-b)^2$.",
+          "Fail if": "Fails to recognize the difference of squares structure.",
+          "guidance": "Award B0.5 for correctly identifying the difference of squares structure or equivalent."
+        },
+        {
+          "stepId": "2",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates $m^2 - n^2$ by applying the identity $(a+b)^2 - (a-b)^2 = 4ab$, with $a = \tan \theta$ and $b = \binom{\text{sin}}{\theta}$.",
+          "Pass if": "Correctly computes $m^2 - n^2 = (\tan \theta + \binom{\text{sin}}{\theta})^2 - (\tan \theta - \binom{\text{sin}}{\theta})^2 = 4 \tan \theta \binom{\text{sin}}{\theta}$.",
+          "Fail if": "Makes an error in applying the identity or in the substitution.",
+          "guidance": "Award M0.5 for correctly applying the identity $(a+b)^2 - (a-b)^2 = 4ab$ to find $m^2 - n^2 = 4 \tan \theta \binom{\text{sin}}{\theta}$. Allow ecf if the structure was incorrect but substitution is correct."
+        },
+        {
+          "stepId": "3",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the product $mn$ by multiplying the given expressions.",
+          "Pass if": "Correctly computes $mn = (\tan \theta + \binom{\text{sin}}{\theta})(\tan \theta - \binom{\text{sin}}{\theta}) = \tan^2 \theta - \binom{\text{sin}}^2 \theta$.",
+          "Fail if": "Makes an error in multiplication.",
+          "guidance": "Award M0.5 for correctly calculating $mn = (\tan \theta + \binom{\text{sin}}{\theta})(\tan \theta - \binom{\text{sin}}{\theta}) = \tan^2 \theta - \binom{\text{sin}}^2 \theta$."
+        },
+        {
+          "stepId": "4",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Simplifies the expression for $mn$ using trigonometric identities to express it in a form suitable for taking the square root.",
+          "Pass if": "Correctly simplifies $\tan^2 \theta - \binom{\text{sin}}^2 \theta$ to $\binom{\text{sin}}^2 \theta \tan^2 \theta$.",
+          "Fail if": "Makes an error in trigonometric simplification.",
+          "guidance": "Award M0.5 for correctly simplifying $\tan^2 \theta - \binom{\text{sin}}^2 \theta$ to $\binom{\text{sin}}^2 \theta \tan^2 \theta$ using trigonometric identities."
+        },
+        {
+          "stepId": "5",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates $4\binom{\text{sqrt}}{mn}$ by substituting the simplified expression for $mn$ and simplifying.",
+          "Pass if": "Correctly computes $4\binom{\text{sqrt}}{\binom{\text{sin}}^2 \theta \tan^2 \theta} = 4 |\binom{\text{sin}}{\theta} \tan \theta|$.",
+          "Fail if": "Makes an error in calculating the square root or handling the absolute value.",
+          "guidance": "Award M0.5 for correctly calculating $4\binom{\text{sqrt}}{mn} = 4\binom{\text{sqrt}}{\binom{\text{sin}}^2 \theta \tan^2 \theta} = 4 |\binom{\text{sin}}{\theta} \tan \theta|$."
+        },
+        {
+          "stepId": "6",
+          "MarkType": "A",
+          "marks": "0.5",
+          "Teacher Expectation": "Concludes the proof by showing the equality between $m^2 - n^2$ and $4\binom{\text{sqrt}}{mn}$, considering the domain/quadrant for $\binom{\text{sin}}{\theta}$ and $\tan \theta$.",
+          "Pass if": "Correctly shows $4 \tan \theta \binom{\text{sin}}{\theta} = 4 |\binom{\text{sin}}{\theta} \tan \theta|$ and concludes that $m^2 - n^2 = 4\binom{\text{sqrt}}{mn}$ holds when $\binom{\text{sin}}{\theta} \tan \theta \text{ ge } 0$.",
+          "Fail if": "Fails to establish the equality or makes an incorrect conclusion about the proof.",
+          "guidance": "Award A0.5 for correctly showing $4 \tan \theta \binom{\text{sin}}{\theta} = 4 |\binom{\text{sin}}{\theta} \tan \theta|$ and concluding the proof, acknowledging the condition $\binom{\text{sin}}{\theta} \tan \theta \text{ ge } 0$ if specified or implied."
+        }
+      ]
+    },
+    {
+      "methodName": "Method 2: Expressing in terms of $\binom{\text{sin}}{\theta}$ and $\binom{\text{cos}}{\theta}$",
+      "markingPoints": [
+        {
+          "stepId": "1",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "Expresses $m$ and $n$ in terms of $\binom{\text{sin}}{\theta}$ and $\binom{\text{cos}}{\theta}$ using the identity $\tan \theta = \frac{\binom{\text{sin}}{\theta}}{\binom{\text{cos}}{\theta}}$.",
+          "Pass if": "Correctly writes $m = \binom{\text{sin}}{\theta} \frac{1+\binom{\text{cos}}{\theta}}{\binom{\text{cos}}{\theta}}$ and $n = \binom{\text{sin}}{\theta} \frac{1-\binom{\text{cos}}{\theta}}{\binom{\text{cos}}{\theta}}$.",
+          "Fail if": "Makes an error in converting $\tan \theta$ or in algebraic manipulation.",
+          "guidance": "Award B0.5 for correctly expressing $m$ and $n$ in terms of $\binom{\text{sin}}{\theta}$ and $\binom{\text{cos}}{\theta}$, e.g., $m = \frac{\binom{\text{sin}}{\theta} (1+\binom{\text{cos}}{\theta})}{\binom{\text{cos}}{\theta}}$ and $n = \frac{\binom{\text{sin}}{\theta} (1-\binom{\text{cos}}{\theta})}{\binom{\text{cos}}{\theta}}$."
+        },
+        {
+          "stepId": "2",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates $m^2 - n^2$ by substituting the expressions for $m$ and $n$ and simplifying using algebraic and trigonometric identities.",
+          "Pass if": "Correctly computes $m^2 - n^2 = \binom{\text{sin}}^2 \theta \text{ [} \frac{(1+\binom{\text{cos}}{\theta})^2}{\binom{\text{cos}}^2 \theta} - \frac{(1-\binom{\text{cos}}{\theta})^2}{\binom{\text{cos}}^2 \theta} \text{]} = \frac{4 \binom{\text{sin}}^2 \theta}{\binom{\text{cos}}{\theta}}$.",
+          "Fail if": "Makes an error in substitution, algebraic expansion, or simplification.",
+          "guidance": "Award M0.5 for correctly calculating $m^2 - n^2$ using the substituted expressions and simplifying to $\frac{4 \binom{\text{sin}}^2 \theta}{\binom{\text{cos}}{\theta}}$. Allow ecf for algebraic errors."
+        },
+        {
+          "stepId": "3",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the product $mn$ by multiplying the expressions for $m$ and $n$.",
+          "Pass if": "Correctly computes $mn = \binom{\text{sin}}^2 \theta \frac{1+\binom{\text{cos}}{\theta}}{\binom{\text{cos}}{\theta}} \frac{1-\binom{\text{cos}}{\theta}}{\binom{\text{cos}}{\theta}}$.",
+          "Fail if": "Makes an error in multiplication.",
+          "guidance": "Award M0.5 for correctly calculating $mn = \binom{\text{sin}}^2 \theta \frac{1+\binom{\text{cos}}{\theta}}{\binom{\text{cos}}{\theta}} \frac{1-\binom{\text{cos}}{\theta}}{\binom{\text{cos}}{\theta}}$."
+        },
+        {
+          "stepId": "4",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Simplifies $mn$ using the identity $1-\binom{\text{cos}}^2 \theta = \binom{\text{sin}}^2 \theta$.",
+          "Pass if": "Correctly simplifies $mn$ to $\binom{\text{sin}}^2 \theta \frac{\binom{\text{sin}}^2 \theta}{\binom{\text{cos}}^2 \theta} = \binom{\text{sin}}^2 \theta \tan^2 \theta$.",
+          "Fail if": "Makes an error in applying the identity or simplifying.",
+          "guidance": "Award M0.5 for correctly simplifying $mn$ to $\binom{\text{sin}}^2 \theta \tan^2 \theta$ using $1-\binom{\text{cos}}^2 \theta = \binom{\text{sin}}^2 \theta$."
+        },
+        {
+          "stepId": "5",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates $4\binom{\text{sqrt}}{mn}$ by substituting the simplified expression for $mn$ and simplifying.",
+          "Pass if": "Correctly computes $4\binom{\text{sqrt}}{\binom{\text{sin}}^2 \theta \tan^2 \theta} = 4 |\binom{\text{sin}}{\theta} \tan \theta|$.",
+          "Fail if": "Makes an error in calculating the square root or handling the absolute value.",
+          "guidance": "Award M0.5 for correctly calculating $4\binom{\text{sqrt}}{mn} = 4\binom{\text{sqrt}}{\binom{\text{sin}}^2 \theta \tan^2 \theta} = 4 |\binom{\text{sin}}{\theta} \tan \theta|$."
+        },
+        {
+          "stepId": "6",
+          "MarkType": "A",
+          "marks": "0.5",
+          "Teacher Expectation": "Concludes the proof by showing the equality between $m^2 - n^2$ and $4\binom{\text{sqrt}}{mn}$, considering the domain/quadrant for $\binom{\text{sin}}{\theta}$ and $\tan \theta$.",
+          "Pass if": "Correctly shows $\frac{4 \binom{\text{sin}}^2 \theta}{\binom{\text{cos}}{\theta}} = 4 \binom{\text{sin}}{\theta} \tan \theta = 4 |\binom{\text{sin}}{\theta} \tan \theta|$ and concludes that $m^2 - n^2 = 4\binom{\text{sqrt}}{mn}$ holds when $\binom{\text{sin}}{\theta} \tan \theta \text{ ge } 0$.",
+          "Fail if": "Fails to establish the equality or makes an incorrect conclusion about the proof.",
+          "guidance": "Award A0.5 for correctly showing $\frac{4 \binom{\text{sin}}^2 \theta}{\binom{\text{cos}}{\theta}} = 4 \binom{\text{sin}}{\theta} \tan \theta = 4 |\binom{\text{sin}}{\theta} \tan \theta|$ and concluding the proof, acknowledging the condition $\binom{\text{sin}}{\theta} \tan \theta \text{ ge } 0$ if specified or implied."
+        }
+      ]
+    }
+  ],
+  "Question_specific_notes": "Students are expected to demonstrate proficiency in algebraic manipulation and trigonometric identities. Common errors may occur in applying difference of squares, simplifying $\tan^2 \theta - \binom{\text{sin}}^2 \theta$, or handling the square root and absolute value of $\binom{\text{sin}}{\theta} \tan \theta$. Ensure ecf is applied for any errors carried forward."
+}

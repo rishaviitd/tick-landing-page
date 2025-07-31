@@ -1,0 +1,12 @@
+{
+  "ques_identifier": "5",
+  "total_marks": 1.0,
+  "correct_option": "B",
+  "acceptable_answers": [
+    "B",
+    "b",
+    "Option B (b)",
+    "9"
+  ],
+  "solution": "If \n– 4 is a zero of the polynomial $p(x) = x^2 - x - (2 + 2k)$, then $p(-4) = 0$. Substituting x = -4 into the polynomial: $(-4)^2 - (-4) - (2 + 2k) = 0$. This simplifies to $16 + 4 - 2 - 2k = 0$, which is $18 - 2k = 0$. Solving for k gives $k = 9$."
+}

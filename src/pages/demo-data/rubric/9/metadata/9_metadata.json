@@ -1,0 +1,17 @@
+{
+  "ques_identifier": "9",
+  "assessment_intent": "This question assesses the student's ability to apply the Basic Proportionality Theorem (Thales Theorem) to calculate an unknown length in a triangle when a line segment is drawn parallel to one of its sides. It requires understanding the proportional relationships between the segments created on the other two sides.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Triangles",
+        "concepts": [
+          {
+            "name": "Basic Proportionality Theorem (Thales Theorem)"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "ques_identifier": "21",
+  "methods": [
+    {
+      "methodName": "Method 1: Using Sum and Product of Zeroes",
+      "markingPoints": [
+        {
+          "stepId": "1",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "Identifies the given zeroes as \b and \b.",
+          "Pass if": "Correctly assigns the values 2 and -7/5 to \b and \b (or vice versa).",
+          "Fail if": "Incorrectly identifies the zeroes or their values.",
+          "guidance": "Award B1 for identifying the zeroes, soi."
+        },
+        {
+          "stepId": "2",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the sum of the zeroes (\b + \b).",
+          "Pass if": "Correctly computes the sum as 2 + (-7/5) = 3/5.",
+          "Fail if": "Makes an arithmetic error in calculating the sum.",
+          "guidance": "Award M1 for correct calculation of the sum of zeroes, soi. ft from step 1 if applicable."
+        },
+        {
+          "stepId": "3",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the product of the zeroes (\b \b).",
+          "Pass if": "Correctly computes the product as 2 \b (-7/5) = -14/5.",
+          "Fail if": "Makes an arithmetic error in calculating the product.",
+          "guidance": "Award M1 for correct calculation of the product of zeroes, soi. ft from step 1 if applicable."
+        },
+        {
+          "stepId": "4",
+          "MarkType": "A",
+          "marks": "0.5",
+          "Teacher Expectation": "Forms the quadratic polynomial by substituting the calculated sum and product into the standard form k(x^2 - (sum)x + (product)).",
+          "Pass if": "Correctly substitutes the sum and product to form the polynomial k(x^2 - (3/5)x - 14/5) or an equivalent form (e.g., x^2 - (3/5)x - 14/5 assuming k=1).",
+          "Fail if": "Incorrectly substitutes the sum/product or uses the wrong polynomial formula.",
+          "guidance": "Award A1 for forming the correct polynomial using the sum and product, soi. ft from steps 2 and 3 if applicable. oe."
+        }
+      ]
+    },
+    {
+      "methodName": "Method 2: Using Factored Form (x-\b)(x-\b)",
+      "markingPoints": [
+        {
+          "stepId": "1",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "Identifies the given zeroes as \b and \b.",
+          "Pass if": "Correctly assigns the values 2 and -7/5 to \b and \b (or vice versa).",
+          "Fail if": "Incorrectly identifies the zeroes or their values.",
+          "guidance": "Award B1 for identifying the zeroes, soi."
+        },
+        {
+          "stepId": "2",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Sets up the quadratic polynomial in the factored form (x-\b)(x-\b).",
+          "Pass if": "Writes the expression as (x-2)(x - (-7/5)).",
+          "Fail if": "Uses an incorrect factored form or incorrect values for the zeroes.",
+          "guidance": "Award M1 for correctly setting up the factored form (x-\b)(x-\b) with the given zeroes, soi. ft from step 1 if applicable."
+        },
+        {
+          "stepId": "3",
+          "MarkType": "A",
+          "marks": "1",
+          "Teacher Expectation": "Expands and simplifies the factored expression to obtain the final polynomial.",
+          "Pass if": "Correctly expands and simplifies to x^2 - (3/5)x - 14/5 or an equivalent form.",
+          "Fail if": "Makes errors in expansion or simplification.",
+          "guidance": "Award A1 for correct expansion and simplification to the final polynomial, soi. ft from step 2 if applicable. This is the main step demonstrating application. oe."
+        }
+      ]
+    }
+  ],
+  "Question_specific_notes": "Students may use either method. Ensure that the final polynomial is simplified. Accept equivalent forms of the polynomial, e.g., by multiplying by a constant factor."
+}

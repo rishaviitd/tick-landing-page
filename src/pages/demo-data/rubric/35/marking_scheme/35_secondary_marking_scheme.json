@@ -1,0 +1,65 @@
+{
+  "ques_identifier": "35_secondary",
+  "methods": [
+    {
+      "methodName": "Method 1: Using Trigonometric Ratios (Tangent)",
+      "markingPoints": [
+        {
+          "stepId": "1",
+          "MarkType": "B",
+          "marks": "1",
+          "Teacher Expectation": "Calculates the vertical height of the tower from the girl's eye level.",
+          "Pass if": "Correctly computes `30 m - 1.5 m = 28.5 m`.",
+          "Fail if": "Uses the full tower height (30 m) or makes an arithmetic error in subtraction.",
+          "guidance": "Award B1 for correct calculation of effective height (28.5 m). Check subtraction."
+        },
+        {
+          "stepId": "2",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "Draws and labels a diagram illustrating the scenario with two right-angled triangles.",
+          "Pass if": "Diagram shows the tower, ground, girl's position at two points, the effective height (28.5 m), the two angles of elevation (30° and 60°), and labels for initial distance (say, `x`) and final distance (say, `y`).",
+          "Fail if": "Diagram is missing, incomplete, or incorrectly labeled.",
+          "guidance": "Award B0.5 for a clear, correctly labelled diagram showing all relevant components and angles."
+        },
+        {
+          "stepId": "3",
+          "MarkType": "M",
+          "marks": "1",
+          "Teacher Expectation": "Sets up the trigonometric equation for the initial position using the angle of elevation of 30°.",
+          "Pass if": "Correctly forms the equation `tan(30°) = 28.5 / x` (or equivalent, where `x` is the initial distance from the tower).",
+          "Fail if": "Uses an incorrect trigonometric ratio or incorrectly relates height and distance.",
+          "guidance": "Award M1 for correct setup of the first trigonometric equation (e.g., tan(30°) = 28.5/x).SOI."
+        },
+        {
+          "stepId": "4",
+          "MarkType": "M",
+          "marks": "1",
+          "Teacher Expectation": "Sets up the trigonometric equation for the final position using the angle of elevation of 60°.",
+          "Pass if": "Correctly forms the equation `tan(60°) = 28.5 / y` (or equivalent, where `y` is the final distance from the tower).",
+          "Fail if": "Uses an incorrect trigonometric ratio or incorrectly relates height and distance.",
+          "guidance": "Award M1 for correct setup of the second trigonometric equation (e.g., tan(60°) = 28.5/y).SOI."
+        },
+        {
+          "stepId": "5",
+          "MarkType": "M",
+          "marks": "1",
+          "Teacher Expectation": "Solves the two trigonometric equations to find the initial distance (`x`) and the final distance (`y`).",
+          "Pass if": "Correctly calculates `x = 28.5 / tan(30°) = 28.5√3` and `y = 28.5 / tan(60°) = 28.5/√3`.",
+          "Fail if": "Makes errors in substituting trigonometric values or in algebraic manipulation to find `x` and `y`.",
+          "guidance": "Award M1 for correct calculation of both distances x and y, showing substitution of tan values and algebraic manipulation. ECF allowed for incorrect height from Step 1."
+        },
+        {
+          "stepId": "6",
+          "MarkType": "A",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the difference between the initial and final distances to find the distance the girl walked.",
+          "Pass if": "Correctly calculates `(x - y) = 28.5√3 - 28.5/√3 = 28.5(√3 - 1/√3) = 28.5(2/√3) = 57/√3 = 19√3` meters.",
+          "Fail if": "Makes an arithmetic or simplification error in calculating the final distance walked.",
+          "guidance": "Award A0.5 for the correct final distance walked (19√3 m or equivalent decimal). ECF allowed for incorrect x or y from previous steps."
+        }
+      ]
+    }
+  ],
+  "Question_specific_notes": "Ensure students correctly calculate the effective height from the girl's eye level. Award follow-through marks (ecf) for errors carried forward from previous steps, particularly for the height calculation and the values of x and y. Accept equivalent forms of the answer, e.g., 19√3 m or approximately 32.91 m."
+}

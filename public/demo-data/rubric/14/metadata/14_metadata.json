@@ -1,0 +1,20 @@
+{
+  "ques_identifier": "14",
+  "assessment_intent": "This question assesses the student's ability to identify the equation of a line based on its geometric properties: being parallel to the x-axis and located at a specific distance below it, requiring understanding of coordinate plane conventions.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Coordinate Geometry",
+        "concepts": [
+          {
+            "name": "Equation of a line parallel to the x-axis"
+          },
+          {
+            "name": "Representation of points in the coordinate plane"
+          }
+        ]
+      }
+    ]
+  }
+}

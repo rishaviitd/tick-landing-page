@@ -1,0 +1,25 @@
+{
+  "ques_identifier": "10",
+  "assessment_intent": "This question assesses the student's ability to calculate the radius of a circle by applying the distance formula to find the diameter's length from its endpoints and then dividing by two.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Coordinate Geometry",
+        "concepts": [
+          {
+            "name": "Distance Formula"
+          }
+        ]
+      },
+      {
+        "chapter": "Circles",
+        "concepts": [
+          {
+            "name": "Radius"
+          }
+        ]
+      }
+    ]
+  }
+}

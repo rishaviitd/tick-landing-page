@@ -1,0 +1,16 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d1f",
+  "run_id": "92f9ad846b73",
+  "question_identifier": "4",
+  "has_internal_choice": false,
+  "primary_question": "4. The line represented by the equation $x - y = 0$ is :\n(A) parallel to x-axis\n(B) parallel to y-axis\n(C) passing through the origin\n(D) passing through the point (3, 2)",
+  "secondary_question": null,
+  "primary_diagram_url": null,
+  "secondary_diagram_url": null,
+  "table_url": null,
+  "primary_marks": "1 mark",
+  "secondary_marks": null,
+  "question_type": "MCQ",
+  "created_at": "2025-07-31 20:17:34.337328",
+  "updated_at": "2025-07-31 20:17:34.337328"
+}

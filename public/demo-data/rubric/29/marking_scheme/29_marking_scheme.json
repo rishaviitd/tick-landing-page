@@ -1,0 +1,65 @@
+{
+  "ques_identifier": "29",
+  "methods": [
+    {
+      "methodName": "Proof by Contradiction",
+      "markingPoints": [
+        {
+          "stepId": "1",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "States the assumption that $\\sqrt{3}$ is rational and represents it in the form $\\frac{p}{q}$, where $p$ and $q$ are integers, $q \\neq 0$, and $p$ and $q$ are coprime (i.e., $\\text{gcd}(p, q) = 1$).",
+          "Pass if": "The assumption of rationality and the fractional representation with the coprime condition are correctly stated.",
+          "Fail if": "The assumption is incorrect, the representation is wrong, or the coprime condition is omitted.",
+          "guidance": "Award 0.5 for stating the assumption that $\\sqrt{3}$ is rational, represented as $p/q$ where $p, q$ are integers, $q \\neq 0$, and $\\text{gcd}(p, q) = 1$. oe. If coprime condition is omitted, award 0.5."
+        },
+        {
+          "stepId": "2",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Squares both sides of the equation $\\sqrt{3} = \\frac{p}{q}$ to get $3 = \\frac{p^2}{q^2}$ and correctly rearranges it to $3q^2 = p^2$.",
+          "Pass if": "The squaring and algebraic rearrangement are performed accurately.",
+          "Fail if": "Errors are made in squaring or rearranging the equation.",
+          "guidance": "Award 0.5 for correctly squaring $\\sqrt{3} = p/q$ to $3 = p^2/q^2$ and rearranging to $3q^2 = p^2$. ft from step 1 if $p/q$ is used incorrectly."
+        },
+        {
+          "stepId": "3",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Infers from $3q^2 = p^2$ that $p^2$ is divisible by 3, and consequently, $p$ must also be divisible by 3.",
+          "Pass if": "The logical deduction that $p$ is divisible by 3 is correctly made.",
+          "Fail if": "The inference about divisibility is incorrect or omitted.",
+          "guidance": "Award 0.5 for correctly inferring from $3q^2 = p^2$ that $p^2$ is divisible by 3, and thus $p$ is divisible by 3. www. ft if $p^2$ is incorrect. oe."
+        },
+        {
+          "stepId": "4",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Expresses $p$ as $3k$ (where $k$ is an integer) and substitutes this into the equation $3q^2 = p^2$, leading to $3q^2 = (3k)^2 = 9k^2$, and simplifies it to $q^2 = 3k^2$.",
+          "Pass if": "The substitution $p=3k$ is correct and the subsequent simplification to $q^2 = 3k^2$ is accurate.",
+          "Fail if": "Errors occur in the substitution or simplification process.",
+          "guidance": "Award 0.5 for correctly substituting $p=3k$ into $3q^2 = p^2$ to get $3q^2 = 9k^2$ and simplifying to $q^2 = 3k^2$. ft from step 3."
+        },
+        {
+          "stepId": "5",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Infers from $q^2 = 3k^2$ that $q^2$ is divisible by 3, and consequently, $q$ must also be divisible by 3.",
+          "Pass if": "The logical deduction that $q$ is divisible by 3 is correctly made.",
+          "Fail if": "The inference about divisibility is incorrect or omitted.",
+          "guidance": "Award 0.5 for correctly inferring from $q^2 = 3k^2$ that $q^2$ is divisible by 3, and thus $q$ is divisible by 3. www. ft if $q^2$ is incorrect. oe."
+        },
+        {
+          "stepId": "6",
+          "MarkType": "A",
+          "marks": "0.5",
+          "Teacher Expectation": "States that $p$ and $q$ being divisible by 3 contradicts the initial assumption that they are coprime, and concludes that $\\sqrt{3}$ must be irrational.",
+          "Pass if": "The contradiction is clearly identified, and the final conclusion that $\\sqrt{3}$ is irrational is stated.",
+          "Fail if": "The contradiction is not explained, or the final conclusion is missing or incorrect.",
+          "guidance": "Award 0.5 for stating that $p$ and $q$ being divisible by 3 contradicts the coprime assumption, and concluding that $\\sqrt{3}$ is irrational. cao. ft from steps 3 and 5."
+        }
+      ]
+    }
+  ],
+  "Question_specific_notes": "Students must present a complete proof by contradiction. Common errors include failing to state the coprime condition, algebraic mistakes in squaring or substitution, and incorrectly concluding the contradiction. Ensure follow-through (ecf) is applied for algebraic errors."
+}

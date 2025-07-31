@@ -1,0 +1,25 @@
+{
+  "ques_identifier": "24",
+  "assessment_intent": "This question assesses the student's ability to apply geometric properties of circles, including the relationship between tangents and radii, and to use the Pythagorean theorem to calculate the length of a chord based on its position relative to the center.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Circles",
+        "concepts": [
+          {
+            "name": "Tangent is perpendicular to the radius at the point of contact"
+          }
+        ]
+      },
+      {
+        "chapter": "Triangles",
+        "concepts": [
+          {
+            "name": "Pythagorean theorem"
+          }
+        ]
+      }
+    ]
+  }
+}

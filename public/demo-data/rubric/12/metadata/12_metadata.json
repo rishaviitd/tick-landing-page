@@ -1,0 +1,17 @@
+{
+  "ques_identifier": "12",
+  "assessment_intent": "This question assesses the student's ability to perform prime factorization of a given number and then use the exponents of the prime factors to calculate a simple algebraic expression.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Real Numbers",
+        "concepts": [
+          {
+            "name": "Fundamental Theorem of Arithmetic"
+          }
+        ]
+      }
+    ]
+  }
+}

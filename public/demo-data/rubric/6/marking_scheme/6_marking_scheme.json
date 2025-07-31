@@ -1,0 +1,12 @@
+{
+  "ques_identifier": "6",
+  "total_marks": 1.0,
+  "correct_option": "D",
+  "acceptable_answers": [
+    "D",
+    "d",
+    "Option D (d)",
+    "10"
+  ],
+  "solution": "The Highest Common Factor (HCF) is the largest number that divides all given numbers without leaving a remainder. For 40, 110, and 360, the number 10 is the largest integer that divides all three."
+}

@@ -1,0 +1,10 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d28",
+  "run_id": "92f9ad846b73",
+  "ques_identifier": "13",
+  "ques_text": "13. If all the red face cards are removed from the deck of 52 playing cards, then the probability of getting a black jack from the remaining cards is :\n(A) $2/46$\n(B) $2/52$\n(C) $4/48$\n(D) $2/23$",
+  "marks_analysis": "1 mark",
+  "question_type": "MCQ",
+  "target_class": "10",
+  "total_marks": 1.0
+}

@@ -1,0 +1,17 @@
+{
+  "ques_identifier": "3",
+  "assessment_intent": "This question assesses the student's ability to apply the distance formula to calculate the lengths of the sides of a triangle given its vertices, and then sum these lengths to determine the perimeter of the triangle.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Coordinate Geometry",
+        "concepts": [
+          {
+            "name": "Distance Formula"
+          }
+        ]
+      }
+    ]
+  }
+}

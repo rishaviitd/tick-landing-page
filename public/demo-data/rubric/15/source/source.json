@@ -1,0 +1,16 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d2a",
+  "run_id": "92f9ad846b73",
+  "question_identifier": "15",
+  "has_internal_choice": false,
+  "primary_question": "15. In the given figure, RS is the tangent to the circle at the point L and MN is the diameter. If \u2220 NML = 30\u00b0, then \u2220 RLM is :\n(A) 30\u00b0\n(B) 60\u00b0\n(C) 90\u00b0\n(D) 120\u00b0",
+  "secondary_question": null,
+  "primary_diagram_url": "https://res.cloudinary.com/de19ckse5/image/upload/v1753993027/diagram_mapping/92f9ad846b73/figure-2.png",
+  "secondary_diagram_url": null,
+  "table_url": null,
+  "primary_marks": "1 mark",
+  "secondary_marks": null,
+  "question_type": "MCQ",
+  "created_at": "2025-07-31 20:17:34.340601",
+  "updated_at": "2025-07-31 20:17:34.340601"
+}

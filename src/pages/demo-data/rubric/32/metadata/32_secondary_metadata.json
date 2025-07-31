@@ -1,0 +1,20 @@
+{
+  "ques_identifier": "32_secondary",
+  "assessment_intent": "This question assesses the student's ability to translate a word problem involving distance, speed, and time into a quadratic equation and solve it to find unknown speeds in different directions.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Quadratic Equations",
+        "concepts": [
+          {
+            "name": "Situational problems"
+          },
+          {
+            "name": "Solution of Quadratic Equations"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d3d",
+  "run_id": "92f9ad846b73",
+  "ques_identifier": "34",
+  "ques_text": "34. Find the mean and median for the following data :\nClasses | Frequency\n------- | --------\n5-15    | 2\n15-25   | 3\n25-35   | 5\n35-45   | 7\n45-55   | 4\n55-65   | 2\n65-75   | 2",
+  "marks_analysis": "5 marks",
+  "question_type": "Subjective",
+  "target_class": "10"
+}

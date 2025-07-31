@@ -1,0 +1,20 @@
+{
+  "ques_identifier": "22_primary",
+  "assessment_intent": "This question assesses the student's ability to identify similar triangles using the given angle equality and a common angle, and then apply the property of proportionality of corresponding sides of similar triangles to prove the given geometric relation.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Triangles",
+        "concepts": [
+          {
+            "name": "Similarity Criteria for Triangles"
+          },
+          {
+            "name": "Proportionality of sides of similar triangles"
+          }
+        ]
+      }
+    ]
+  }
+}

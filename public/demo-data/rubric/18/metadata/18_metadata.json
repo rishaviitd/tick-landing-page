@@ -1,0 +1,17 @@
+{
+  "ques_identifier": "18",
+  "assessment_intent": "This question assesses the student's ability to recall and substitute the values of standard trigonometric ratios (sin 30°, tan 45°, sec 60°) into a given equation and then solve the resulting algebraic equation to find the unknown variable 'k'.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Introduction to Trigonometry",
+        "concepts": [
+          {
+            "name": "Trigonometric Ratios"
+          }
+        ]
+      }
+    ]
+  }
+}

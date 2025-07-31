@@ -1,0 +1,23 @@
+{
+  "ques_identifier": "17",
+  "assessment_intent": "This question assesses the student's understanding of the fundamental definitions and relationships between congruent and similar geometric figures, requiring them to evaluate the truthfulness of statements based on geometric principles and identify the incorrect assertion.",
+  "bloom_taxonomy_level": "Evaluating",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Triangles",
+        "concepts": [
+          {
+            "name": "Similarity Criteria for Triangles"
+          },
+          {
+            "name": "Properties of equilateral triangles"
+          },
+          {
+            "name": "Congruence of Triangles"
+          }
+        ]
+      }
+    ]
+  }
+}

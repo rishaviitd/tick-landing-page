@@ -1,0 +1,10 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d1e",
+  "run_id": "92f9ad846b73",
+  "ques_identifier": "3",
+  "ques_text": "3. The perimeter of the triangle formed by the vertices (0, 0), (2, 0) and (0, 2) is :\n(A) 4 units\n(B) 6 units\n(C) $6\\sqrt{2}$ units\n(D) $(4+2\\sqrt{2})$ units",
+  "marks_analysis": "1 mark",
+  "question_type": "MCQ",
+  "target_class": "10",
+  "total_marks": 1.0
+}

@@ -1,0 +1,16 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d35",
+  "run_id": "92f9ad846b73",
+  "question_identifier": "26",
+  "has_internal_choice": true,
+  "primary_question": "26. (a) If $tan \\theta + sin \\theta = m$ and $tan \\theta - sin \\theta = n$, then prove that $m^2 - n^2 = 4\\sqrt{mn}$.",
+  "secondary_question": "(b) Prove that : $(cot A - 1) / (2 - sec^2 A) = cot A / (1 + tan A)$.",
+  "primary_diagram_url": null,
+  "secondary_diagram_url": null,
+  "table_url": null,
+  "primary_marks": "This question has [3] marks",
+  "secondary_marks": "This question has [3] marks",
+  "question_type": "Internal Choice Subjective",
+  "created_at": "2025-07-31 20:17:34.342982",
+  "updated_at": "2025-07-31 20:17:34.342982"
+}

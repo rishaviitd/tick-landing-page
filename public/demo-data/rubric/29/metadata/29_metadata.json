@@ -1,0 +1,17 @@
+{
+  "ques_identifier": "29",
+  "assessment_intent": "Assesses the student's ability to construct a logical proof by contradiction to demonstrate that the square root of 3 is an irrational number, requiring understanding of rational/irrational number definitions and proof techniques.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Real Numbers",
+        "concepts": [
+          {
+            "name": "Proofs of Irrationality"
+          }
+        ]
+      }
+    ]
+  }
+}

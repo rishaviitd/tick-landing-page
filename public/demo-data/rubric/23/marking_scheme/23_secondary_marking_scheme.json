@@ -1,0 +1,70 @@
+{
+  "ques_identifier": "23_secondary",
+  "methods": [
+    {
+      "methodName": "Method 1: Calculate area of each sector individually and sum",
+      "markingPoints": [
+        {
+          "stepId": "1",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "States the formula for the area of a sector and correctly identifies the given radius and the angles of the shaded sectors.",
+          "Pass if": "The formula for the area of a sector (\\frac{\\theta}{360} \\times \\pi r^2) is stated, and the radius (r=5 cm) and the angles (35°, 50°, 95°) are correctly identified.",
+          "Fail if": "The formula is incorrect or any of the parameters are misidentified.",
+          "guidance": "Award 0.5 marks for stating the correct formula for the area of a sector and identifying the radius and angles."
+        },
+        {
+          "stepId": "2",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the area of each of the three shaded sectors using the formula and the given values.",
+          "Pass if": "The area of the sector with 35°, the sector with 50°, and the sector with 95° are all calculated correctly using π = 22/7 and r=5 cm.",
+          "Fail if": "Any of the individual sector area calculations are incorrect.",
+          "guidance": "Award 0.5 marks for correctly calculating the area of at least two of the three sectors. Apply ecf for subsequent calculations."
+        },
+        {
+          "stepId": "3",
+          "MarkType": "A",
+          "marks": "1",
+          "Teacher Expectation": "Sums the calculated areas of the three sectors to find the total shaded area.",
+          "Pass if": "The areas calculated in Step 2 are added correctly to obtain the final total shaded area.",
+          "Fail if": "The summation is incorrect or the final answer is wrong.",
+          "guidance": "Award 1 mark for the correct summation of the three sector areas to obtain the final shaded area. cao."
+        }
+      ]
+    },
+    {
+      "methodName": "Method 2: Combine angles first, then calculate area",
+      "markingPoints": [
+        {
+          "stepId": "1",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "States the formula for the area of a sector and correctly identifies the given radius.",
+          "Pass if": "The formula for the area of a sector (\\frac{\\theta}{360} \\times \\pi r^2) is stated, and the radius (r=5 cm) is correctly identified.",
+          "Fail if": "The formula is incorrect or the radius is misidentified.",
+          "guidance": "Award 0.5 marks for stating the correct formula for the area of a sector and identifying the radius."
+        },
+        {
+          "stepId": "2",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the sum of the angles of the shaded sectors.",
+          "Pass if": "The sum of the angles 35° + 50° + 95° is correctly calculated as 180°.",
+          "Fail if": "The sum of the angles is incorrect.",
+          "guidance": "Award 0.5 marks for correctly calculating the sum of the angles. Apply ecf if the sum is used in the next step."
+        },
+        {
+          "stepId": "3",
+          "MarkType": "A",
+          "marks": "1",
+          "Teacher Expectation": "Calculates the total shaded area by substituting the combined angle and radius into the area of a sector formula.",
+          "Pass if": "The total shaded area is calculated correctly by using the combined angle (180°) and radius (5 cm) in the formula, with π = 22/7.",
+          "Fail if": "The calculation is incorrect.",
+          "guidance": "Award 1 mark for the correct calculation of the total shaded area using the combined angle and radius. cao."
+        }
+      ]
+    }
+  ],
+  "Question_specific_notes": "The question assesses the ability to calculate the area of sectors. Students may use two valid methods: calculating individual sector areas and summing them, or summing the angles first and then calculating the total area. Ensure marks are awarded for correct methodology and calculations, applying follow-through (ecf) where appropriate. The final answer should be marked cao."
+}

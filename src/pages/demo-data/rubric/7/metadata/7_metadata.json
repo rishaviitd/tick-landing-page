@@ -1,0 +1,17 @@
+{
+  "ques_identifier": "7",
+  "assessment_intent": "This question assesses the student's ability to apply the concept of angles in a circle to calculate the central angle of equal sectors when a circle is divided into a specific number of parts.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Areas Related to Circles",
+        "concepts": [
+          {
+            "name": "Area of Sectors and Segments"
+          }
+        ]
+      }
+    ]
+  }
+}

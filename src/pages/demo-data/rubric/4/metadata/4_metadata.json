@@ -1,0 +1,17 @@
+{
+  "ques_identifier": "4",
+  "assessment_intent": "This question assesses the student's ability to interpret the algebraic equation of a line ($x - y = 0$) and identify its key graphical properties, specifically whether it passes through the origin or is parallel to the axes.",
+  "bloom_taxonomy_level": "Understanding",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Pair of Linear Equations in Two Variables",
+        "concepts": [
+          {
+            "name": "Graphical Method of Solution"
+          }
+        ]
+      }
+    ]
+  }
+}

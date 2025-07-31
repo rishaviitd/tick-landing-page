@@ -1,0 +1,65 @@
+{
+  "ques_identifier": "27",
+  "methods": [
+    {
+      "methodName": "Applying Midpoint Formula and Solving Linear Equation",
+      "markingPoints": [
+        {
+          "stepId": "1",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "Identifies the coordinates of the given points A(10, – 6) and B(k, 4).",
+          "Pass if": "Correctly lists the coordinates of point A as (10, -6) and point B as (k, 4).",
+          "Fail if": "Lists incorrect coordinates for either point or omits one.",
+          "guidance": "Award 0.5 for correctly identifying and listing the coordinates of points A and B. soi"
+        },
+        {
+          "stepId": "2",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "States the midpoint formula for a line segment joining $(x_1, y_1)$ and $(x_2, y_2)$.",
+          "Pass if": "Correctly states the midpoint formula as $M(x, y) = (\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2})$.",
+          "Fail if": "States an incorrect formula or omits parts of the formula.",
+          "guidance": "Award 0.5 for stating the correct midpoint formula. soi"
+        },
+        {
+          "stepId": "3",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Applies the midpoint formula to express the coordinates of the midpoint (a, b) in terms of k.",
+          "Pass if": "Correctly sets up the expressions for 'a' as $\frac{10+k}{2}$ and 'b' as $\frac{-6+4}{2}$.",
+          "Fail if": "Makes an error in applying the midpoint formula (e.g., incorrect pairing of coordinates, sign errors).",
+          "guidance": "Award 0.5 for correctly applying the midpoint formula to find expressions for a and b. soi. ft from step 1"
+        },
+        {
+          "stepId": "4",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the numerical value of the y-coordinate of the midpoint, b.",
+          "Pass if": "Correctly calculates $b = \frac{-2}{2} = -1$.",
+          "Fail if": "Makes an arithmetic error in simplifying the expression for 'b'.",
+          "guidance": "Award 0.5 for correctly calculating the value of b. soi. ft from step 3"
+        },
+        {
+          "stepId": "5",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Substitutes the expression for 'a' and the calculated value of 'b' into the given linear equation $a - 2b = 18$.",
+          "Pass if": "Correctly substitutes $\frac{10+k}{2}$ for 'a' and -1 for 'b' into the equation, resulting in $\frac{10+k}{2} - 2(-1) = 18$.",
+          "Fail if": "Makes an incorrect substitution of values or expressions into the equation.",
+          "guidance": "Award 0.5 for correct substitution into the given equation. soi. ft from steps 3 and 4"
+        },
+        {
+          "stepId": "6",
+          "MarkType": "A",
+          "marks": "0.5",
+          "Teacher Expectation": "Solves the resulting linear equation to find the value of k.",
+          "Pass if": "Correctly solves the equation $\frac{10+k}{2} + 2 = 18$ to arrive at $k = 22$.",
+          "Fail if": "Makes errors in algebraic manipulation or calculation, leading to an incorrect value for k.",
+          "guidance": "Award 0.5 for the correct final answer for k. cao. ft from step 5"
+        }
+      ]
+    }
+  ],
+  "Question_specific_notes": "Ensure students correctly apply the midpoint formula and substitute into the given linear equation. Follow through (ft) marks are crucial for algebraic steps. The final answer should be checked for accuracy (cao)."
+}

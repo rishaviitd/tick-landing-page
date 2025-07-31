@@ -1,0 +1,17 @@
+{
+  "ques_identifier": "22_secondary",
+  "assessment_intent": "This question assesses the student's ability to apply the SAS similarity criterion for triangles by using the given product of line segments to establish proportionality and prove the equality of corresponding angles.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Triangles",
+        "concepts": [
+          {
+            "name": "Similarity Criteria for Triangles"
+          }
+        ]
+      }
+    ]
+  }
+}

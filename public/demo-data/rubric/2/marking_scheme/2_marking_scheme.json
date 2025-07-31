@@ -1,0 +1,12 @@
+{
+  "ques_identifier": "2",
+  "total_marks": 1.0,
+  "correct_option": "C",
+  "acceptable_answers": [
+    "C",
+    "c",
+    "Option C (c)",
+    "115"
+  ],
+  "solution": "The arithmetic progression has a common difference of 4. The last term is 147. To find the 9th term from the end, we first determine the total number of terms (n=36). The 9th term from the end is equivalent to the (36 - 9 + 1) = 28th term from the beginning, which calculates to 115."
+}

@@ -1,0 +1,12 @@
+{
+  "ques_identifier": "18",
+  "total_marks": 1.0,
+  "correct_option": "A",
+  "acceptable_answers": [
+    "A",
+    "a",
+    "Option A (a)",
+    "4"
+  ],
+  "solution": "Substitute the standard trigonometric values: sin 30° = 1/2, tan 45° = 1, sec 60° = 2. The equation becomes (1/2) * 1 = 2/k, which simplifies to 1/2 = 2/k. Solving for k yields k = 4."
+}

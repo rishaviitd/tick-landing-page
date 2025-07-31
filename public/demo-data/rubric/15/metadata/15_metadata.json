@@ -1,0 +1,28 @@
+{
+  "ques_identifier": "15",
+  "assessment_intent": "This question assesses the student's ability to apply geometric theorems related to circles, specifically the angle subtended by a diameter at any point on the circumference and the angle between a tangent and a chord, to calculate an unknown angle in a given diagram.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Circles",
+        "concepts": [
+          {
+            "name": "Angle in a semicircle is a right angle"
+          },
+          {
+            "name": "Angle between tangent and chord through the point of contact is equal to the angle in the alternate segment"
+          }
+        ]
+      },
+      {
+        "chapter": "Triangles",
+        "concepts": [
+          {
+            "name": "Sum of angles in a triangle"
+          }
+        ]
+      }
+    ]
+  }
+}

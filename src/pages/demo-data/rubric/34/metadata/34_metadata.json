@@ -1,0 +1,20 @@
+{
+  "ques_identifier": "34",
+  "assessment_intent": "This question assesses the student's ability to calculate the mean and median for a given set of grouped data presented in a frequency distribution table, requiring the application of appropriate statistical formulas.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Statistics",
+        "concepts": [
+          {
+            "name": "Mean of Grouped Data"
+          },
+          {
+            "name": "Median of Grouped Data"
+          }
+        ]
+      }
+    ]
+  }
+}

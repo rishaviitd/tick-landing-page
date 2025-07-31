@@ -1,0 +1,17 @@
+{
+  "ques_identifier": "23_secondary",
+  "assessment_intent": "This question assesses the student's ability to calculate the area of multiple sectors of a circle and sum them to find the total shaded area, applying the formula for the area of a sector with given radius and angles.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Areas Related to Circles",
+        "concepts": [
+          {
+            "name": "Area of Sectors"
+          }
+        ]
+      }
+    ]
+  }
+}

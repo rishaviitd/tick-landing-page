@@ -1,0 +1,28 @@
+{
+  "ques_identifier": "26_primary",
+  "assessment_intent": "This question assesses the student's ability to apply trigonometric ratios and identities, along with algebraic manipulation skills, to prove a given relationship between expressions involving tangent and sine functions.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Introduction to Trigonometry",
+        "concepts": [
+          {
+            "name": "Trigonometric Ratios"
+          },
+          {
+            "name": "Relationships between the ratios"
+          }
+        ]
+      },
+      {
+        "chapter": "Trigonometric Identities",
+        "concepts": [
+          {
+            "name": "Application of trigonometric identities"
+          }
+        ]
+      }
+    ]
+  }
+}

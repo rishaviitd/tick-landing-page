@@ -1,0 +1,28 @@
+{
+  "ques_identifier": "35_secondary",
+  "assessment_intent": "This question assesses the student's ability to apply trigonometric ratios to solve a problem involving angles of elevation and distances. It requires setting up two right-angled triangles based on the given scenario and calculating the difference in distances to find the distance walked.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Introduction to Trigonometry",
+        "concepts": [
+          {
+            "name": "Trigonometric Ratios"
+          }
+        ]
+      },
+      {
+        "chapter": "Heights and Distances",
+        "concepts": [
+          {
+            "name": "Angle of Elevation"
+          },
+          {
+            "name": "Simple problems on heights and distances"
+          }
+        ]
+      }
+    ]
+  }
+}

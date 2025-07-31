@@ -1,0 +1,16 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d21",
+  "run_id": "92f9ad846b73",
+  "question_identifier": "6",
+  "has_internal_choice": false,
+  "primary_question": "6. The HCF of 40, 110 and 360 is :\n(A) 40\n(B) 110\n(C) 360\n(D) 10",
+  "secondary_question": null,
+  "primary_diagram_url": null,
+  "secondary_diagram_url": null,
+  "table_url": null,
+  "primary_marks": "1 mark",
+  "secondary_marks": null,
+  "question_type": "MCQ",
+  "created_at": "2025-07-31 20:17:34.337803",
+  "updated_at": "2025-07-31 20:17:34.337803"
+}

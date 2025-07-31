@@ -1,0 +1,16 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d33",
+  "run_id": "92f9ad846b73",
+  "question_identifier": "24",
+  "has_internal_choice": false,
+  "primary_question": "24. At point A on the diameter AB of a circle of radius 10 cm, tangent XAY is drawn to the circle. Find the length of the chord CD parallel to XY at a distance of 16 cm from A.",
+  "secondary_question": null,
+  "primary_diagram_url": "https://res.cloudinary.com/de19ckse5/image/upload/v1753993031/diagram_mapping/92f9ad846b73/figure-7.png",
+  "secondary_diagram_url": null,
+  "table_url": null,
+  "primary_marks": "2 marks",
+  "secondary_marks": null,
+  "question_type": "Normal Subjective",
+  "created_at": "2025-07-31 20:17:34.342571",
+  "updated_at": "2025-07-31 20:17:34.342571"
+}

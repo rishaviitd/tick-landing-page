@@ -1,0 +1,115 @@
+{
+  "ques_identifier": "28",
+  "methods": [
+    {
+      "methodName": "Method 1: Step-by-step calculation and AP verification",
+      "markingPoints": [
+        {
+          "stepId": "1",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "Identifies the principal amount (P = ₹2000) and the annual rate of interest (R = 7%).",
+          "Pass if": "Both P and R are correctly identified and stated.",
+          "Fail if": "Either P or R is incorrectly stated or omitted.",
+          "guidance": "Award 0.5 marks for correctly identifying P and R. soi."
+        },
+        {
+          "stepId": "2",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the simple interest earned at the end of the 1st year using the formula SI = (P × R × T) / 100, with T=1 year.",
+          "Pass if": "The calculated simple interest for 1 year is correct.",
+          "Fail if": "The calculation is incorrect or the formula is misapplied.",
+          "guidance": "Award 0.5 marks for correct calculation of SI for 1 year. soi. ft or ecf if P/R incorrect."
+        },
+        {
+          "stepId": "3",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the simple interest earned at the end of the 2nd year using the formula SI = (P × R × T) / 100, with T=2 years.",
+          "Pass if": "The calculated simple interest for 2 years is correct.",
+          "Fail if": "The calculation is incorrect or the formula is misapplied.",
+          "guidance": "Award 0.5 marks for correct calculation of SI for 2 years. soi. ft or ecf if P/R incorrect."
+        },
+        {
+          "stepId": "4",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the simple interest earned at the end of the 3rd year using the formula SI = (P × R × T) / 100, with T=3 years.",
+          "Pass if": "The calculated simple interest for 3 years is correct.",
+          "Fail if": "The calculation is incorrect or the formula is misapplied.",
+          "guidance": "Award 0.5 marks for correct calculation of SI for 3 years. soi. ft or ecf if P/R incorrect."
+        },
+        {
+          "stepId": "5",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "Determines if the interests calculated for the 1st, 2nd, and 3rd years form an Arithmetic Progression (AP) by verifying that the difference between consecutive interests is constant.",
+          "Pass if": "The common difference (SI_2yr - SI_1yr) is calculated, the common difference (SI_3yr - SI_2yr) is calculated, and it is correctly concluded that these differences are equal, thus forming an AP.",
+          "Fail if": "Either difference is calculated incorrectly, or the conclusion about forming an AP is incorrect.",
+          "guidance": "Award 0.5 marks for correctly calculating the differences and concluding it forms an AP. soi. ft or ecf from previous steps."
+        },
+        {
+          "stepId": "6",
+          "MarkType": "A",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the interest at the end of the 27th year using the nth term formula for an AP (a_n = a + (n-1)d), where 'a' is the interest for the 1st year and 'd' is the common difference.",
+          "Pass if": "The correct values for 'a', 'd', and 'n' (n=27) are substituted into the formula, and the final calculation for the 27th year's interest is accurate.",
+          "Fail if": "The formula is misapplied, incorrect values are used, or the final calculation is wrong.",
+          "guidance": "Award 0.5 marks for correct application of the nth term formula and accurate final calculation. soi. ft or ecf from previous steps."
+        }
+      ]
+    },
+    {
+      "methodName": "Method 2: Conceptual understanding of constant simple interest",
+      "markingPoints": [
+        {
+          "stepId": "1",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "Identifies the principal amount (P = ₹2000) and the annual rate of interest (R = 7%).",
+          "Pass if": "Both P and R are correctly identified and stated.",
+          "Fail if": "Either P or R is incorrectly stated or omitted.",
+          "guidance": "Award 0.5 marks for correctly identifying P and R. soi."
+        },
+        {
+          "stepId": "2",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the simple interest for one year (SI_1yr) and states that this value represents both the first term (a) and the common difference (d) of the AP formed by annual simple interest.",
+          "Pass if": "SI_1yr is correctly calculated, and it is explicitly stated that a = SI_1yr and d = SI_1yr.",
+          "Fail if": "SI_1yr is incorrect, or it is not stated that this value is both 'a' and 'd'.",
+          "guidance": "Award 0.5 marks for correct calculation of SI for 1 year and stating it is both 'a' and 'd'. soi. ft or ecf if P/R incorrect."
+        },
+        {
+          "stepId": "3",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "States that simple interest earned each year is constant, thus forming an Arithmetic Progression.",
+          "Pass if": "The formation of an AP is correctly stated based on the constant nature of simple interest.",
+          "Fail if": "The statement about AP formation is incorrect or missing.",
+          "guidance": "Award 0.5 marks for correctly stating that simple interest forms an AP. soi."
+        },
+        {
+          "stepId": "4",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Applies the nth term formula for an AP, a_n = a + (n-1)d, to find the interest at the end of the 27th year (n=27).",
+          "Pass if": "The formula is correctly written and the values for 'a', 'd', and 'n' are correctly substituted.",
+          "Fail if": "The formula is miswritten or incorrect values are substituted.",
+          "guidance": "Award 0.5 marks for correct statement of the nth term formula and substitution of values. soi. ft or ecf from previous steps."
+        },
+        {
+          "stepId": "5",
+          "MarkType": "A",
+          "marks": "1",
+          "Teacher Expectation": "Calculates the final interest amount for the 27th year.",
+          "Pass if": "The final calculation using the substituted values is accurate.",
+          "Fail if": "The final calculation is incorrect.",
+          "guidance": "Award 1 mark for the cao of the final interest amount. soi. ft or ecf from previous steps."
+        }
+      ]
+    }
+  ],
+  "Question_specific_notes": "Ensure marks are awarded for correct method (M) and final answer (A) with follow-through (ft/ecf) where applicable. For Method 1, all steps are allocated 0.5 marks as per the mark calculation (m=3, n=6 -> a=0, b=6). For Method 2, one step is allocated 1 mark for the final answer and the rest are 0.5 marks (m=3, n=5 -> a=1, b=4). Common pitfall: Students might miscalculate the interest for multiple years or incorrectly apply the AP formula."
+}

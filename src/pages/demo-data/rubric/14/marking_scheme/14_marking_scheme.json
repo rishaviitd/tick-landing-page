@@ -1,0 +1,12 @@
+{
+  "ques_identifier": "14",
+  "total_marks": 1.0,
+  "correct_option": "C",
+  "acceptable_answers": [
+    "C",
+    "c",
+    "Option C (c)",
+    "y = -3"
+  ],
+  "solution": "A line parallel to the x-axis has an equation of the form y = k. Being 3 units below the x-axis means the y-coordinate is -3. Thus, the equation is y = -3."
+}

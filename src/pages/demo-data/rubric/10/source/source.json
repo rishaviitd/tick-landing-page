@@ -1,0 +1,16 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d25",
+  "run_id": "92f9ad846b73",
+  "question_identifier": "10",
+  "has_internal_choice": false,
+  "primary_question": "10. The coordinates of the end points of a diameter of a circle are (5, \u2013 2) and (5, 2). The length of the radius of the circle is :\n(A) \u00b1 2\n(B) \u00b1 4\n(C) 4\n(D) 2",
+  "secondary_question": null,
+  "primary_diagram_url": null,
+  "secondary_diagram_url": null,
+  "table_url": null,
+  "primary_marks": "1 mark",
+  "secondary_marks": null,
+  "question_type": "MCQ",
+  "created_at": "2025-07-31 20:17:34.338937",
+  "updated_at": "2025-07-31 20:17:34.338938"
+}

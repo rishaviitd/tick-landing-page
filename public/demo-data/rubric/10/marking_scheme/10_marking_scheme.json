@@ -1,0 +1,12 @@
+{
+  "ques_identifier": "10",
+  "total_marks": 1.0,
+  "correct_option": "D",
+  "acceptable_answers": [
+    "D",
+    "d",
+    "Option D (d)",
+    "2"
+  ],
+  "solution": "The distance between the diameter endpoints (5, -2) and (5, 2) is 4. The radius is half the diameter, which is 4 / 2 = 2."
+}

@@ -1,0 +1,17 @@
+{
+  "ques_identifier": "27",
+  "assessment_intent": "This question assesses the student's ability to apply the midpoint formula to find the coordinates of the midpoint of a line segment and subsequently use a given linear equation involving these coordinates to solve for an unknown variable (k). It tests the integration of coordinate geometry concepts with basic algebraic problem-solving.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Coordinate Geometry",
+        "concepts": [
+          {
+            "name": "Section Formula"
+          }
+        ]
+      }
+    ]
+  }
+}

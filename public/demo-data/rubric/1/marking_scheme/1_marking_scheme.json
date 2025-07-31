@@ -1,0 +1,12 @@
+{
+  "ques_identifier": "1",
+  "total_marks": 1.0,
+  "correct_option": "B",
+  "acceptable_answers": [
+    "B",
+    "b",
+    "Option B (b)",
+    "ax^2 - a^2x + 1 = 0"
+  ],
+  "solution": "For a quadratic equation $Ax^2 + Bx + C = 0$, the sum of roots is $-B/A$ and the product of roots is $C/A$. Given sum = 'a' and product = '$1/a$', the equation is $x^2 - ax + 1/a = 0$. Multiplying by 'a' yields $ax^2 - a^2x + 1 = 0$, which is option (B)."
+}

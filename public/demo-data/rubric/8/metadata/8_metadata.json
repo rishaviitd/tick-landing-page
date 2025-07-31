@@ -1,0 +1,23 @@
+{
+  "ques_identifier": "8",
+  "assessment_intent": "This question assesses the student's ability to find the least common multiple (LCM) of a given set of numbers and then determine the smallest perfect square that is a multiple of this LCM, requiring the application of prime factorization and properties of perfect squares.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Real Numbers",
+        "concepts": [
+          {
+            "name": "Fundamental Theorem of Arithmetic"
+          },
+          {
+            "name": "Least Common Multiple (LCM)"
+          },
+          {
+            "name": "Perfect Squares"
+          }
+        ]
+      }
+    ]
+  }
+}

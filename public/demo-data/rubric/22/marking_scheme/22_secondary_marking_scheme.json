@@ -1,0 +1,47 @@
+{
+  "ques_identifier": "22_secondary",
+  "methods": [
+    {
+      "methodName": "Proof using SAS Similarity Criterion",
+      "markingPoints": [
+        {
+          "stepId": "1",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "Rearrange the given condition $OA \times OB = OC \times OD$ to establish the proportionality of sides required for similarity.",
+          "Pass if": "Correctly writes the ratio $\\frac{OA}{OC} = \\frac{OD}{OB}$ or $\\frac{OA}{OD} = \\frac{OC}{OB}$.",
+          "Fail if": "Fails to rearrange the equation correctly or omits this step.",
+          "guidance": "Award 0.5 marks for correctly rearranging the given equation to show proportionality of sides (soi). Accept either $\\frac{OA}{OC} = \\frac{OD}{OB}$ or $\\frac{OA}{OD} = \\frac{OC}{OB}$."
+        },
+        {
+          "stepId": "2",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Identify the two triangles involved in the figure ($\triangle OAD$ and $\triangle OCB$) and state the reason for the equality of the included angles.",
+          "Pass if": "Correctly identifies $\\triangle OAD$ and $\\triangle OCB$, and states $\\angle AOD = \\angle COB$ as vertically opposite angles.",
+          "Fail if": "Identifies incorrect triangles or provides an incorrect reason for angle equality.",
+          "guidance": "Award 0.5 marks for identifying the correct triangles ($\triangle OAD$ and $\\triangle OCB$) and stating that $\\angle AOD = \\angle COB$ are vertically opposite angles (soi)."
+        },
+        {
+          "stepId": "3",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Apply the SAS similarity criterion using the proportional sides and the equal included angle.",
+          "Pass if": "Correctly states that $\\triangle OAD \\sim \\triangle OCB$ (or $\\triangle OCB \\sim \\triangle OAD$) by SAS similarity.",
+          "Fail if": "Incorrectly applies the SAS criterion or makes an error in the similarity statement.",
+          "guidance": "Award 0.5 marks for correctly stating the similarity $\\triangle OAD \\sim \\triangle OCB$ (or vice-versa) using the SAS similarity criterion (soi). Ensure the order of vertices is correct."
+        },
+        {
+          "stepId": "4",
+          "MarkType": "A",
+          "marks": "0.5",
+          "Teacher Expectation": "Conclude by stating the equality of the required angles as corresponding angles of the similar triangles.",
+          "Pass if": "Correctly states $\\angle OAD = \\angle OCB$ (i.e., $\\angle A = \\angle C$) and $\\angle ODA = \\angle OBC$ (i.e., $\\angle D = \\angle B$) with the reason 'corresponding angles of similar triangles'.",
+          "Fail if": "Fails to state the correct angle equalities or omits the correct reason.",
+          "guidance": "Award 0.5 marks for correctly stating the equality of corresponding angles ($\\,\\angle A = \\angle C$ and $\\,\\angle B = \\angle D$) with the reason 'corresponding angles of similar triangles' (cao). Both angle equalities must be stated."
+        }
+      ]
+    }
+  ],
+  "Question_specific_notes": "Students should be assessed on their ability to correctly rearrange the given product to establish proportionality, identify vertically opposite angles, apply the SAS similarity criterion, and state the corresponding angles of similar triangles. Ensure that the similarity statement has the correct order of vertices and that the reason for angle equality is clearly stated. Follow through (ft/ecf) should be applied for errors in intermediate steps, particularly in the similarity statement or angle equalities, provided the subsequent logic is sound."
+}

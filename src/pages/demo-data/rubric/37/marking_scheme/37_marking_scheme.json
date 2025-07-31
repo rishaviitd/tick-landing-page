@@ -1,0 +1,131 @@
+{
+  "ques_identifier": "37",
+  "parts": [
+    {
+      "part_label": "i",
+      "methods": [
+        {
+          "methodName": "Direct Application of Volume Formula",
+          "markingPoints": [
+            {
+              "stepId": "i_1",
+              "MarkType": "B",
+              "marks": "0.5",
+              "Teacher Expectation": "State the formula for the volume of a cylinder.",
+              "Pass if": "The formula V = πr²h is correctly stated.",
+              "Fail if": "An incorrect formula is stated or the formula is omitted.",
+              "guidance": "State the formula for the volume of a cylinder. Award 0.5 marks for correct statement."
+            },
+            {
+              "stepId": "i_2",
+              "MarkType": "A",
+              "marks": "0.5",
+              "Teacher Expectation": "Substitute the correct dimensions (radius = 3.5 cm, height = 12 cm) of the bigger cylinder into the volume formula and perform the calculation.",
+              "Pass if": "The correct radius (3.5 cm) and height (12 cm) are substituted into the formula, and the calculation (e.g., π * (3.5)² * 12) is correctly performed.",
+              "Fail if": "Incorrect dimensions are used, the formula is misapplied, or the calculation is erroneous.",
+              "guidance": "Substitute correct dimensions (radius = 3.5 cm, height = 12 cm) and calculate the volume. Award 0.5 marks for correct substitution and calculation. Apply ecf from previous step if applicable."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_label": "ii",
+      "methods": [
+        {
+          "methodName": "Direct Application of Curved Surface Area Formula",
+          "markingPoints": [
+            {
+              "stepId": "ii_1",
+              "MarkType": "B",
+              "marks": "0.5",
+              "Teacher Expectation": "State the formula for the curved surface area of a cylinder.",
+              "Pass if": "The formula CSA = 2πrh is correctly stated.",
+              "Fail if": "An incorrect formula is stated or the formula is omitted.",
+              "guidance": "State the formula for the curved surface area of a cylinder. Award 0.5 marks for correct statement."
+            },
+            {
+              "stepId": "ii_2",
+              "MarkType": "A",
+              "marks": "0.5",
+              "Teacher Expectation": "Substitute the correct dimensions (radius = 3.5 cm, height = 12 cm) of the bigger cylinder into the curved surface area formula and perform the calculation.",
+              "Pass if": "The correct radius (3.5 cm) and height (12 cm) are substituted into the formula, and the calculation (e.g., 2 * π * 3.5 * 12) is correctly performed.",
+              "Fail if": "Incorrect dimensions are used, the formula is misapplied, or the calculation is erroneous.",
+              "guidance": "Substitute correct dimensions (radius = 3.5 cm, height = 12 cm) and calculate the CSA. Award 0.5 marks for correct substitution and calculation. Apply ecf from previous step if applicable."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_label": "iii",
+      "methods": [
+        {
+          "methodName": "Calculation of Volumes and Ratio for (a)",
+          "markingPoints": [
+            {
+              "stepId": "iii-a_1",
+              "MarkType": "B",
+              "marks": "0.5",
+              "Teacher Expectation": "State the volume of the bigger cylinder, either by referencing the result from Part (i) or by recalculating it using the correct dimensions.",
+              "Pass if": "The correct volume expression for the bigger cylinder (e.g., 147π cm³ or π * (3.5)² * 12) is provided.",
+              "Fail if": "The volume of the bigger cylinder is stated incorrectly or omitted.",
+              "guidance": "State the volume of the bigger cylinder, referencing Part (i) or recalculating. Award 0.5 marks for correct statement."
+            },
+            {
+              "stepId": "iii-a_2",
+              "MarkType": "M",
+              "marks": "0.5",
+              "Teacher Expectation": "Calculate the volume of one smaller cylindrical part using its dimensions (radius = 1.05 cm, height = 5 cm).",
+              "Pass if": "The volume formula (πr²h) is applied correctly with the smaller cylinder's dimensions, and the resulting volume expression (e.g., 5.5125π cm³ or π * (1.05)² * 5) is correctly computed.",
+              "Fail if": "Incorrect dimensions or formula are used, or the calculation is erroneous.",
+              "guidance": "Calculate the volume of one smaller cylinder using its dimensions (radius = 1.05 cm, height = 5 cm). Award 0.5 marks for correct calculation. Apply ecf from previous step if applicable."
+            },
+            {
+              "stepId": "iii-a_3",
+              "MarkType": "A",
+              "marks": "1",
+              "Teacher Expectation": "Calculate the total volume of the two smaller cylinders and then determine the ratio of the bigger cylinder's volume to this total volume.",
+              "Pass if": "The total volume of the two smaller cylinders is correctly calculated (e.g., 2 * 5.5125π cm³), the ratio is set up correctly (e.g., (147π) / (11.025π)), and the final simplified ratio is computed accurately.",
+              "Fail if": "The total volume of smaller cylinders is incorrect, the ratio is incorrectly formulated, or the final calculation of the ratio is erroneous.",
+              "guidance": "Calculate the total volume of the two smaller cylinders and then the final simplified ratio. Award 1 mark for the correct ratio. Apply ecf from previous steps."
+            }
+          ]
+        },
+        {
+          "methodName": "Calculation of CSAs for (b)",
+          "markingPoints": [
+            {
+              "stepId": "iii-b_1",
+              "MarkType": "B",
+              "marks": "0.5",
+              "Teacher Expectation": "State the formula for the curved surface area of a cylinder.",
+              "Pass if": "The formula CSA = 2πrh is correctly stated.",
+              "Fail if": "An incorrect formula is stated or the formula is omitted.",
+              "guidance": "State the formula for the curved surface area of a cylinder. Award 0.5 marks for correct statement."
+            },
+            {
+              "stepId": "iii-b_2",
+              "MarkType": "M",
+              "marks": "0.5",
+              "Teacher Expectation": "Calculate the curved surface area of one smaller cylindrical part using its dimensions (radius = 1.05 cm, height = 5 cm).",
+              "Pass if": "The correct radius (1.05 cm) and height (5 cm) are substituted into the CSA formula, and the calculation (e.g., 2 * π * 1.05 * 5) is correctly performed.",
+              "Fail if": "Incorrect dimensions are used, the formula is misapplied, or the calculation is erroneous.",
+              "guidance": "Calculate the CSA of one smaller cylinder using its dimensions (radius = 1.05 cm, height = 5 cm). Award 0.5 marks for correct calculation. Apply ecf from previous step if applicable."
+            },
+            {
+              "stepId": "iii-b_3",
+              "MarkType": "A",
+              "marks": "1",
+              "Teacher Expectation": "Calculate the sum of the curved surface areas of the two identical smaller cylinders by multiplying the result from the previous step by two.",
+              "Pass if": "The curved surface area of one smaller cylinder is correctly multiplied by two to find the total sum.",
+              "Fail if": "The multiplication by two is incorrect or omitted.",
+              "guidance": "Calculate the sum of the CSAs of the two smaller cylinders. Award 1 mark for the correct sum. Apply ecf from previous steps."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Question_specific_notes": "Part (iii) has an internal choice between (a) and (b). For parts with internal choices, both alternatives should be marked. The candidate should be awarded the marks for the alternative in which they have scored higher. The marks for the other alternative should be disregarded."
+}

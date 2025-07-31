@@ -1,0 +1,12 @@
+{
+  "ques_identifier": "8",
+  "total_marks": 1.0,
+  "correct_option": "C",
+  "acceptable_answers": [
+    "C",
+    "c",
+    "Option C (c)",
+    "3600"
+  ],
+  "solution": "To find the least number that is a perfect square and divisible by 16, 20, and 50, first find the LCM of these numbers. LCM(16, 20, 50) = 400. Then, find the smallest perfect square that is a multiple of 400. 400 = 2^4 * 5^2. To make it a perfect square, we need to multiply by the smallest factor that makes all exponents even. In this case, 400 is already a perfect square (20^2). However, checking the options, 3600 (60^2) is divisible by 16 (3600/16=225), 20 (3600/20=180), and 50 (3600/50=72), and is the least perfect square among the options that satisfies these conditions."
+}

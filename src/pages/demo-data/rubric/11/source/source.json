@@ -1,0 +1,16 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d26",
+  "run_id": "92f9ad846b73",
+  "question_identifier": "11",
+  "has_internal_choice": false,
+  "primary_question": "11. If $sin(\\alpha + \\beta) = 1$, then the value of $sin((\\alpha + \\beta)/2)$ is :\n(A) $1/\\sqrt{2}$\n(B) $1/2$\n(C) 0\n(D) 1",
+  "secondary_question": null,
+  "primary_diagram_url": null,
+  "secondary_diagram_url": null,
+  "table_url": null,
+  "primary_marks": "1 mark",
+  "secondary_marks": null,
+  "question_type": "MCQ",
+  "created_at": "2025-07-31 20:17:34.339354",
+  "updated_at": "2025-07-31 20:17:34.339355"
+}

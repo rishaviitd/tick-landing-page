@@ -1,0 +1,12 @@
+{
+  "ques_identifier": "7",
+  "total_marks": 1.0,
+  "correct_option": "D",
+  "acceptable_answers": [
+    "D",
+    "d",
+    "Option D (d)",
+    "72°"
+  ],
+  "solution": "A circle has a total central angle of 360 degrees. When divided into 5 equal sectors, the central angle of each sector is calculated by dividing 360 by 5, which equals 72 degrees."
+}

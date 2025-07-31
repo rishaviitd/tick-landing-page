@@ -1,0 +1,38 @@
+{
+  "ques_identifier": "22_primary",
+  "methods": [
+    {
+      "methodName": "Method 1: Using AA Similarity",
+      "markingPoints": [
+        {
+          "stepId": "1",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "Identifies the two triangles to be considered, $\\triangle ADC$ and $\\triangle BAC$. States the given angle equality $\\angle ADC = \\angle BAC$ and identifies $\\angle C$ as a common angle to both triangles.",
+          "Pass if": "Correctly identifies $\\triangle ADC$ and $\\triangle BAC$, and correctly states both $\\angle ADC = \\angle BAC$ (given) and $\\angle C = \\angle C$ (common).",
+          "Fail if": "Fails to identify the correct triangles or misses either of the angle conditions.",
+          "guidance": "Award B0.5 for identifying $\\triangle ADC$ and $\\triangle BAC$, and correctly stating $\\angle ADC = \\angle BAC$ and $\\angle C$ as common. soi."
+        },
+        {
+          "stepId": "2",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Concludes that $\\triangle ADC$ is similar to $\\triangle BAC$ using the Angle-Angle (AA) similarity criterion, based on the angle equalities stated in the previous step.",
+          "Pass if": "Correctly states the similarity $\\triangle ADC \\sim \\triangle BAC$ with the AA criterion.",
+          "Fail if": "Incorrect similarity statement or incorrect similarity criterion is used.",
+          "guidance": "Award M0.5 for stating $\\triangle ADC \\sim \\triangle BAC$ using AA similarity criterion. soi."
+        },
+        {
+          "stepId": "3",
+          "MarkType": "A",
+          "marks": "1",
+          "Teacher Expectation": "Writes the correct ratio of corresponding sides from the similarity $\\triangle ADC \\sim \\triangle BAC$, specifically $\\frac{DC}{AC} = \\frac{AC}{BC}$. Then, rearranges this equation algebraically to show $CA^2 = CD \\cdot CB$.",
+          "Pass if": "Correctly writes the ratio of corresponding sides and correctly derives the final result $CA^2 = CD \\cdot CB$.",
+          "Fail if": "The ratio of corresponding sides is incorrect or the algebraic manipulation to reach the final result is incorrect.",
+          "guidance": "Award A1 for correctly writing the ratio $\\frac{DC}{AC} = \\frac{AC}{BC}$ and deriving $CA^2 = CD \\cdot CB$. cao."
+        }
+      ]
+    }
+  ],
+  "Question_specific_notes": "Students should be carefully guided to identify the correct corresponding sides when stating the proportionality after establishing similarity. Common errors include incorrect ratio setup or misidentification of corresponding vertices. Ensure 'Error Carried Forward' (ecf) is applied if students make an error in similarity statement but correctly use it for ratios."
+}

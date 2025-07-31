@@ -1,0 +1,16 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d2d",
+  "run_id": "92f9ad846b73",
+  "question_identifier": "18",
+  "has_internal_choice": false,
+  "primary_question": "18. If $sin 30\u00b0 tan 45\u00b0 = (sec 60\u00b0)/k$, then the value of k is :\n(A) 4\n(B) 3\n(C) 2\n(D) 1",
+  "secondary_question": null,
+  "primary_diagram_url": null,
+  "secondary_diagram_url": null,
+  "table_url": null,
+  "primary_marks": "1 mark",
+  "secondary_marks": null,
+  "question_type": "MCQ",
+  "created_at": "2025-07-31 20:17:34.341267",
+  "updated_at": "2025-07-31 20:17:34.341267"
+}

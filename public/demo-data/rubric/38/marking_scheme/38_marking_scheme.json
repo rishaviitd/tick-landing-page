@@ -1,0 +1,154 @@
+{
+  "ques_identifier": "38",
+  "parts": [
+    {
+      "part_label": "i",
+      "methods": [
+        {
+          "methodName": "Direct Equation Formulation",
+          "markingPoints": [
+            {
+              "stepId": "i_1",
+              "MarkType": "B",
+              "marks": "0.5",
+              "Teacher Expectation": "Define variables for the number of chairs and tables.",
+              "Pass if": "Variables `x` (for chairs) and `y` (for tables) are correctly defined.",
+              "Fail if": "Variables are not defined, or incorrect variables are used.",
+              "guidance": "Award 0.5 marks for defining variables x and y for chairs and tables respectively. ft or ecf not applicable here as it's a definition."
+            },
+            {
+              "stepId": "i_2",
+              "MarkType": "M",
+              "marks": "0.5",
+              "Teacher Expectation": "Formulate the pair of linear equations representing the total cost and the total number of items.",
+              "Pass if": "The equations `50x + 200y = 30000` and `x + y = 300` are correctly written.",
+              "Fail if": "Either equation is incorrect or missing.",
+              "guidance": "Award 0.5 marks for correctly formulating both equations: 50x + 200y = 30000 and x + y = 300. ft or ecf not applicable here."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_label": "ii_a",
+      "methods": [
+        {
+          "methodName": "Algebraic Solution for finding quantities",
+          "markingPoints": [
+            {
+              "stepId": "ii-a_1",
+              "MarkType": "B",
+              "marks": "0.5",
+              "Teacher Expectation": "State the system of linear equations derived in Part (i).",
+              "Pass if": "The equations `50x + 200y = 30000` and `x + y = 300` are correctly stated.",
+              "Fail if": "The stated equations are incorrect.",
+              "guidance": "Award 0.5 marks for correctly stating both equations from Part (i). ft or ecf not applicable here."
+            },
+            {
+              "stepId": "ii-a_2",
+              "MarkType": "M",
+              "marks": "0.5",
+              "Teacher Expectation": "Apply an algebraic method (e.g., substitution or elimination) to solve for one variable.",
+              "Pass if": "The student correctly sets up the elimination process (e.g., multiplying an equation) or isolates a variable for substitution.",
+              "Fail if": "The setup for the chosen algebraic method is incorrect or missing.",
+              "guidance": "Award 0.5 marks for correctly setting up the method to solve for one variable (e.g., substitution or elimination). ft or ecf may apply from step ii-a_1 if equations were wrong."
+            },
+            {
+              "stepId": "ii-a_3",
+              "MarkType": "A",
+              "marks": "0.5",
+              "Teacher Expectation": "Substitute the found value back into one of the original equations to find the second variable.",
+              "Pass if": "The value of the first variable is correctly substituted into an original equation, and the calculation for the second variable is accurate.",
+              "Fail if": "An incorrect value is substituted, or the subsequent calculation is wrong.",
+              "guidance": "Award 0.5 marks for correctly calculating the value of the second variable. ft or ecf may apply from step ii-a_2."
+            },
+            {
+              "stepId": "ii-a_4",
+              "MarkType": "A",
+              "marks": "0.5",
+              "Teacher Expectation": "State the final answer for the number of chairs and tables rented.",
+              "Pass if": "The number of chairs and tables are correctly stated as `x=200` and `y=100` respectively.",
+              "Fail if": "The final numbers are incorrect or not stated.",
+              "guidance": "Award 0.5 marks for stating the correct final answer for both chairs (x=200) and tables (y=100). cao."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_label": "ii_b",
+      "methods": [
+        {
+          "methodName": "Inequality Formulation and Solution for alternative scenario",
+          "markingPoints": [
+            {
+              "stepId": "ii-b_1",
+              "MarkType": "M",
+              "marks": "0.5",
+              "Teacher Expectation": "Set up the equation for the total number of items and the inequality for the total cost based on the new constraint.",
+              "Pass if": "The equation `x + y = 300` and the inequality `50x + 200y ≤ 27000` are correctly formulated.",
+              "Fail if": "Either the equation or the inequality is incorrect or missing.",
+              "guidance": "Award 0.5 marks for correctly formulating the equation x + y = 300 and the inequality 50x + 200y ≤ 27000. ft or ecf not applicable here."
+            },
+            {
+              "stepId": "ii-b_2",
+              "MarkType": "M",
+              "marks": "0.5",
+              "Teacher Expectation": "Use substitution to express one variable in terms of the other in the cost inequality.",
+              "Pass if": "The student correctly substitutes `x = 300 - y` (or `y = 300 - x`) into the inequality `50x + 200y ≤ 27000`.",
+              "Fail if": "The substitution is performed incorrectly.",
+              "guidance": "Award 0.5 marks for correctly substituting one variable into the inequality (e.g., x = 300 - y). ft or ecf may apply from step ii-b_1 if the initial formulation was incorrect."
+            },
+            {
+              "stepId": "ii-b_3",
+              "MarkType": "A",
+              "marks": "0.5",
+              "Teacher Expectation": "Solve the resulting inequality to find the range for one variable.",
+              "Pass if": "The inequality is correctly solved to find a range (e.g., `y ≤ 80`).",
+              "Fail if": "The inequality is solved incorrectly.",
+              "guidance": "Award 0.5 marks for correctly solving the inequality to find a range for one variable (e.g., y ≤ 80). ft or ecf may apply from step ii-b_2."
+            },
+            {
+              "stepId": "ii-b_4",
+              "MarkType": "A",
+              "marks": "0.5",
+              "Teacher Expectation": "Determine a specific valid pair of values for chairs and tables that satisfies both the total item constraint and the cost inequality.",
+              "Pass if": "A pair of values (e.g., 220 chairs and 80 tables) is provided which satisfies `x + y = 300` and `50x + 200y ≤ 27000`.",
+              "Fail if": "The provided pair of values does not satisfy both conditions, or no pair is provided.",
+              "guidance": "Award 0.5 marks for providing a valid pair of values (e.g., 220 chairs, 80 tables) that satisfies both conditions. isw."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part_label": "iii",
+      "methods": [
+        {
+          "methodName": "Direct Calculation",
+          "markingPoints": [
+            {
+              "stepId": "iii_1",
+              "MarkType": "B",
+              "marks": "0.5",
+              "Teacher Expectation": "Identify the total budget and the cost per table, given that no chairs are rented.",
+              "Pass if": "The total budget (₹ 30,000) and the cost per table (₹ 200) are correctly identified.",
+              "Fail if": "Incorrect values for budget or cost per table are used.",
+              "guidance": "Award 0.5 marks for correctly identifying the total budget (₹30,000) and the cost per table (₹200). ft or ecf not applicable here."
+            },
+            {
+              "stepId": "iii_2",
+              "MarkType": "A",
+              "marks": "0.5",
+              "Teacher Expectation": "Calculate the maximum number of tables by dividing the total budget by the cost per table.",
+              "Pass if": "The calculation `30000 / 200` is performed correctly, yielding 150.",
+              "Fail if": "The calculation is incorrect.",
+              "guidance": "Award 0.5 marks for correctly performing the calculation 30000 / 200 to find the number of tables (150). ft or ecf may apply from step iii_1 if values were incorrect."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Question_specific_notes": "For part (ii), students were given a choice between (a) and (b). Both alternatives should be marked, and the candidate should be awarded the marks for the alternative in which they have scored higher. The marks for the other alternative should be disregarded."
+}

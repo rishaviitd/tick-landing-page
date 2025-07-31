@@ -1,0 +1,17 @@
+{
+  "ques_identifier": "21",
+  "assessment_intent": "This question assesses the student's ability to construct a quadratic polynomial given its zeroes by applying the relationship between the zeroes and the coefficients of the polynomial. It requires calculating the sum and product of the given zeroes and using them to form the polynomial.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Polynomials",
+        "concepts": [
+          {
+            "name": "Relationship between Zeros and Coefficients"
+          }
+        ]
+      }
+    ]
+  }
+}

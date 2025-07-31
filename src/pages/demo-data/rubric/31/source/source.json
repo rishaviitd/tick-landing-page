@@ -1,0 +1,16 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d3a",
+  "run_id": "92f9ad846b73",
+  "question_identifier": "31",
+  "has_internal_choice": true,
+  "primary_question": "31. (a) Prove that the parallelogram circumscribing a circle is a rhombus.",
+  "secondary_question": "(b) Prove that the angle between the two tangents drawn from an external point to a circle is supplementary to the angle subtended by the line-segment joining the points of contact at the centre.",
+  "primary_diagram_url": null,
+  "secondary_diagram_url": null,
+  "table_url": null,
+  "primary_marks": "This question has [3] marks",
+  "secondary_marks": "This question has [3] marks",
+  "question_type": "Internal Choice Subjective",
+  "created_at": "2025-07-31 20:17:34.344183",
+  "updated_at": "2025-07-31 20:17:34.344183"
+}

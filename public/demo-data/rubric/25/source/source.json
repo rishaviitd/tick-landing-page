@@ -1,0 +1,16 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d34",
+  "run_id": "92f9ad846b73",
+  "question_identifier": "25",
+  "has_internal_choice": false,
+  "primary_question": "25. If $tan A = \\sqrt{3}$; where A is an acute angle, then find the value of $sin^2 A / (1 + cos^2 A)$.",
+  "secondary_question": null,
+  "primary_diagram_url": null,
+  "secondary_diagram_url": null,
+  "table_url": null,
+  "primary_marks": "2 marks",
+  "secondary_marks": null,
+  "question_type": "Normal Subjective",
+  "created_at": "2025-07-31 20:17:34.342768",
+  "updated_at": "2025-07-31 20:17:34.342768"
+}

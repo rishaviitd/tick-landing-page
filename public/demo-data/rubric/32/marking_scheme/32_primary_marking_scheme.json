@@ -1,0 +1,101 @@
+{
+  "ques_identifier": "32_primary",
+  "methods": [
+    {
+      "methodName": "Algebraic Solution",
+      "markingPoints": [
+        {
+          "stepId": "1",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "Defines two distinct variables, e.g., 'x' and 'y', to represent the side lengths of the two squares.",
+          "Pass if": "Two distinct variables are clearly defined for the side lengths.",
+          "Fail if": "Variables are not defined or are ambiguous.",
+          "guidance": "Award 0.5 for defining two distinct variables for the side lengths of the squares."
+        },
+        {
+          "stepId": "2",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Formulates the algebraic equation representing the sum of the areas of the two squares based on the given information.",
+          "Pass if": "The equation x² + y² = 52 is correctly formulated.",
+          "Fail if": "The equation is incorrect or missing.",
+          "guidance": "Award 0.5 for the correct formulation of the area equation: x² + y² = 52."
+        },
+        {
+          "stepId": "3",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Formulates the algebraic equation representing the difference of the perimeters of the two squares based on the given information.",
+          "Pass if": "The equation 4x - 4y = 8 (or |4x - 4y| = 8) is correctly formulated, assuming one side is longer than the other.",
+          "Fail if": "The equation is incorrect or missing.",
+          "guidance": "Award 0.5 for the correct formulation of the perimeter difference equation: 4x - 4y = 8 (or equivalent)."
+        },
+        {
+          "stepId": "4",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Simplifies the perimeter equation to establish a linear relationship between the side lengths and expresses one variable in terms of the other.",
+          "Pass if": "The simplification of 4x - 4y = 8 to x - y = 2 (or equivalent) and the expression of one variable (e.g., x = y + 2) are correct.",
+          "Fail if": "The simplification is incorrect or the relationship is not clearly established.",
+          "guidance": "Award 0.5 for simplifying the perimeter equation to x - y = 2 and expressing one variable in terms of the other (e.g., x = y + 2)."
+        },
+        {
+          "stepId": "5",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Substitutes the linear relationship into the area equation to obtain a single variable quadratic equation.",
+          "Pass if": "The substitution is performed correctly, leading to a valid equation in one variable, such as (y + 2)² + y² = 52.",
+          "Fail if": "The substitution is incorrect or leads to an invalid equation.",
+          "guidance": "Award 0.5 for correctly substituting the linear relationship into the area equation, resulting in a single-variable quadratic equation."
+        },
+        {
+          "stepId": "6",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Expands and simplifies the substituted equation to the standard quadratic form.",
+          "Pass if": "The expansion and simplification to the standard quadratic form, such as y² + 2y - 24 = 0, are correct.",
+          "Fail if": "Errors occur during expansion or simplification.",
+          "guidance": "Award 0.5 for correct expansion and simplification to the standard quadratic form of the equation (e.g., y² + 2y - 24 = 0)."
+        },
+        {
+          "stepId": "7",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Solves the quadratic equation for the variable representing the side length.",
+          "Pass if": "The quadratic equation is solved correctly, yielding roots for the variable (e.g., y = 4 and y = -6).",
+          "Fail if": "The quadratic equation is not solved correctly.",
+          "guidance": "Award 0.5 for correctly solving the quadratic equation to find the roots for the variable (e.g., y = 4 and y = -6)."
+        },
+        {
+          "stepId": "8",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "Selects the valid solution for the side length, discarding any physically impossible values.",
+          "Pass if": "The positive, physically valid root (e.g., y = 4 cm) is correctly selected, and the negative root is discarded with justification.",
+          "Fail if": "The negative root is selected or no root is selected.",
+          "guidance": "Award 0.5 for selecting the physically valid positive root (e.g., y = 4 cm) and discarding the negative root."
+        },
+        {
+          "stepId": "9",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the side length of the second square using the established linear relationship and the valid value of the first side length.",
+          "Pass if": "The calculation of the second side length (e.g., x = 4 + 2 = 6 cm) is correct.",
+          "Fail if": "The calculation is incorrect.",
+          "guidance": "Award 0.5 for correctly calculating the second side length using the valid value of the first side length (e.g., x = 6 cm)."
+        },
+        {
+          "stepId": "10",
+          "MarkType": "A",
+          "marks": "0.5",
+          "Teacher Expectation": "States the final answer, clearly identifying the lengths of the sides of the two squares.",
+          "Pass if": "Both side lengths are stated correctly and with appropriate units (e.g., \"The lengths of the sides of the two squares are 4 cm and 6 cm.\").",
+          "Fail if": "The answer is incomplete, incorrect, or missing units.",
+          "guidance": "Award 0.5 for stating the final answer with both side lengths correctly identified and including appropriate units (e.g., 4 cm and 6 cm)."
+        }
+      ]
+    }
+  ],
+  "Question_specific_notes": "This question assesses the ability to translate a word problem into algebraic equations and solve them. All 10 steps are allocated 0.5 marks, reflecting the detailed breakdown required for this problem. Common errors may occur in setting up the equations, algebraic manipulation (expansion, simplification), solving the quadratic, and selecting the appropriate root for a physical dimension. Ensure follow-through (ft/ecf) is applied appropriately for calculation errors."
+}

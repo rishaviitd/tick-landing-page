@@ -1,0 +1,16 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d3f",
+  "run_id": "92f9ad846b73",
+  "question_identifier": "36",
+  "has_internal_choice": false,
+  "primary_question": "36. Rahul is a lucky charm for his cricket team. He has a jar of cards with numbers from 10 to 74. Before each match, he draws a card from the jar. If the card bears an even number, the team wins. If the number is even and divisible by 5, they win by a big margin. If the number is an odd number less than 30, they win by a small margin. And if the number is a prime number between 50 and 74, they lose.\nAnswer the following questions if Rahul draws a card today :\n(i) What is the probability that Rahul draws a card with an even number?\n(ii) What is the probability that Rahul draws a card with an odd number less than 30?\n(iii) (a) What is the probability that Rahul draws a card with a prime number between 50 and 74?\n[%OR%]\n(b) What is the probability that Rahul draws a card with an even number divisible by 5?",
+  "secondary_question": null,
+  "primary_diagram_url": "https://res.cloudinary.com/de19ckse5/image/upload/v1753993033/diagram_mapping/92f9ad846b73/figure-9.png",
+  "secondary_diagram_url": null,
+  "table_url": null,
+  "primary_marks": "Part (i): 1 mark, Part (ii): 1 mark, Part (iii) (a): 2 marks OR Part (iii) (b): 2 marks",
+  "secondary_marks": null,
+  "question_type": "Case Study",
+  "created_at": "2025-07-31 20:17:34.345217",
+  "updated_at": "2025-07-31 20:17:34.345218"
+}

@@ -1,0 +1,17 @@
+{
+  "ques_identifier": "2",
+  "assessment_intent": "This question assesses the student's ability to apply the formula for the nth term of an Arithmetic Progression (AP) and to correctly calculate a term from the end of the sequence, requiring an understanding of how to adapt the standard formula.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Arithmetic Progressions",
+        "concepts": [
+          {
+            "name": "nth Term of an AP"
+          }
+        ]
+      }
+    ]
+  }
+}

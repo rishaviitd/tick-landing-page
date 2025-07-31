@@ -1,0 +1,47 @@
+{
+  "ques_identifier": "31_secondary",
+  "methods": [
+    {
+      "methodName": "Proof using Quadrilateral Angle Sum Property",
+      "markingPoints": [
+        {
+          "stepId": "1",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "Draws a correct geometrical diagram showing an external point P, a circle with center O, tangents PA and PB to the circle at points A and B respectively. Correctly labels all points and segments. States the given information (PA and PB are tangents from external point P to circle with center O at A and B) and the statement to be proved (∠APB + ∠AOB = 180°).",
+          "Pass if": "Diagram is accurate, labeled correctly, and includes the statement to be proved.",
+          "Fail if": "Diagram is inaccurate, missing labels, or the statement to be proved is not indicated.",
+          "guidance": "Award B1 for a correct, clearly labelled diagram and statement of what needs to be proved. Diagram should include external point P, tangents PA, PB, points of contact A, B, and center O."
+        },
+        {
+          "stepId": "2",
+          "MarkType": "M",
+          "marks": "1",
+          "Teacher Expectation": "States the property that the radius drawn to the point of contact is perpendicular to the tangent. Applies this property to identify that OA ⊥ PA and OB ⊥ PB, thus ∠OAP = 90° and ∠OBP = 90°.",
+          "Pass if": "Correctly states the property and correctly identifies both angles ∠OAP and ∠OBP as 90°.",
+          "Fail if": "Fails to state the property or incorrectly identifies one or both angles.",
+          "guidance": "Award M1 for stating the property that radius is perpendicular to tangent at point of contact and correctly identifying ∠OAP = 90° and ∠OBP = 90°. Property statement can be seen or implied."
+        },
+        {
+          "stepId": "3",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Identifies the quadrilateral PAOB formed by the external point P, the points of contact A and B, and the center O. States the property that the sum of the interior angles in a quadrilateral is 360°.",
+          "Pass if": "Correctly identifies the quadrilateral PAOB and states the angle sum property for a quadrilateral.",
+          "Fail if": "Fails to identify the quadrilateral or incorrectly states the angle sum property.",
+          "guidance": "Award M0.5 for identifying quadrilateral PAOB and stating the sum of interior angles is 360°. Property statement can be seen or implied."
+        },
+        {
+          "stepId": "4",
+          "MarkType": "A",
+          "marks": "1",
+          "Teacher Expectation": "Writes the equation for the sum of angles in quadrilateral PAOB: ∠APB + ∠PBO + ∠BOA + ∠OAP = 360°. Substitutes the values of ∠OAP and ∠OBP (90° each) into the equation. Simplifies the equation to show that ∠APB + 90° + ∠BOA + 90° = 360°, which leads to ∠APB + ∠BOA = 180°.",
+          "Pass if": "Correctly writes the angle sum equation for PAOB, substitutes the values of the right angles, and performs the algebraic simplification to reach the required conclusion.",
+          "Fail if": "Makes an error in writing the equation, substitution, or simplification.",
+          "guidance": "Award A1 for correctly substituting the 90° angles into the quadrilateral angle sum equation and correctly simplifying to show ∠APB + ∠BOA = 180°. This is the final step of the proof."
+        }
+      ]
+    }
+  ],
+  "Question_specific_notes": "This question requires a clear geometric proof. Ensure that students correctly identify and state the relevant geometric properties (tangent-radius perpendicularity, quadrilateral angle sum). The final step of algebraic manipulation and conclusion is critical. Award marks for correct method and application, with follow-through (ecf) for errors in earlier steps if applied correctly in subsequent ones."
+}

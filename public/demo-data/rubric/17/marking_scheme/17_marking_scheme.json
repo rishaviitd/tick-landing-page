@@ -1,0 +1,12 @@
+{
+  "ques_identifier": "17",
+  "total_marks": 1.0,
+  "correct_option": "B",
+  "acceptable_answers": [
+    "B",
+    "b",
+    "Option B (b)",
+    "A square and a rhombus of the same area are always similar."
+  ],
+  "solution": "A square has all angles equal to 90 degrees. A rhombus that is not a square has angles that are not 90 degrees. For figures to be similar, their corresponding angles must be equal. Therefore, a square and a non-square rhombus are not similar, regardless of their area."
+}

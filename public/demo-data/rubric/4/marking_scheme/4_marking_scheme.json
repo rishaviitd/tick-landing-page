@@ -1,0 +1,12 @@
+{
+  "ques_identifier": "4",
+  "total_marks": 1.0,
+  "correct_option": "C",
+  "acceptable_answers": [
+    "C",
+    "c",
+    "Option C (c)",
+    "passing through the origin"
+  ],
+  "solution": "The equation $x - y = 0$ simplifies to $y = x$. Substituting the origin (0,0) into the equation gives $0 - 0 = 0$, which is true. Thus, the line passes through the origin."
+}

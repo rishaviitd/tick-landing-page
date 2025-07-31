@@ -1,0 +1,28 @@
+{
+  "ques_identifier": "26_secondary",
+  "assessment_intent": "This question assesses the student's ability to prove a trigonometric identity by applying knowledge of trigonometric ratios, reciprocal identities, and Pythagorean identities, along with algebraic simplification techniques.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Introduction to Trigonometry",
+        "concepts": [
+          {
+            "name": "Trigonometric Ratios"
+          },
+          {
+            "name": "Relationships between the ratios"
+          }
+        ]
+      },
+      {
+        "chapter": "Trigonometric Identities",
+        "concepts": [
+          {
+            "name": "Proof and application of sin²A + cos²A = 1"
+          }
+        ]
+      }
+    ]
+  }
+}

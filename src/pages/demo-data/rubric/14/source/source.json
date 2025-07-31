@@ -1,0 +1,16 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d29",
+  "run_id": "92f9ad846b73",
+  "question_identifier": "14",
+  "has_internal_choice": false,
+  "primary_question": "14. The equation of a line parallel to the x-axis and at a distance of 3 units below x-axis is :\n(A) $x = 3$\n(B) $x = -3$\n(C) $y = -3$\n(D) $y = 3$",
+  "secondary_question": null,
+  "primary_diagram_url": null,
+  "secondary_diagram_url": null,
+  "table_url": null,
+  "primary_marks": "1 mark",
+  "secondary_marks": null,
+  "question_type": "MCQ",
+  "created_at": "2025-07-31 20:17:34.340345",
+  "updated_at": "2025-07-31 20:17:34.340346"
+}

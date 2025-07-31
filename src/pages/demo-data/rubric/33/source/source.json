@@ -1,0 +1,16 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d3c",
+  "run_id": "92f9ad846b73",
+  "question_identifier": "33",
+  "has_internal_choice": false,
+  "primary_question": "33. Prove that a line drawn parallel to one side of a triangle to intersect the other two sides in distinct points divides the other two sides in the same ratio. Hence, in the figure given below, prove that $AM/MB = AN/ND$ where $LM || CB$ and $LN || CD$.",
+  "secondary_question": null,
+  "primary_diagram_url": "https://res.cloudinary.com/de19ckse5/image/upload/v1753993032/diagram_mapping/92f9ad846b73/figure-8.png",
+  "secondary_diagram_url": null,
+  "table_url": null,
+  "primary_marks": "5 marks",
+  "secondary_marks": null,
+  "question_type": "Normal Subjective",
+  "created_at": "2025-07-31 20:17:34.344594",
+  "updated_at": "2025-07-31 20:17:34.344594"
+}

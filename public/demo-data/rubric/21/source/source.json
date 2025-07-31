@@ -1,0 +1,16 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d30",
+  "run_id": "92f9ad846b73",
+  "question_identifier": "21",
+  "has_internal_choice": false,
+  "primary_question": "21. Find a quadratic polynomial whose zeroes are 2 and $-7/5$.",
+  "secondary_question": null,
+  "primary_diagram_url": null,
+  "secondary_diagram_url": null,
+  "table_url": null,
+  "primary_marks": "2 marks",
+  "secondary_marks": null,
+  "question_type": "Normal Subjective",
+  "created_at": "2025-07-31 20:17:34.341831",
+  "updated_at": "2025-07-31 20:17:34.341832"
+}

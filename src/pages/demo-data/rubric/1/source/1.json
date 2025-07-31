@@ -1,0 +1,10 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d1c",
+  "run_id": "92f9ad846b73",
+  "ques_identifier": "1",
+  "ques_text": "1. The quadratic equation whose sum and product of roots are 'a' and '$1/a$' respectively is :\n(A) $ax^2 - ax + 1 = 0$\n(B) $ax^2 - a^2x + 1 = 0$\n(C) $ax^2 + ax + 1 = 0$\n(D) $ax^2 + a^2x - 1 = 0$",
+  "marks_analysis": "1 mark",
+  "question_type": "MCQ",
+  "target_class": "10",
+  "total_marks": 1.0
+}

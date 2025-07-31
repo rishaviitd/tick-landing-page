@@ -1,0 +1,20 @@
+{
+  "ques_identifier": "25",
+  "assessment_intent": "This question assesses the student's ability to determine the values of sine and cosine from a given tangent value for an acute angle, and then apply these values to calculate a specific trigonometric expression.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Introduction to Trigonometry",
+        "concepts": [
+          {
+            "name": "Trigonometric Ratios"
+          },
+          {
+            "name": "Relationships between the ratios"
+          }
+        ]
+      }
+    ]
+  }
+}

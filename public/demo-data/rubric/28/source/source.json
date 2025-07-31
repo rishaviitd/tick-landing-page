@@ -1,0 +1,16 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d37",
+  "run_id": "92f9ad846b73",
+  "question_identifier": "28",
+  "has_internal_choice": false,
+  "primary_question": "28. A sum of \u20b9 2,000 is invested at 7% per annum simple interest. Calculate the interests at the end of 1st, 2nd and 3rd year. Do these interests form an AP ? If so, find the interest at the end of the 27th year.",
+  "secondary_question": null,
+  "primary_diagram_url": null,
+  "secondary_diagram_url": null,
+  "table_url": null,
+  "primary_marks": "3 marks",
+  "secondary_marks": null,
+  "question_type": "Normal Subjective",
+  "created_at": "2025-07-31 20:17:34.343490",
+  "updated_at": "2025-07-31 20:17:34.343490"
+}

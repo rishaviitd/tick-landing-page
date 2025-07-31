@@ -1,0 +1,16 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d23",
+  "run_id": "92f9ad846b73",
+  "question_identifier": "8",
+  "has_internal_choice": false,
+  "primary_question": "8. The least number which is a perfect square and is divisible by each of 16, 20 and 50, is :\n(A) 1200\n(B) 100\n(C) 3600\n(D) 2400",
+  "secondary_question": null,
+  "primary_diagram_url": null,
+  "secondary_diagram_url": null,
+  "table_url": null,
+  "primary_marks": "1 mark",
+  "secondary_marks": null,
+  "question_type": "MCQ",
+  "created_at": "2025-07-31 20:17:34.338326",
+  "updated_at": "2025-07-31 20:17:34.338326"
+}

@@ -1,0 +1,17 @@
+{
+  "ques_identifier": "6",
+  "assessment_intent": "This question assesses the student's ability to calculate the Highest Common Factor (HCF) of three given integers (40, 110, and 360) by applying the concept of prime factorization or other standard methods, and selecting the correct answer from the given options.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Real Numbers",
+        "concepts": [
+          {
+            "name": "Highest Common Factor (HCF)"
+          }
+        ]
+      }
+    ]
+  }
+}

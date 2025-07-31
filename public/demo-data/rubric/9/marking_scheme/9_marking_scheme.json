@@ -1,0 +1,12 @@
+{
+  "ques_identifier": "9",
+  "total_marks": 1.0,
+  "correct_option": "D",
+  "acceptable_answers": [
+    "D",
+    "d",
+    "Option D (d)",
+    "4.8 cm"
+  ],
+  "solution": "By the Basic Proportionality Theorem, since PQ||BC, we have AP/AB = AQ/AC. Given AP/PB = 4/13, AP/AB = 4/(4+13) = 4/17. Therefore, AQ = (4/17) * 20.4 = 4.8 cm."
+}

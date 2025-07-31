@@ -1,0 +1,101 @@
+{
+  "ques_identifier": "32_secondary",
+  "methods": [
+    {
+      "methodName": "Algebraic Solution",
+      "markingPoints": [
+        {
+          "stepId": "1",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "Identifies and defines the speed for the upward journey using a variable (e.g., $x$ km/h).",
+          "Pass if": "A variable is correctly assigned to the upward speed.",
+          "Fail if": "Fails to define a variable for the upward speed or assigns it incorrectly.",
+          "guidance": "Award 0.5 marks for correctly defining the upward speed as a variable, e.g., 'let speed up = x km/h'."
+        },
+        {
+          "stepId": "2",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "Defines the speed for the downward return journey in terms of the upward speed (e.g., $x+10$ km/h).",
+          "Pass if": "The return speed is correctly expressed as $x+10$ km/h.",
+          "Fail if": "The return speed is incorrectly expressed or not defined.",
+          "guidance": "Award 0.5 marks for correctly expressing the downward speed in terms of the upward speed, e.g., 'speed down = x+10 km/h'. Ecf is applicable if the upward speed was incorrect."
+        },
+        {
+          "stepId": "3",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Expresses the time taken for the upward journey using the distance (150 km) and the defined upward speed.",
+          "Pass if": "Time up is correctly stated as $\frac{150}{x}$ hours.",
+          "Fail if": "The expression for time up is incorrect.",
+          "guidance": "Award 0.5 marks for correctly calculating the time taken for the upward journey, e.g., 'time up = 150/x hours'. Ecf is applicable."
+        },
+        {
+          "stepId": "4",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Expresses the time taken for the downward return journey using the distance (150 km) and the defined return speed.",
+          "Pass if": "Time down is correctly stated as $\frac{150}{x+10}$ hours.",
+          "Fail if": "The expression for time down is incorrect.",
+          "guidance": "Award 0.5 marks for correctly calculating the time taken for the downward journey, e.g., 'time down = 150/(x+10) hours'. Ecf is applicable."
+        },
+        {
+          "stepId": "5",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Formulates the equation relating the times based on the given time difference ($2 \frac{1}{2}$ hours or $\frac{5}{2}$ hours).",
+          "Pass if": "The equation $\frac{150}{x} = \frac{150}{x+10} + \frac{5}{2}$ is correctly set up.",
+          "Fail if": "The equation is incorrectly formulated.",
+          "guidance": "Award 0.5 marks for correctly setting up the equation based on the time difference, e.g., 150/x = 150/(x+10) + 5/2. Ecf is applicable."
+        },
+        {
+          "stepId": "6",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Simplifies the formulated equation and rearranges it into the standard quadratic form $ax^2 + bx + c = 0$.",
+          "Pass if": "The equation is correctly simplified to a standard quadratic form (e.g., $x^2 + 10x - 600 = 0$).",
+          "Fail if": "Errors occur during simplification or rearrangement.",
+          "guidance": "Award 0.5 marks for correctly simplifying the equation to the standard quadratic form, e.g., x^2 + 10x - 600 = 0. Ecf is applicable."
+        },
+        {
+          "stepId": "7",
+          "MarkType": "A",
+          "marks": "0.5",
+          "Teacher Expectation": "Solves the quadratic equation using an appropriate method (e.g., factorization, quadratic formula).",
+          "Pass if": "The roots of the quadratic equation are correctly found (e.g., $x = 20$ and $x = -30$).",
+          "Fail if": "Errors are made in solving the quadratic equation.",
+          "guidance": "Award 0.5 marks for correctly solving the quadratic equation, e.g., finding roots x=20 and x=-30. Ecf is applicable."
+        },
+        {
+          "stepId": "8",
+          "MarkType": "A",
+          "marks": "0.5",
+          "Teacher Expectation": "Selects the physically valid speed for the upward journey from the obtained roots.",
+          "Pass if": "The positive root (e.g., $x=20$ km/h) is correctly identified as the upward speed.",
+          "Fail if": "The negative root is chosen or no valid speed is selected.",
+          "guidance": "Award 0.5 marks for correctly identifying the valid upward speed from the roots, e.g., x = 20 km/h. Rejecting the negative root is essential."
+        },
+        {
+          "stepId": "9",
+          "MarkType": "A",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the speed for the downward return journey using the valid upward speed.",
+          "Pass if": "The return speed is correctly calculated as $20 + 10 = 30$ km/h.",
+          "Fail if": "The return speed calculation is incorrect.",
+          "guidance": "Award 0.5 marks for correctly calculating the downward speed, e.g., 20 + 10 = 30 km/h. Ecf is applicable."
+        },
+        {
+          "stepId": "10",
+          "MarkType": "A",
+          "marks": "0.5",
+          "Teacher Expectation": "States the speeds for both the upward and downward journeys clearly.",
+          "Pass if": "Both speeds (upward and downward) are correctly stated in the final answer.",
+          "Fail if": "Either speed is missing or stated incorrectly.",
+          "guidance": "Award 0.5 marks for stating both speeds clearly and correctly in the final answer, e.g., Speed up = 20 km/h, Speed down = 30 km/h. cao."
+        }
+      ]
+    }
+  ],
+  "Question_specific_notes": "Students must correctly define variables for speeds, set up the time equations, form a quadratic equation, solve it, and interpret the roots to find the speeds in both directions. Pay close attention to the correct formulation of the time difference equation and the subsequent algebraic manipulation. Ensure that 'Error Carried Forward' (ecf) is applied appropriately for calculation errors in subsequent steps."
+}

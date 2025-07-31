@@ -1,0 +1,20 @@
+{
+  "ques_identifier": "37",
+  "assessment_intent": "This question assesses the student's ability to apply formulas for the volume and curved surface area of cylinders to calculate these properties for individual parts of a composite object (rolling pin) and then find ratios and sums of these properties.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Surface Areas and Volumes",
+        "concepts": [
+          {
+            "name": "Volume of cylinder"
+          },
+          {
+            "name": "Curved surface area of cylinder"
+          }
+        ]
+      }
+    ]
+  }
+}

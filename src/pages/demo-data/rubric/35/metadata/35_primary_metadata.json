@@ -1,0 +1,28 @@
+{
+  "ques_identifier": "35_primary",
+  "assessment_intent": "This question assesses the student's ability to apply trigonometric concepts, specifically angles of elevation and trigonometric ratios, to solve a real-world problem involving calculating the speed of an object in motion at a constant height.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Introduction to Trigonometry",
+        "concepts": [
+          {
+            "name": "Trigonometric Ratios"
+          }
+        ]
+      },
+      {
+        "chapter": "Heights and Distances",
+        "concepts": [
+          {
+            "name": "Angle of Elevation"
+          },
+          {
+            "name": "Simple problems on heights and distances"
+          }
+        ]
+      }
+    ]
+  }
+}

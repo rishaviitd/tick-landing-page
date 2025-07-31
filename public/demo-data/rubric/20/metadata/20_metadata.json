@@ -1,0 +1,20 @@
+{
+  "ques_identifier": "20",
+  "assessment_intent": "This question assesses the student's ability to correctly calculate the common difference of a given Arithmetic Progression (AP) and to understand and verify the general formula for finding the common difference between consecutive terms. It requires evaluating the truthfulness of both a specific calculation and a general definition.",
+  "bloom_taxonomy_level": "Evaluating",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Arithmetic Progressions",
+        "concepts": [
+          {
+            "name": "Common difference"
+          },
+          {
+            "name": "nth Term of an AP"
+          }
+        ]
+      }
+    ]
+  }
+}

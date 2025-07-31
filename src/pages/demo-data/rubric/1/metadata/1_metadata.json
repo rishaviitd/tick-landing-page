@@ -1,0 +1,17 @@
+{
+  "ques_identifier": "1",
+  "assessment_intent": "Assesses the ability to recall and apply the relationship between the sum and product of roots and the coefficients of a quadratic equation to construct the equation.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Quadratic Equations",
+        "concepts": [
+          {
+            "name": "Relationship between Zeros and Coefficients"
+          }
+        ]
+      }
+    ]
+  }
+}

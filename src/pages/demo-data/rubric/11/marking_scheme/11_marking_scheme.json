@@ -1,0 +1,12 @@
+{
+  "ques_identifier": "11",
+  "total_marks": 1.0,
+  "correct_option": "A",
+  "acceptable_answers": [
+    "A",
+    "a",
+    "Option A (a)",
+    "1/sqrt(2)"
+  ],
+  "solution": "If $sin(\theta) = 1$, then $\theta = 90^\text{o}$. Given $sin(\\alpha + \\beta) = 1$, it implies $\\alpha + \\beta = 90^\text{o}$. Therefore, $sin((\\alpha + \\beta)/2) = sin(90^\text{o}/2) = sin(45^\text{o}) = 1/\\sqrt{2}$."
+}

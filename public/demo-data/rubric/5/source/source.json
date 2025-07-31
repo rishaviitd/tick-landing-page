@@ -1,0 +1,16 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d20",
+  "run_id": "92f9ad846b73",
+  "question_identifier": "5",
+  "has_internal_choice": false,
+  "primary_question": "5. If \u2013 4 is a zero of the polynomial $p(x) = x^2 - x - (2 + 2k)$, then the value of k is :\n(A) 3\n(B) 9\n(C) 6\n(D) -9",
+  "secondary_question": null,
+  "primary_diagram_url": null,
+  "secondary_diagram_url": null,
+  "table_url": null,
+  "primary_marks": "1 mark",
+  "secondary_marks": null,
+  "question_type": "MCQ",
+  "created_at": "2025-07-31 20:17:34.337577",
+  "updated_at": "2025-07-31 20:17:34.337577"
+}

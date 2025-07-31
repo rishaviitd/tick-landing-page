@@ -1,0 +1,17 @@
+{
+  "ques_identifier": "19",
+  "assessment_intent": "This question assesses the student's ability to apply the algebraic conditions for determining the number of solutions (unique, infinitely many) for a pair of linear equations and to analyze the logical relationship between an assertion and its reason.",
+  "bloom_taxonomy_level": "Analyzing",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Pair of Linear Equations in Two Variables",
+        "concepts": [
+          {
+            "name": "Algebraic conditions for number of solutions"
+          }
+        ]
+      }
+    ]
+  }
+}

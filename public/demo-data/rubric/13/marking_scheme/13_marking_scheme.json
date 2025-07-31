@@ -1,0 +1,12 @@
+{
+  "ques_identifier": "13",
+  "total_marks": 1.0,
+  "correct_option": "A",
+  "acceptable_answers": [
+    "A",
+    "a",
+    "Option A (a)",
+    "2/46"
+  ],
+  "solution": "A standard deck has 52 cards. Removing the 6 red face cards (J, Q, K of Hearts and Diamonds) leaves 46 cards. There are 2 black jacks (Jack of Clubs, Jack of Spades), which remain in the deck. Thus, the probability is 2/46."
+}

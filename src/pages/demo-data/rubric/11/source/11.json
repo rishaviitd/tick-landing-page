@@ -1,0 +1,10 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d26",
+  "run_id": "92f9ad846b73",
+  "ques_identifier": "11",
+  "ques_text": "11. If $sin(\\alpha + \\beta) = 1$, then the value of $sin((\\alpha + \\beta)/2)$ is :\n(A) $1/\\sqrt{2}$\n(B) $1/2$\n(C) 0\n(D) 1",
+  "marks_analysis": "1 mark",
+  "question_type": "MCQ",
+  "target_class": "10",
+  "total_marks": 1.0
+}

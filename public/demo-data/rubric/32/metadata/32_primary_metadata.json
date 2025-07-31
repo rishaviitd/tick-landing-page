@@ -1,0 +1,17 @@
+{
+  "ques_identifier": "32_primary",
+  "assessment_intent": "This question assesses the student's ability to translate a word problem involving geometric properties (areas and perimeters of squares) into a system of algebraic equations, and then solve this system to find the unknown side lengths.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Quadratic Equations",
+        "concepts": [
+          {
+            "name": "Situational problems"
+          }
+        ]
+      }
+    ]
+  }
+}

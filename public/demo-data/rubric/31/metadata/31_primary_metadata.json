@@ -1,0 +1,25 @@
+{
+  "ques_identifier": "31_primary",
+  "assessment_intent": "This question assesses the student's ability to apply geometric theorems related to circles and parallelograms to prove that a parallelogram circumscribing a circle must be a rhombus. It requires understanding the property that tangents drawn from an external point to a circle are equal in length, and relating this to the properties of a parallelogram.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Circles",
+        "concepts": [
+          {
+            "name": "Lengths of tangents from an external point are equal"
+          }
+        ]
+      },
+      {
+        "chapter": "Triangles",
+        "concepts": [
+          {
+            "name": "Properties of quadrilaterals"
+          }
+        ]
+      }
+    ]
+  }
+}

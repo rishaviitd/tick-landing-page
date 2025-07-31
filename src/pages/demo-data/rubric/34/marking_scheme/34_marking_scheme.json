@@ -1,0 +1,101 @@
+{
+  "ques_identifier": "34",
+  "methods": [
+    {
+      "methodName": "Calculation of Mean and Median for Grouped Data",
+      "markingPoints": [
+        {
+          "stepId": "1",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the class mark ($x_i$) for each class interval by finding the midpoint of each interval.",
+          "Pass if": "Correctly identifies the class marks for all intervals (e.g., 10, 20, 30, 40, 50, 60, 70).",
+          "Fail if": "Makes errors in calculating class marks or misses any.",
+          "guidance": "Award 0.5 marks for correct calculation of class marks (midpoints). Ensure all intervals are covered. ecf is applicable if subsequent calculations use incorrect midpoints."
+        },
+        {
+          "stepId": "2",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the product of frequency and class mark ($f_i x_i$) for each class interval.",
+          "Pass if": "Correctly computes all $f_i x_i$ values (e.g., 20, 60, 150, 280, 200, 120, 140).",
+          "Fail if": "Makes errors in multiplication or misses any $f_i x_i$ product.",
+          "guidance": "Award 0.5 marks for correct calculation of $f_i x_i$ for each class. Apply ecf from Step 1 if midpoints were incorrect."
+        },
+        {
+          "stepId": "3",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the total frequency ($\\sum f_i$) and the sum of the products ($\\sum f_i x_i$).",
+          "Pass if": "Correctly determines $\\sum f_i = 25$ and $\\sum f_i x_i = 970$.",
+          "Fail if": "Makes summation errors for either $\\sum f_i$ or $\\sum f_i x_i$.",
+          "guidance": "Award 0.5 marks for correct summation of frequencies ($\\sum f_i$) and products ($\\sum f_i x_i$). Apply ecf from Step 2 for $\\sum f_i x_i$."
+        },
+        {
+          "stepId": "4",
+          "MarkType": "A",
+          "marks": "0.5",
+          "Teacher Expectation": "Applies the formula for the mean of grouped data ($\\bar{x} = \\frac{\\sum f_i x_i}{\\sum f_i}$) and computes the mean.",
+          "Pass if": "Correctly calculates the mean as 38.8.",
+          "Fail if": "Uses incorrect values from previous steps or makes a calculation error.",
+          "guidance": "Award 0.5 marks for the correct calculation of the mean (38.8). This is an Answer mark (A). Apply ecf from Step 3 for $\\sum f_i$ and $\\sum f_i x_i$."
+        },
+        {
+          "stepId": "5",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the cumulative frequencies (CF) for each class interval.",
+          "Pass if": "Correctly lists the cumulative frequencies for all classes (e.g., 2, 5, 10, 17, 21, 23, 25).",
+          "Fail if": "Makes errors in calculating or listing the cumulative frequencies.",
+          "guidance": "Award 0.5 marks for correct calculation of cumulative frequencies (CF). Ensure all values are listed correctly."
+        },
+        {
+          "stepId": "6",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "Determines the value of $n/2$ from the total frequency ($n$).",
+          "Pass if": "Correctly calculates $n/2 = 12.5$.",
+          "Fail if": "Uses an incorrect total frequency or makes a calculation error.",
+          "guidance": "Award 0.5 marks for calculating $n/2$. Apply ecf from Step 3 for the total frequency ($n$). This is a Base mark (B)."
+        },
+        {
+          "stepId": "7",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Identifies the median class by locating the class interval whose cumulative frequency is the first to be greater than or equal to $n/2$.",
+          "Pass if": "Correctly identifies the median class as 35-45.",
+          "Fail if": "Selects an incorrect class interval as the median class.",
+          "guidance": "Award 0.5 marks for correctly identifying the median class (35-45) based on $n/2$ and CF. Apply ecf from Step 6 for $n/2$."
+        },
+        {
+          "stepId": "8",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Identifies the necessary components for the median formula: $L$ (lower limit of the median class), $f$ (frequency of the median class), $CF$ (cumulative frequency of the class preceding the median class), and $h$ (class width).",
+          "Pass if": "Correctly identifies $L=35$, $f=7$, $CF=10$, and $h=10$.",
+          "Fail if": "Incorrectly identifies any of these values.",
+          "guidance": "Award 0.5 marks for correctly identifying $L$, $f$, $CF$, and $h$. Apply ecf from Step 5 for $CF$ and Step 7 for $L$ and $f$."
+        },
+        {
+          "stepId": "9",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Substitutes the identified values ($L, n/2, CF, f, h$) into the median formula for grouped data.",
+          "Pass if": "Correctly substitutes all values into the median formula: $35 + \\left(\\frac{12.5 - 10}{7}\\right) 10$.",
+          "Fail if": "Substitutes incorrect values or uses an incorrect formula structure.",
+          "guidance": "Award 0.5 marks for correct substitution into the median formula. Apply ecf from Steps 6 and 8 for all values."
+        },
+        {
+          "stepId": "10",
+          "MarkType": "A",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the median using the substituted values in the formula.",
+          "Pass if": "Correctly calculates the median (e.g., 38.57 or equivalent fraction).",
+          "Fail if": "Makes calculation errors after correct substitution.",
+          "guidance": "Award 0.5 marks for the correct final calculation of the median (38.57 or equivalent). This is an Answer mark (A). Apply ecf from Step 9 for the calculation."
+        }
+      ]
+    }
+  ],
+  "Question_specific_notes": "Students must accurately calculate both the mean and the median for grouped data. Common errors include incorrect class mark calculation, incorrect cumulative frequency, misidentification of the median class, or errors in applying the median formula. Ensure 'Error Carried Forward' (ecf) is applied appropriately for dependent steps."
+}

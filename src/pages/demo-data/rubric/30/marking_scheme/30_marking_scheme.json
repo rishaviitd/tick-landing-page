@@ -1,0 +1,124 @@
+{
+  "ques_identifier": "30",
+  "methods": [
+    {
+      "methodName": "Method 1: Step-by-step calculation of minor and major sector areas",
+      "markingPoints": [
+        {
+          "stepId": "1",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "Identifies the length of the hour hand (10 cm) as the radius (r) of the clock face and sectors.",
+          "Pass if": "Correctly states r = 10 cm.",
+          "Fail if": "Incorrect radius is stated or not identified.",
+          "guidance": "Award 0.5 for identifying radius (r = 10 cm) soi."
+        },
+        {
+          "stepId": "2",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "Determines the time elapsed between 5 a.m. and 8 a.m.",
+          "Pass if": "Correctly states the time duration is 3 hours.",
+          "Fail if": "Incorrect time duration is calculated.",
+          "guidance": "Award 0.5 for correctly stating time duration (3 hours) soi."
+        },
+        {
+          "stepId": "3",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the angle swept by the hour hand in 3 hours, using the fact that the hour hand moves 30° per hour (360°/12 hours).",
+          "Pass if": "Correctly calculates the angle for the minor sector as 90° (3 hours * 30°/hour).",
+          "Fail if": "Incorrect angle calculation.",
+          "guidance": "Award 0.5 for calculating minor sector angle (90°) soi."
+        },
+        {
+          "stepId": "4",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Applies the sector area formula (Area = (θ/360°) * πr²) to find the area of the minor sector.",
+          "Pass if": "Correctly calculates the area of the minor sector as (90°/360°) * π * (10 cm)².",
+          "Fail if": "Incorrect formula application or calculation error.",
+          "guidance": "Award 0.5 for applying sector area formula for minor sector soi."
+        },
+        {
+          "stepId": "5",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the angle for the major sector by subtracting the minor sector angle from 360°.",
+          "Pass if": "Correctly calculates the angle for the major sector as 270° (360° - 90°).",
+          "Fail if": "Incorrect angle calculation.",
+          "guidance": "Award 0.5 for calculating major sector angle (270°) soi."
+        },
+        {
+          "stepId": "6",
+          "MarkType": "A",
+          "marks": "0.5",
+          "Teacher Expectation": "Applies the sector area formula (Area = (θ/360°) * πr²) to find the area of the major sector using the major sector angle.",
+          "Pass if": "Correctly calculates the area of the major sector as (270°/360°) * π * (10 cm)².",
+          "Fail if": "Incorrect formula application or calculation error.",
+          "guidance": "Award 0.5 for calculating major sector area cao."
+        }
+      ]
+    },
+    {
+      "methodName": "Method 2: Calculate minor sector area and derive major sector area",
+      "markingPoints": [
+        {
+          "stepId": "1",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "Identifies the length of the hour hand (10 cm) as the radius (r) of the clock face and sectors.",
+          "Pass if": "Correctly states r = 10 cm.",
+          "Fail if": "Incorrect radius is stated or not identified.",
+          "guidance": "Award 0.5 for identifying radius (r = 10 cm) soi."
+        },
+        {
+          "stepId": "2",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "Determines the time elapsed between 5 a.m. and 8 a.m.",
+          "Pass if": "Correctly states the time duration is 3 hours.",
+          "Fail if": "Incorrect time duration is calculated.",
+          "guidance": "Award 0.5 for correctly stating time duration (3 hours) soi."
+        },
+        {
+          "stepId": "3",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the angle swept by the hour hand in 3 hours, using the fact that the hour hand moves 30° per hour (360°/12 hours).",
+          "Pass if": "Correctly calculates the angle for the minor sector as 90° (3 hours * 30°/hour).",
+          "Fail if": "Incorrect angle calculation.",
+          "guidance": "Award 0.5 for calculating minor sector angle (90°) soi."
+        },
+        {
+          "stepId": "4",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Applies the sector area formula (Area = (θ/360°) * πr²) to find the area of the minor sector.",
+          "Pass if": "Correctly calculates the area of the minor sector as (90°/360°) * π * (10 cm)².",
+          "Fail if": "Incorrect formula application or calculation error.",
+          "guidance": "Award 0.5 for applying sector area formula for minor sector soi."
+        },
+        {
+          "stepId": "5",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the total area of the circle using the formula Area = πr².",
+          "Pass if": "Correctly calculates the total area of the circle as π * (10 cm)².",
+          "Fail if": "Incorrect formula application or calculation error.",
+          "guidance": "Award 0.5 for calculating total circle area soi."
+        },
+        {
+          "stepId": "6",
+          "MarkType": "A",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the area of the major sector by subtracting the calculated minor sector area from the total area of the circle.",
+          "Pass if": "Correctly calculates the area of the major sector by subtracting the minor sector area from the total circle area.",
+          "Fail if": "Incorrect subtraction or uses incorrect values.",
+          "guidance": "Award 0.5 for calculating major sector area by subtraction cao."
+        }
+      ]
+    }
+  ],
+  "Question_specific_notes": "Students should be assessed on their ability to correctly identify the radius, calculate the time duration and corresponding angle for the hour hand, and apply the sector area formula. Ensure follow-through (ft/ecf) is applied for calculation errors in intermediate steps. Common errors may include incorrect angle calculation (e.g., using minutes instead of hours for the hour hand) or confusing minor and major sectors."
+}

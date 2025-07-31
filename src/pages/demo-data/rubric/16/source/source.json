@@ -1,0 +1,16 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d2b",
+  "run_id": "92f9ad846b73",
+  "question_identifier": "16",
+  "has_internal_choice": false,
+  "primary_question": "16. In a cricket match, a batsman hits the boundary 7 times out of the 42 balls he plays. The probability of his not hitting a boundary is :\n(A) $1/7$\n(B) $2/7$\n(C) $5/6$\n(D) $1/6$",
+  "secondary_question": null,
+  "primary_diagram_url": null,
+  "secondary_diagram_url": null,
+  "table_url": null,
+  "primary_marks": "1 mark",
+  "secondary_marks": null,
+  "question_type": "MCQ",
+  "created_at": "2025-07-31 20:17:34.340837",
+  "updated_at": "2025-07-31 20:17:34.340837"
+}

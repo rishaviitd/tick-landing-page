@@ -1,0 +1,23 @@
+{
+  "ques_identifier": "13",
+  "assessment_intent": "This question assesses the student's ability to calculate probability by first modifying the sample space. It requires understanding the composition of a standard deck of playing cards, identifying specific card types (red face cards, black jacks), and then applying the basic probability formula to the reduced set of cards.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Probability",
+        "concepts": [
+          {
+            "name": "Simple problems on finding the probability of an event"
+          },
+          {
+            "name": "playing cards"
+          },
+          {
+            "name": "face cards"
+          }
+        ]
+      }
+    ]
+  }
+}

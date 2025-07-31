@@ -1,0 +1,47 @@
+{
+  "ques_identifier": "24",
+  "methods": [
+    {
+      "methodName": "Using Geometric Properties and Pythagoras Theorem",
+      "markingPoints": [
+        {
+          "stepId": "1",
+          "MarkType": "B",
+          "marks": "0.5",
+          "Teacher Expectation": "Identifies that the chord CD is perpendicular to the diameter AB because it is parallel to the tangent XAY at A, which is perpendicular to the radius OA. Calculates the distance of chord CD from the center O as the absolute difference between the radius OA and the given distance from A along the diameter: |10 cm - 16 cm| = 6 cm.",
+          "Pass if": "Correctly states CD ⊥ AB and correctly calculates the distance of CD from O as 6 cm.",
+          "Fail if": "Fails to establish CD ⊥ AB or incorrectly calculates the distance from O.",
+          "guidance": "Award 0.5 marks for correctly identifying CD ⊥ AB and calculating the distance of CD from the center O as 6 cm. soi."
+        },
+        {
+          "stepId": "2",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Applies the Pythagorean theorem to the right-angled triangle formed by the center O, the midpoint P of chord CD, and an endpoint C of the chord (triangle OPC). States the relationship OC² = OP² + PC², where OC is the radius (10 cm) and OP is the distance from the center (6 cm).",
+          "Pass if": "Correctly states the Pythagorean theorem applied to triangle OPC with correct substitution of OC and OP values.",
+          "Fail if": "Incorrectly states the theorem or substitutes incorrect values.",
+          "guidance": "Award 0.5 marks for correctly stating the Pythagorean theorem (e.g., OC² = OP² + PC²) and substituting the known values (10² = 6² + PC²). M1 soi."
+        },
+        {
+          "stepId": "3",
+          "MarkType": "M",
+          "marks": "0.5",
+          "Teacher Expectation": "Solves the Pythagorean equation to find the length of PC, which is half the chord length: PC = √(OC² - OP²) = √(10² - 6²) = √64 = 8 cm.",
+          "Pass if": "Correctly calculates PC = 8 cm.",
+          "Fail if": "Calculation error in finding PC.",
+          "guidance": "Award 0.5 marks for correctly calculating PC = 8 cm. M1 ft."
+        },
+        {
+          "stepId": "4",
+          "MarkType": "A",
+          "marks": "0.5",
+          "Teacher Expectation": "Calculates the full length of chord CD by doubling the length of PC: CD = 2 * PC = 2 * 8 cm = 16 cm.",
+          "Pass if": "Correctly calculates the final length of CD as 16 cm.",
+          "Fail if": "Calculation error in doubling PC or final answer is incorrect.",
+          "guidance": "Award 0.5 marks for the correct final answer CD = 16 cm. A1 ft."
+        }
+      ]
+    }
+  ],
+  "Question_specific_notes": "This question is worth 2 marks, with each of the 4 steps allocated 0.5 marks. Common errors include miscalculating the distance of the chord from the center O, or errors in applying the Pythagorean theorem. Ensure that follow-through (ft) is applied for calculation errors in intermediate steps."
+}

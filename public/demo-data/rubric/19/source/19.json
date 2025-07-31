@@ -1,0 +1,10 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d2e",
+  "run_id": "92f9ad846b73",
+  "ques_identifier": "19",
+  "ques_text": "19. Assertion (A): The pair of linear equations $px + 3y + 59 = 0$ and $2x + 6y + 118 = 0$ will have infinitely many solutions if $p = 1$.\nReason (R): If the pair of linear equations $px + 3y + 19 = 0$ and $2x + 6y + 157 = 0$ has a unique solution, then $p \\neq 1$.\n(A) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of the Assertion (A).\n(B) Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A).\n(C) Assertion (A) is true, but Reason (R) is false.\n(D) Assertion (A) is false, but Reason (R) is true.",
+  "marks_analysis": "1 mark",
+  "question_type": "Assertion-Reason",
+  "target_class": "10",
+  "total_marks": 1.0
+}

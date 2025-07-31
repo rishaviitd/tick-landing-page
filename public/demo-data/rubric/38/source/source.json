@@ -1,0 +1,16 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d41",
+  "run_id": "92f9ad846b73",
+  "question_identifier": "38",
+  "has_internal_choice": false,
+  "primary_question": "38. A school is organizing a grand cultural event to show the talent of its students. To accommodate the guests, the school plans to rent chairs and tables from a local supplier. It finds that rent for each chair is \u20b950 and for each table is \u20b9 200. The school spends \u20b9 30,000 for renting the chairs and tables. Also, the total number of items (chairs and tables) rented are 300.\nIf the school rents 'x' chairs and \u2018y' tables, answer the following questions :\n(i) Write down the pair of linear equations representing the given information.\n(ii) (a) Find the number of chairs and number of tables rented by the school.\n[%OR%]\n(b) If the school wants to spend a maximum of \u20b9 27,000 on 300 items (tables and chairs), then find the number of chairs and tables it can rent.\n(iii) What is maximum number of tables that can be rented in \u20b9 30,000 if no chairs are rented ?",
+  "secondary_question": null,
+  "primary_diagram_url": "https://res.cloudinary.com/de19ckse5/image/upload/v1753993036/diagram_mapping/92f9ad846b73/figure-11.png",
+  "secondary_diagram_url": null,
+  "table_url": null,
+  "primary_marks": "Part (i): 1 mark, Part (ii) (a): 2 marks OR Part (ii) (b): 2 marks, Part (iii): 1 mark",
+  "secondary_marks": null,
+  "question_type": "Case Study",
+  "created_at": "2025-07-31 20:17:34.345623",
+  "updated_at": "2025-07-31 20:17:34.345624"
+}

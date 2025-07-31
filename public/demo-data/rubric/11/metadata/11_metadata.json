@@ -1,0 +1,17 @@
+{
+  "ques_identifier": "11",
+  "assessment_intent": "This question assesses the student's ability to recall the specific value of the sine function for a standard angle (90 degrees) and then apply this knowledge to determine an unknown angle. Subsequently, it tests the application of trigonometric ratios by calculating the sine of a derived angle (45 degrees).",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Introduction to Trigonometry",
+        "concepts": [
+          {
+            "name": "Trigonometric Ratios"
+          }
+        ]
+      }
+    ]
+  }
+}

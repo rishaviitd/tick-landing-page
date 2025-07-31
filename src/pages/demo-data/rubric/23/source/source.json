@@ -1,0 +1,16 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d32",
+  "run_id": "92f9ad846b73",
+  "question_identifier": "23",
+  "has_internal_choice": true,
+  "primary_question": "23. (a) In the given figure, the shape of the top of a table is that of a sector of a circle with centre O and $\\angle AOB = 90^\\circ$. If AO = OB = 42 cm, then find the perimeter of the top of the table.",
+  "secondary_question": "(b) In the given figure, three sectors of a circle of radius 5 cm, making angles 35\u00b0, 50\u00b0 and 95\u00b0 at the centre are shaded. Find the area of the shaded region. [Use $\\pi = 22/7$]",
+  "primary_diagram_url": "https://res.cloudinary.com/de19ckse5/image/upload/v1753993030/diagram_mapping/92f9ad846b73/figure-5.png",
+  "secondary_diagram_url": "https://res.cloudinary.com/de19ckse5/image/upload/v1753993031/diagram_mapping/92f9ad846b73/figure-6.png",
+  "table_url": null,
+  "primary_marks": "This question has [2] marks",
+  "secondary_marks": "This question has [2] marks",
+  "question_type": "Internal Choice Subjective",
+  "created_at": "2025-07-31 20:17:34.342288",
+  "updated_at": "2025-07-31 20:17:34.342288"
+}

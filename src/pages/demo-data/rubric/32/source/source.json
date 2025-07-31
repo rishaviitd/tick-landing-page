@@ -1,0 +1,16 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d3b",
+  "run_id": "92f9ad846b73",
+  "question_identifier": "32",
+  "has_internal_choice": true,
+  "primary_question": "32. (a) The sum of the areas of two squares is 52 cm\u00b2 and difference of their perimeters is 8 cm. Find the lengths of the sides of the two squares.",
+  "secondary_question": "(b) The time taken by a person to travel an upward distance of 150 km was $2 \\frac{1}{2}$ hours more than the time taken in the downward return journey. If he returned at a speed of 10 km/h more than the speed while going up, find the speeds in each direction.",
+  "primary_diagram_url": null,
+  "secondary_diagram_url": null,
+  "table_url": null,
+  "primary_marks": "This question has [5] marks",
+  "secondary_marks": "This question has [5] marks",
+  "question_type": "Internal Choice Subjective",
+  "created_at": "2025-07-31 20:17:34.344396",
+  "updated_at": "2025-07-31 20:17:34.344397"
+}

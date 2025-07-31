@@ -1,0 +1,12 @@
+{
+  "ques_identifier": "19",
+  "total_marks": 1.0,
+  "correct_option": "B",
+  "acceptable_answers": [
+    "B",
+    "b",
+    "Option B (b)",
+    "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of the Assertion (A)"
+  ],
+  "solution": "Assertion (A) is true because for the given equations, $p=1$ leads to $\frac{1}{2} = \frac{3}{6} = \frac{59}{118}$, satisfying the condition for infinitely many solutions. Reason (R) is true because for the given equations, $p \neq 1$ leads to $\frac{p}{2} \neq \frac{3}{6}$, satisfying the condition for a unique solution. However, Reason (R) discusses the condition for a unique solution, which does not directly explain why $p=1$ results in infinitely many solutions as stated in Assertion (A)."
+}

@@ -1,0 +1,10 @@
+{
+  "_id": "688bcf5e87bf56f29cae8d27",
+  "run_id": "92f9ad846b73",
+  "ques_identifier": "12",
+  "ques_text": "12. If $1080 = 2^p \\times 3^q \\times 5$, then $(p - q)$ is equal to :\n(A) 6\n(B) -1\n(C) 1\n(D) 0",
+  "marks_analysis": "1 mark",
+  "question_type": "MCQ",
+  "target_class": "10",
+  "total_marks": 1.0
+}

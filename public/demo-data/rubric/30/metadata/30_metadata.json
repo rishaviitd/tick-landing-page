@@ -1,0 +1,17 @@
+{
+  "ques_identifier": "30",
+  "assessment_intent": "This question assesses the student's ability to calculate the area of a minor and major sector swept by the hour hand of a clock. It requires determining the angle subtended by the hour hand in a given time interval and applying the formula for the area of a sector.",
+  "bloom_taxonomy_level": "Applying",
+  "tags": {
+    "chapters": [
+      {
+        "chapter": "Areas Related to Circles",
+        "concepts": [
+          {
+            "name": "Area of Sectors and Segments"
+          }
+        ]
+      }
+    ]
+  }
+}
