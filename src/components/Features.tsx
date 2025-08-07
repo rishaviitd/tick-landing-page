@@ -7,6 +7,12 @@ import {
   Shield,
   Sparkles,
   BarChart4,
+  FileDigit,
+  Pencil,
+  Users,
+  CheckSquare,
+  MessageSquareText,
+  BrainCog
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -15,40 +21,40 @@ const Features = () => {
 
   const features = [
     {
-      title: "Save 90% Time",
+      title: "Digitize Handwritten Work",
       description:
-        "Reduce grading time dramatically with AI that understands your rubric perfectly and works at machine speed.",
-      icon: ClockIcon,
+        "Convert handwritten sheets into digital data, supporting rich free-response exams at scale — no special scan forms needed.",
+      icon: FileDigit,
     },
     {
-      title: "Adaptive AI",
+      title: "Holistic Evaluation",
       description:
-        "Our AI learns your personal grading style and preferences, getting smarter with each paper you review.",
+        "Grades entire reasoning process, not just final answers. Recognizes multiple valid solution methods beyond template matching.",
+      icon: BrainCog,
+    },
+    {
+      title: "Auto-Generated Rubrics",
+      description:
+        "Create and share standardized rubrics for consistent scoring, better feedback, and step-by-step grade breakdowns.",
+      icon: CheckSquare,
+    },
+    {
+      title: "Detailed Feedback",
+      description:
+        "Deliver high-quality comments that help students correct actual mistakes with personalized, step-by-step guidance.",
+      icon: MessageSquareText,
+    },
+    {
+      title: "Support Large Classes",
+      description:
+        "Empower large classes (100–1000 students) to use open-ended questions rather than multiple-choice, without overwhelming instructors.",
+      icon: Users,
+    },
+    {
+      title: "Adaptive Learning",
+      description:
+        "AI suggests rubric enhancements when new error patterns emerge. Instructors confirm/adjust, and the AI continuously improves.",
       icon: BrainCircuit,
-    },
-    {
-      title: "95% Accuracy",
-      description:
-        "Achieve remarkable grading consistency with our AI that maintains your exact standards across all student papers.",
-      icon: BarChart4,
-    },
-    {
-      title: "Personalized Feedback",
-      description:
-        "Provide rich, constructive feedback that sounds exactly like you wrote it - because our AI mimics your tone and style.",
-      icon: LineChart,
-    },
-    {
-      title: "Privacy Focused",
-      description:
-        "Your data is encrypted and secure. Student papers never leave our secure processing environment.",
-      icon: Shield,
-    },
-    {
-      title: "Comprehensive Analytics",
-      description:
-        "Gain insights into student performance with detailed analytics that help identify common misconceptions and learning gaps.",
-      icon: Sparkles,
     },
   ];
 
@@ -57,14 +63,13 @@ const Features = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-block bg-primary/10 text-primary px-4 py-1.5 rounded-full text-sm font-medium mb-4">
-            Why Teachers Trust Us
+            Complete Grading Workflow
           </div>
           <h2 className="section-title">
-            Features Designed for Modern Educators
+            Your Supercharged Teaching Assistant
           </h2>
           <p className="section-subtitle">
-            Our AI learns your unique grading style and applies it consistently
-            across all student papers.
+            One that never tires of marking the same step-by-step solution for the 100th time.
           </p>
         </div>
 
@@ -88,13 +93,10 @@ const Features = () => {
         <div className="mt-16 text-center">
           <div className="max-w-2xl mx-auto mb-8 bg-white modern-shadow p-8 rounded-2xl">
             <h3 className="text-2xl font-bold mb-4">
-              Why Teachers Trust Our AI
+              Human-in-the-Loop Trust
             </h3>
             <p className="text-muted-foreground mb-6 text-lg">
-              Unlike basic AI tools, tick AI truly understands your assessment
-              philosophy. It learns from your feedback patterns and adapts to
-              your unique grading style, providing remarkably accurate
-              assessments that feel like they came directly from you.
+              tick AI acts as an intelligent partner, not a replacement. You maintain control while the AI handles the mechanical aspects of grading. Instructors oversee uncertain cases, and the AI learns from every correction, continuously improving to match your exact standards.
             </p>
             <Button 
               asChild

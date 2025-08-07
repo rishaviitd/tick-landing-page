@@ -26,8 +26,27 @@ import questionData from "./demo-data/question-paper.json";
 const renderTextWithMath = (text: string) => {
   if (!text) return "";
 
+  // Handle JSON-escaped backslashes properly
+  let processedText = text;
+
+  // Debug: log the original text if it contains LaTeX
+  if (text.includes("$") && text.includes("\\")) {
+    console.log("Original text with LaTeX:", text);
+  }
+
+  // Replace all double backslashes with single backslashes
+  // This handles the JSON escaping where \\ becomes \
+  while (processedText.includes("\\\\")) {
+    processedText = processedText.replace(/\\\\/g, "\\");
+  }
+
+  // Debug: log the processed text if it contains LaTeX
+  if (text.includes("$") && text.includes("\\")) {
+    console.log("Processed text with LaTeX:", processedText);
+  }
+
   // Split by newlines first
-  const lines = text.split("\n");
+  const lines = processedText.split("\n");
 
   return lines.map((line, lineIndex) => {
     if (!line.trim()) {
@@ -35,28 +54,117 @@ const renderTextWithMath = (text: string) => {
       return <div key={lineIndex} className="h-2"></div>;
     }
 
-    // Split by LaTeX delimiters
-    const parts = line.split(/(\$[^$]*\$)/);
+    // Use a more robust approach to find LaTeX expressions
+    const result = [];
+    let currentIndex = 0;
+    let inMath = false;
+    let mathStart = -1;
+    let mathType = ""; // 'inline' or 'block'
 
-    const renderedParts = parts.map((part, index) => {
-      if (part.startsWith("$") && part.endsWith("$")) {
-        // Remove the $ delimiters and render as math
-        const mathContent = part.slice(1, -1);
-        try {
-          return <InlineMath key={index} math={mathContent} />;
-        } catch (error) {
-          // If LaTeX parsing fails, return the original text
-          return <span key={index}>{part}</span>;
+    for (let i = 0; i < line.length; i++) {
+      if (line[i] === "$") {
+        if (i + 1 < line.length && line[i + 1] === "$") {
+          // Block math
+          if (!inMath) {
+            // Start of block math
+            if (i > currentIndex) {
+              result.push(line.slice(currentIndex, i));
+            }
+            mathStart = i;
+            inMath = true;
+            mathType = "block";
+            i++; // Skip the second $
+          } else if (mathType === "block") {
+            // End of block math
+            const mathContent = line.slice(mathStart + 2, i);
+            try {
+              result.push(
+                <BlockMath
+                  key={`math-${lineIndex}-${result.length}`}
+                  math={mathContent}
+                />
+              );
+            } catch (error) {
+              console.warn(
+                "LaTeX parsing error for block math:",
+                mathContent,
+                error
+              );
+              result.push(line.slice(mathStart, i + 1));
+            }
+            inMath = false;
+            currentIndex = i + 1;
+            i++; // Skip the second $
+          }
+        } else if (!inMath) {
+          // Start of inline math
+          if (i > currentIndex) {
+            result.push(line.slice(currentIndex, i));
+          }
+          mathStart = i;
+          inMath = true;
+          mathType = "inline";
+        } else if (mathType === "inline") {
+          // End of inline math
+          const mathContent = line.slice(mathStart + 1, i);
+          try {
+            result.push(
+              <InlineMath
+                key={`math-${lineIndex}-${result.length}`}
+                math={mathContent}
+              />
+            );
+          } catch (error) {
+            console.warn(
+              "LaTeX parsing error for inline math:",
+              mathContent,
+              error
+            );
+            result.push(line.slice(mathStart, i + 1));
+          }
+          inMath = false;
+          currentIndex = i + 1;
         }
       }
-      return <span key={index}>{part}</span>;
-    });
+    }
+
+    // Add any remaining text
+    if (currentIndex < line.length) {
+      result.push(line.slice(currentIndex));
+    }
+
+    // If we're still in math mode, treat the rest as regular text
+    if (inMath) {
+      result.push(line.slice(mathStart));
+    }
 
     return (
       <div key={lineIndex} className="mb-1">
-        {renderedParts}
+        {result}
       </div>
     );
+  });
+};
+
+// Debug function to test LaTeX rendering
+const testLatexRendering = () => {
+  const testCases = [
+    "$x_i$",
+    "$\\frac{1}{2}$",
+    "$\\sum f_i$",
+    "$\\bar{x} = \\frac{\\sum f_i x_i}{\\sum f_i}$",
+    "$\\triangle OAD$",
+    "$\\angle AOD = \\angle COB$",
+    "$OA \\times OB = OC \\times OD$",
+    "$35 + \\left(\\frac{12.5 - 10}{7}\\right) 10$",
+  ];
+
+  console.log("Testing LaTeX rendering:");
+  testCases.forEach((test, index) => {
+    console.log(`Test ${index + 1}:`, test);
+    // Test the actual rendering
+    const processed = test.replace(/\\\\/g, "\\");
+    console.log(`Processed:`, processed);
   });
 };
 
@@ -320,7 +428,7 @@ const Demo = () => {
           {data.methods.map((method: any, methodIndex: number) => (
             <div key={methodIndex} className="border rounded-lg p-4 bg-gray-50">
               <h6 className="font-medium text-gray-800 mb-3">
-                {method.methodName}
+                {renderTextWithMath(method.methodName)}
               </h6>
               <div className="space-y-3">
                 {method.markingPoints.map((point: any, pointIndex: number) => (
@@ -342,25 +450,25 @@ const Demo = () => {
                           Teacher Expectation:
                         </strong>
                         <div className="text-gray-600 mt-1">
-                          {point["Teacher Expectation"]}
+                          {renderTextWithMath(point["Teacher Expectation"])}
                         </div>
                       </div>
                       <div>
                         <strong className="text-green-700">Pass if:</strong>
                         <div className="text-gray-600 mt-1">
-                          {point["Pass if"]}
+                          {renderTextWithMath(point["Pass if"])}
                         </div>
                       </div>
                       <div>
                         <strong className="text-red-700">Fail if:</strong>
                         <div className="text-gray-600 mt-1">
-                          {point["Fail if"]}
+                          {renderTextWithMath(point["Fail if"])}
                         </div>
                       </div>
                       <div>
                         <strong className="text-blue-700">Guidance:</strong>
                         <div className="text-gray-600 mt-1">
-                          {point.guidance}
+                          {renderTextWithMath(point.guidance)}
                         </div>
                       </div>
                     </div>
@@ -375,7 +483,7 @@ const Demo = () => {
                 Question-specific notes:
               </strong>
               <div className="text-yellow-700 mt-1">
-                {data.Question_specific_notes}
+                {renderTextWithMath(data.Question_specific_notes)}
               </div>
             </div>
           )}
@@ -388,13 +496,19 @@ const Demo = () => {
       <div className="text-sm text-gray-600 space-y-2">
         {data.correct_option && (
           <div>
-            <strong>Correct Option:</strong> {data.correct_option}
+            <strong>Correct Option:</strong>{" "}
+            {renderTextWithMath(data.correct_option)}
           </div>
         )}
         {data.acceptable_answers && (
           <div>
             <strong>Acceptable Answers:</strong>{" "}
-            {data.acceptable_answers.join(", ")}
+            {data.acceptable_answers.map((answer: string, index: number) => (
+              <span key={index}>
+                {renderTextWithMath(answer)}
+                {index < data.acceptable_answers.length - 1 ? ", " : ""}
+              </span>
+            ))}
           </div>
         )}
         {data.solution && (
@@ -404,7 +518,8 @@ const Demo = () => {
         )}
         {data.total_marks && (
           <div>
-            <strong>Total Marks:</strong> {data.total_marks}
+            <strong>Total Marks:</strong>{" "}
+            {renderTextWithMath(data.total_marks.toString())}
           </div>
         )}
       </div>
@@ -640,6 +755,50 @@ const Demo = () => {
               >
                 Build Rubric with AI
               </Button>
+            </div>
+
+            {/* LaTeX Test Section */}
+            <div className="mt-8 p-6 bg-gray-50 rounded-lg">
+              <h3 className="text-lg font-semibold mb-4">
+                LaTeX Rendering Test
+              </h3>
+              <div className="space-y-2 text-sm">
+                <div>Test 1: {renderTextWithMath("$x_i$")}</div>
+                <div>Test 2: {renderTextWithMath("$\\frac{1}{2}$")}</div>
+                <div>Test 3: {renderTextWithMath("$\\sum f_i$")}</div>
+                <div>
+                  Test 4:{" "}
+                  {renderTextWithMath(
+                    "$\\bar{x} = \\frac{\\sum f_i x_i}{\\sum f_i}$"
+                  )}
+                </div>
+                <div>Test 5: {renderTextWithMath("$\\triangle OAD$")}</div>
+                <div>
+                  Test 6: {renderTextWithMath("$\\angle AOD = \\angle COB$")}
+                </div>
+                <div>
+                  Test 7:{" "}
+                  {renderTextWithMath("$OA \\times OB = OC \\times OD$")}
+                </div>
+                <div>
+                  Test 8:{" "}
+                  {renderTextWithMath(
+                    "$35 + \\left(\\frac{12.5 - 10}{7}\\right) 10$"
+                  )}
+                </div>
+                <div>
+                  Test 9 (JSON-escaped):{" "}
+                  {renderTextWithMath(
+                    "$35 + \\\\left(\\\\frac{12.5 - 10}{7}\\\\right) 10$"
+                  )}
+                </div>
+                <div>
+                  Test 10 (JSON-escaped):{" "}
+                  {renderTextWithMath(
+                    "$\\\\bar{x} = \\\\frac{\\\\sum f_i x_i}{\\\\sum f_i}$"
+                  )}
+                </div>
+              </div>
             </div>
           </div>
         )}

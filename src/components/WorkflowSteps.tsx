@@ -1,4 +1,3 @@
-
 import { Step1Icon, Step2Icon, Step3Icon, Step4Icon } from "./StepIcons";
 import { useState, useEffect, useRef } from "react";
 
@@ -25,23 +24,23 @@ const WorkflowSteps = () => {
   const steps = [
     {
       icon: Step1Icon,
-      title: "1. Create Your Class",
-      description: "Upload your class list or attendance sheet. We instantly build your student database.",
+      title: "1. Digitize Submissions",
+      description: "Upload handwritten student work through our scanner app or upload images. No special forms needed.",
     },
     {
       icon: Step2Icon,
-      title: "2. Set Up Assignment",
-      description: "Upload a question paper. AI extracts questions and helps you upload a rubric and marking scheme.",
+      title: "2. Define Your Rubric",
+      description: "Create or select a customizable rubric. AI helps generate standards-aligned criteria for your assignment.",
     },
     {
       icon: Step3Icon,
-      title: "3. Submit Student Work",
-      description: "Upload answer sheets and our AI auto-grades each submission using your rubric and feedback style.",
+      title: "3. AI-Powered Grading",
+      description: "The AI evaluates complete reasoning processes, not just final answers, providing step-by-step feedback.",
     },
     {
       icon: Step4Icon,
-      title: "4. Share Results & Analysis",
-      description: "Share detailed feedback per question and comprehensive analysis reports with students in text format.",
+      title: "4. Review & Insights",
+      description: "Approve or adjust AI-suggested grades, and gain insights into common misconceptions across your class.",
     },
   ];
 
@@ -50,11 +49,11 @@ const WorkflowSteps = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-block bg-primary/10 text-primary px-4 py-1.5 rounded-full text-sm font-medium mb-4">
-            Simple Workflow
+            Streamlined Process
           </div>
-          <h2 className="text-3xl font-bold mb-4">How GradeAI Works</h2>
+          <h2 className="text-3xl font-bold mb-4">How tick AI Works</h2>
           <p className="text-muted-foreground text-lg">
-            Our AI learns your grading style and preferences to provide feedback that feels like it came directly from you.
+            From handwritten work to detailed feedback in four simple steps — giving you back valuable teaching time.
           </p>
         </div>
         
@@ -96,17 +95,15 @@ const WorkflowSteps = () => {
         </div>
         
         <div className="mt-16 max-w-3xl mx-auto bg-white p-6 rounded-xl shadow-md">
-          <h3 className="text-xl font-semibold mb-4 text-center">AI That Adapts to Your Style</h3>
+          <h3 className="text-xl font-semibold mb-4 text-center">Adaptive AI That Grows With You</h3>
           <p className="text-muted-foreground mb-4">
-            Our advanced machine learning algorithms analyze your previous grading patterns and feedback style, 
-            allowing our AI to mimic your approach. The more you use GradeAI, the better it gets at replicating 
-            your unique assessment style.
+            Our AI continuously improves by learning from your corrections and adjustments. The system suggests rubric enhancements when it detects new error patterns, allowing you to standardize grading while maintaining your personal teaching approach.
           </p>
           <div className="flex flex-wrap gap-3 justify-center">
-            <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">95% Accuracy Rate</span>
-            <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Continuous Learning</span>
-            <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Style Adaptation</span>
-            <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Consistent Feedback</span>
+            <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Rich Free-Response</span>
+            <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Multiple Solution Paths</span>
+            <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Comprehensive Analytics</span>
+            <span className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">90% Time Saved</span>
           </div>
         </div>
       </div>

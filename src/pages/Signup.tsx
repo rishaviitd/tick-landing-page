@@ -124,7 +124,7 @@ const SignupPage: React.FC = () => {
               src="/tick-ai-logo.svg" 
               alt="tick AI" 
               className="w-20 h-20 object-contain"
-            />
+              />
           </div>
           <h1 className="text-[2.5rem] font-bold text-[#1D2433] mb-4">
             Create your account
